@@ -1,0 +1,30 @@
+# Study 1R judge v2 (spec v2 section 9). `selected` is set at step 4 by the G3 pass rule (cheapest passing
+# candidate); null until then. Prices: OpenRouter list prices (gpt-4.1-mini as in configs/judge.yaml).
+candidates:
+- name: gpt-4.1-mini
+  model:
+    provider: openrouter
+    model: openai/gpt-4.1-mini
+    openrouter_provider: openai
+    json_mode: true
+  price_in_per_m: 0.4
+  price_out_per_m: 1.6
+- name: gpt-4.1
+  model:
+    provider: openrouter
+    model: openai/gpt-4.1
+    openrouter_provider: openai
+    json_mode: true
+  price_in_per_m: 2.0
+  price_out_per_m: 8.0
+selected: null
+temperature: 0.0
+max_tokens: 1000
+retry:
+  max_attempts: 5
+  base_delay_s: 1.0
+  max_delay_s: 30.0
+max_attempts_total: 20000
+chars_per_token: 4.0
+expected_output_tokens: 120
+margin: 1.25

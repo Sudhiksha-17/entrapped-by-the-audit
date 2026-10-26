@@ -1,0 +1,68 @@
+{
+  "campaigns": [
+    "runs\\study1r_addon_C\\_campaigns\\20261025T041427Z_study1r_addon_C_06da4c\\campaign.json"
+  ],
+  "blocks_done": [
+    0
+  ],
+  "per_arm": {
+    "4.1-high_silent": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.969934,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.988364,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_silent": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.224578,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_silent_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.2284232,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 2.4112992,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    }
+  },
+  "spent_usd": 2.4112992,
+  "projected_total_usd": 79.5729,
+  "cap_usd": 101.74,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

@@ -1,0 +1,67 @@
+{
+  "arm_a_episode_outcomes": [
+    86.04925,
+    82.6875,
+    85.12975,
+    86.05875
+  ],
+  "arm_a_n": 4,
+  "arm_a_sd": 1.5900703911960428,
+  "sd_upper_80_one_sided": 2.7469854045309328,
+  "sd_upper_80_two_sided_interval": 3.60272734956205,
+  "min_effect": 2.0,
+  "alpha_two_sided": 0.05,
+  "power": 0.8,
+  "n_primary_one_sided_bound": {
+    "sd": 2.7469854045309328,
+    "n_normal_approx": 29.613543867444392,
+    "n_normal_approx_ceil": 30,
+    "n_t_test": 31,
+    "power_at_n_t_test": 0.805187530955978
+  },
+  "n_alternative_two_sided_bound": {
+    "sd": 3.60272734956205,
+    "n_normal_approx": 50.937833769617264,
+    "n_normal_approx_ceil": 51,
+    "n_t_test": 52,
+    "power_at_n_t_test": 0.8006478147063107
+  },
+  "n_at_point_estimate_sd": {
+    "sd": 1.5900703911960428,
+    "n_normal_approx": 9.922254909980287,
+    "n_normal_approx_ceil": 10,
+    "n_t_test": 11,
+    "power_at_n_t_test": 0.8011535760187999
+  },
+  "cost_per_episode": {
+    "low_gpt-4.1-mini_default": 0.2166705,
+    "medium_gpt-4.1_default": 0.9731693333333333,
+    "high_gpt-4.1_ceo": 0.9656733333333333
+  },
+  "arms_per_cell": {
+    "low_gpt-4.1-mini_default": 5,
+    "medium_gpt-4.1_default": 2,
+    "high_gpt-4.1_ceo": 2
+  },
+  "cost_per_replicate_set": 4.961037833333333,
+  "plan_primary": {
+    "n_per_arm": 31,
+    "episodes": 279,
+    "cost_by_cell": {
+      "low_gpt-4.1-mini_default": 33.5839275,
+      "medium_gpt-4.1_default": 60.336498666666664,
+      "high_gpt-4.1_ceo": 59.87174666666666
+    },
+    "total_cost": 153.79217283333332
+  },
+  "plan_alternative": {
+    "n_per_arm": 52,
+    "episodes": 468,
+    "cost_by_cell": {
+      "low_gpt-4.1-mini_default": 56.334329999999994,
+      "medium_gpt-4.1_default": 101.20961066666666,
+      "high_gpt-4.1_ceo": 100.43002666666666
+    },
+    "total_cost": 257.97396733333335
+  }
+}

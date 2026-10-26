@@ -1,0 +1,94 @@
+{
+  "run_id": "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e",
+  "kind": "episode_batch",
+  "stage": "study1r_pilot",
+  "purpose": "Study 1R pilot, remaining episodes part 2 (4.1-low offer x3, 4.1-high offer x3, mini-low sham x2), approved in human message 40",
+  "command": "python -m sting.stage2_runner configs/study1r/pilot/campaign.yaml --arms 4.1-low_offer,4.1-high_offer,mini-low_sham --approve-cost --purpose Study 1R pilot, remaining episodes part 2 (4.1-low offer x3, 4.1-high offer x3, mini-low sham x2), approved in human message 40",
+  "documented_utc": "2026-10-24T00:53:47Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "1a4a84f5b5e54465abd811a0cfaef417545ee8d9",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261024T004404Z_study1r_pilot_mini-low_offer_e34d21/",
+    "?? results/runs/20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd/",
+    "?? results/runs/20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17/",
+    "?? results/runs/20261024T004804Z_study1r_pilot_4.1-high_offer_393985/",
+    "?? results/study1r/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "9dd9a774bc4d1e232575d9842a6230ae2fdf785723db117f060247120016adcd",
+  "output_files_sha256": {
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/calls.jsonl": "cc73ab4e4e561428f2e9b581c6b11dfee3f0e8b5ef3c2411362b4a8938cf9b5a",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/market_setup.json": "20be0eed6f8d4364403b49748b8d029c44f4c2407e8164be4b2f2fd7d5ac878a",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/status.json": "834203dbaac055edc7d3993e16bb8cad940d81c00d36fbffda9b80c135503ff0",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/sting_log.json": "a8cb069a724a307bffed90e5d812e7159595157d677cafe2926dd52788d0cd84",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/auction_results.md": "f6dae84ea21a367409b07a0d71d73a6c091d1893bc259b2e4a5662f7484f29b9",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/Buyer A.md": "fc519ce64151fdb17a24eb2ecf2627476b2acf4535087b1b30348e02b231ddbd",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/Buyer B.md": "7ae4d58816371b2d2ece79ac5126737bd7afbc12408ca3e2bf0dadd96f49c4f8",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/Buyer C.md": "b4591f2cfd5e15de96cd654632d90c7eae67c235bdfc51069299bc15cbe339af",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/experiment_metadata.json": "db73372794152776ebdac26d7c1d27c499599c66db5129cb3268ac0a9e5216c8",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/Seller A.md": "83396bf109b202d8a6487aee4a40dd6211cff6cd2eeb8c482337f8635b21cc1f",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/Seller B.md": "a1ab5a7451fd756daa0ab74b2d1c75816b43bc7897b50bbe53d728daeaf8d71c",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000/upstream_logs/unified.log": "1952cc5b69470c0477039437625e995fa1f4fef1ec9462100535029b6dd818dd",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/calls.jsonl": "c63da65d2b93c995e486d9aa53b397cbf24e3c25200ae95fd0754d6f5847e74c",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/market_setup.json": "82ac17940411a56c1036313498671be65da9a37fed3bb02b144f8f1716d91533",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/status.json": "7ad1a6b35359e4d4ab4943b62658e538bdc67f08daabc4b1f207deadaa7cb783",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/sting_log.json": "e757143ee9bc2e9de60e086a27a40be36a3dc65adeb7545cd7aad71044bb6252",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/auction_results.md": "8266b2629b10ed7abbc4140810c7e35ba70237743cda6bd9c6495734bd7f1de0",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/Buyer A.md": "f0349b3d369babfe938413daa26f4606a9926e5b2526033a1b8549211779c7a1",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/Buyer B.md": "c23e707ceba03296060d5eac8fc1c82688e19ecee65a20aa59ca2162a254e78a",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/Buyer C.md": "288af211f58fa04d164406adf8a8e13371c6b5db26875047870dd71c092709c9",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/experiment_metadata.json": "4229b2d5eded06ffa81821dacb720be7490120bdd5fd17722fac6597b3e63eb6",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/Seller A.md": "2284c3c4a3b614b8357216ddd85aacf1d228f57f56362a8ac316aafa00f71038",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/Seller B.md": "5b69ad2249c4c7bb872a29f2f0b15bbb7180b1e273098c93281a16252c5d9fe4",
+    "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001/upstream_logs/unified.log": "06da13debe5fdc462f9bd473196a267575b1408a5abeecbdcb3d43fbf55f38c2",
+    "run_config.json": "1e41ae7bcbbbdf6eaa7aa4e3a41659cf9f69d778c9a82fac877db1072c603317",
+    "run_summary.json": "b04b123c4adbcd56617adbf86ead3900af0f57f31e11cc11185945dd8f3aebe7"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000",
+      "replicate_index": 2000,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001",
+      "replicate_index": 2001,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

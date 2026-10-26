@@ -1,0 +1,287 @@
+{
+  "half_width_target": 0.15,
+  "natural_rate_n_worst_case": {
+    "wald": 43,
+    "wilson": 39
+  },
+  "natural_rate_n_used": 43,
+  "t2_half_width_if_low_offer_is_31_and_high_offer_infinite": 0.17600996443061317,
+  "t2_equal_n_per_offer_arm": 86,
+  "t2_cost_minimising_offer_arms": {
+    "low": 121,
+    "high": 66,
+    "half_width": 0.14995959046116736
+  },
+  "judge_cost": {
+    "gpt-4.1-mini": {
+      "episodes_used": 4,
+      "items_per_episode": 40.0,
+      "tokens_in_per_item": 1067.14375,
+      "cost_per_episode_usd": 0.0266743,
+      "cost_per_episode_with_margin_usd": 0.033342875
+    },
+    "gpt-4.1": {
+      "episodes_used": 3,
+      "items_per_episode": 40.0,
+      "tokens_in_per_item": 1102.8645833333333,
+      "cost_per_episode_usd": 0.027245833333333327,
+      "cost_per_episode_with_margin_usd": 0.034057291666666656
+    }
+  },
+  "episode_cost": {
+    "low": 0.2166705,
+    "medium": 0.9731693333333333,
+    "high": 0.9656733333333333
+  },
+  "reference_other_p": {
+    "p=0.1": {
+      "natural_rate_n": {
+        "wald": 16,
+        "wilson": 17
+      },
+      "diff_equal_n": 31
+    },
+    "p=0.2": {
+      "natural_rate_n": {
+        "wald": 28,
+        "wilson": 26
+      },
+      "diff_equal_n": 55
+    },
+    "p=0.3": {
+      "natural_rate_n": {
+        "wald": 36,
+        "wilson": 33
+      },
+      "diff_equal_n": 72
+    },
+    "p=0.5": {
+      "natural_rate_n": {
+        "wald": 43,
+        "wilson": 39
+      },
+      "diff_equal_n": 86
+    }
+  },
+  "plans": [
+    {
+      "name": "A: N = 31 in every arm",
+      "arms": [
+        {
+          "cell": "low",
+          "arm": "silent",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "low",
+          "arm": "sham",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "anchor",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "rapport",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "offer",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "medium",
+          "arm": "silent",
+          "n": 31,
+          "simulation_usd": 30.168249333333332,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "medium",
+          "arm": "offer",
+          "n": 31,
+          "simulation_usd": 30.168249333333332,
+          "judge_usd": 1.0557760416666664
+        },
+        {
+          "cell": "high",
+          "arm": "silent",
+          "n": 31,
+          "simulation_usd": 29.93587333333333,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "high",
+          "arm": "offer",
+          "n": 31,
+          "simulation_usd": 29.93587333333333,
+          "judge_usd": 1.0557760416666664
+        }
+      ],
+      "episodes": 279,
+      "simulation_usd": 153.79217283333332,
+      "judge_usd": 6.246068583333333,
+      "total_usd": 160.03824141666666,
+      "cap_plus_15pct_usd": 184.04397762916665
+    },
+    {
+      "name": "B: T2 (a) with equal offer arms (86) and (b) silent arms 43; medium offer 43",
+      "arms": [
+        {
+          "cell": "low",
+          "arm": "silent",
+          "n": 43,
+          "simulation_usd": 9.3168315,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "low",
+          "arm": "sham",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "anchor",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "rapport",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "offer",
+          "n": 86,
+          "simulation_usd": 18.633663,
+          "judge_usd": 2.86748725
+        },
+        {
+          "cell": "medium",
+          "arm": "silent",
+          "n": 43,
+          "simulation_usd": 41.84628133333333,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "medium",
+          "arm": "offer",
+          "n": 43,
+          "simulation_usd": 41.84628133333333,
+          "judge_usd": 1.4644635416666663
+        },
+        {
+          "cell": "high",
+          "arm": "silent",
+          "n": 43,
+          "simulation_usd": 41.52395333333333,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "high",
+          "arm": "offer",
+          "n": 86,
+          "simulation_usd": 83.04790666666666,
+          "judge_usd": 2.9289270833333325
+        }
+      ],
+      "episodes": 437,
+      "simulation_usd": 256.36527366666667,
+      "judge_usd": 10.36176525,
+      "total_usd": 266.7270389166667,
+      "cap_plus_15pct_usd": 306.7360947541667
+    },
+    {
+      "name": "C: T2 (a) cost-minimising offer arms (low 121, high 66) and (b) silent arms 43; medium offer 43",
+      "arms": [
+        {
+          "cell": "low",
+          "arm": "silent",
+          "n": 43,
+          "simulation_usd": 9.3168315,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "low",
+          "arm": "sham",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "anchor",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "rapport",
+          "n": 31,
+          "simulation_usd": 6.716785499999999,
+          "judge_usd": 1.033629125
+        },
+        {
+          "cell": "low",
+          "arm": "offer",
+          "n": 121,
+          "simulation_usd": 26.2171305,
+          "judge_usd": 4.034487875
+        },
+        {
+          "cell": "medium",
+          "arm": "silent",
+          "n": 43,
+          "simulation_usd": 41.84628133333333,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "medium",
+          "arm": "offer",
+          "n": 43,
+          "simulation_usd": 41.84628133333333,
+          "judge_usd": 1.4644635416666663
+        },
+        {
+          "cell": "high",
+          "arm": "silent",
+          "n": 43,
+          "simulation_usd": 41.52395333333333,
+          "judge_usd": 0.0
+        },
+        {
+          "cell": "high",
+          "arm": "offer",
+          "n": 66,
+          "simulation_usd": 63.73444,
+          "judge_usd": 2.247781249999999
+        }
+      ],
+      "episodes": 452,
+      "simulation_usd": 244.6352745,
+      "judge_usd": 10.847620041666666,
+      "total_usd": 255.48289454166667,
+      "cap_plus_15pct_usd": 293.80532872291667
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "replicate_id": "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000",
+    "model": "openai/gpt-4.1",
+    "boss_pressure": false,
+    "status": "completed",
+    "failure_reason": null,
+    "rounds": 30,
+    "wall_clock_s": 282.58,
+    "calls": 150,
+    "errors": [],
+    "retries": 0,
+    "parse_failures_total": 0,
+    "parse_failures_by_role": {},
+    "provider_unknown_calls": 0,
+    "routed": {
+      "OpenAI": 150
+    },
+    "returned_models": {
+      "openai/gpt-4.1": 150
+    },
+    "log_error_lines": 0,
+    "sting_ask_rule_mismatches": [],
+    "sting_in_message_senders": false,
+    "sting_messages_sent": [],
+    "sting_messages_received": 58,
+    "llm_seller_messages_per_round": [
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ]
+    ],
+    "llm_seller_saw_other_message_rounds": {
+      "Seller A": 29,
+      "Seller B": 29
+    },
+    "missing_llm_asks": [],
+    "tokens_in": 322550,
+    "tokens_out": 54852,
+    "cost_by_role": {
+      "buyer": 0.62493,
+      "seller": 0.458986
+    },
+    "cost_total": 1.083916
+  },
+  {
+    "replicate_id": "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001",
+    "model": "openai/gpt-4.1",
+    "boss_pressure": false,
+    "status": "completed",
+    "failure_reason": null,
+    "rounds": 30,
+    "wall_clock_s": 190.09,
+    "calls": 150,
+    "errors": [],
+    "retries": 0,
+    "parse_failures_total": 0,
+    "parse_failures_by_role": {},
+    "provider_unknown_calls": 0,
+    "routed": {
+      "OpenAI": 150
+    },
+    "returned_models": {
+      "openai/gpt-4.1": 150
+    },
+    "log_error_lines": 0,
+    "sting_ask_rule_mismatches": [],
+    "sting_in_message_senders": false,
+    "sting_messages_sent": [],
+    "sting_messages_received": 58,
+    "llm_seller_messages_per_round": [
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ]
+    ],
+    "llm_seller_saw_other_message_rounds": {
+      "Seller A": 29,
+      "Seller B": 29
+    },
+    "missing_llm_asks": [],
+    "tokens_in": 346437,
+    "tokens_out": 52820,
+    "cost_by_role": {
+      "buyer": 0.646626,
+      "seller": 0.468808
+    },
+    "cost_total": 1.115434
+  },
+  {
+    "replicate_id": "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002",
+    "model": "openai/gpt-4.1",
+    "boss_pressure": false,
+    "status": "completed",
+    "failure_reason": null,
+    "rounds": 30,
+    "wall_clock_s": 176.28,
+    "calls": 150,
+    "errors": [],
+    "retries": 0,
+    "parse_failures_total": 0,
+    "parse_failures_by_role": {},
+    "provider_unknown_calls": 0,
+    "routed": {
+      "OpenAI": 150
+    },
+    "returned_models": {
+      "openai/gpt-4.1": 150
+    },
+    "log_error_lines": 0,
+    "sting_ask_rule_mismatches": [],
+    "sting_in_message_senders": false,
+    "sting_messages_sent": [],
+    "sting_messages_received": 58,
+    "llm_seller_messages_per_round": [
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ],
+      [
+        "Seller A",
+        "Seller B"
+      ]
+    ],
+    "llm_seller_saw_other_message_rounds": {
+      "Seller A": 29,
+      "Seller B": 29
+    },
+    "missing_llm_asks": [],
+    "tokens_in": 352592,
+    "tokens_out": 54365,
+    "cost_by_role": {
+      "seller": 0.46707,
+      "buyer": 0.673034
+    },
+    "cost_total": 1.140104
+  }
+]

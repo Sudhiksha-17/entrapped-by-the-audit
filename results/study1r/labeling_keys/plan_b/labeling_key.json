@@ -1,0 +1,621 @@
+{
+  "Pc3b471e2": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r002",
+    "seller": "Seller A",
+    "rounds": [
+      30
+    ],
+    "first_confirmed_round": 30
+  },
+  "Pdd0a300e": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r005",
+    "seller": "Seller B",
+    "rounds": [
+      20,
+      21,
+      22
+    ],
+    "matched_to": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r027|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "Pb97f2d15": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r027",
+    "seller": "Seller B",
+    "rounds": [
+      20,
+      21,
+      22
+    ],
+    "first_confirmed_round": 20
+  },
+  "Pefb23378": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r025",
+    "seller": "Seller A",
+    "rounds": [
+      26,
+      27,
+      28
+    ],
+    "first_confirmed_round": 26
+  },
+  "P10d38630": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r006",
+    "seller": "Seller A",
+    "rounds": [
+      30
+    ],
+    "first_confirmed_round": 30
+  },
+  "P7a1c18b5": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r009",
+    "seller": "Seller B",
+    "rounds": [
+      20,
+      21,
+      22
+    ],
+    "first_confirmed_round": 20
+  },
+  "P11bbb6ff": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T082904Z_study1r_4.1-high_offer_d3a13f_r020",
+    "seller": "Seller B",
+    "rounds": [
+      27,
+      28,
+      29
+    ],
+    "matched_to": "20261024T070258Z_study1r_4.1-high_offer_07853b_r003|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      14,
+      15,
+      16,
+      17,
+      19,
+      23,
+      24,
+      27,
+      28,
+      29
+    ]
+  },
+  "P843db9ee": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T082904Z_study1r_4.1-high_offer_d3a13f_r017",
+    "seller": "Seller A",
+    "rounds": [
+      18,
+      19,
+      20
+    ],
+    "first_confirmed_round": 18
+  },
+  "P2d721b3f": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r015",
+    "seller": "Seller A",
+    "rounds": [
+      26,
+      27,
+      28
+    ],
+    "matched_to": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r025|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "P1022f6ee": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r003",
+    "seller": "Seller A",
+    "rounds": [
+      27,
+      28,
+      29
+    ],
+    "first_confirmed_round": 27
+  },
+  "Pae1d2e73": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T082904Z_study1r_4.1-high_offer_d3a13f_r023",
+    "seller": "Seller A",
+    "rounds": [
+      29,
+      30
+    ],
+    "matched_to": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r016|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "P7955f85d": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r008",
+    "seller": "Seller B",
+    "rounds": [
+      30
+    ],
+    "first_confirmed_round": 30
+  },
+  "P5bb0b6bf": {
+    "group": "accepting",
+    "cell": "4.1-low",
+    "replicate_id": "20261024T074632Z_study1r_4.1-low_offer_dfbd34_r009",
+    "seller": "Seller A",
+    "rounds": [
+      22,
+      23,
+      24
+    ],
+    "first_confirmed_round": 22
+  },
+  "P5fb294a2": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r010",
+    "seller": "Seller A",
+    "rounds": [
+      20,
+      21,
+      22
+    ],
+    "matched_to": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r009|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      29,
+      30
+    ]
+  },
+  "Pa0abbd63": {
+    "group": "control",
+    "cell": "4.1-low",
+    "replicate_id": "20261024T070258Z_study1r_4.1-low_offer_786ec3_r002",
+    "seller": "Seller A",
+    "rounds": [
+      11,
+      12,
+      13
+    ],
+    "matched_to": "20261024T074632Z_study1r_4.1-low_offer_dfbd34_r016|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      11
+    ]
+  },
+  "Pdbd76054": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r015",
+    "seller": "Seller B",
+    "rounds": [
+      18,
+      19,
+      20
+    ],
+    "matched_to": "20261024T082904Z_study1r_4.1-high_offer_d3a13f_r017|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "P3c57f8a5": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r029",
+    "seller": "Seller A",
+    "rounds": [
+      17,
+      18,
+      19
+    ],
+    "matched_to": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r031|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      17,
+      18
+    ]
+  },
+  "Pd8f291f9": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r016",
+    "seller": "Seller B",
+    "rounds": [
+      29,
+      30
+    ],
+    "first_confirmed_round": 29
+  },
+  "Pc58f4fc8": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r009",
+    "seller": "Seller A",
+    "rounds": [
+      17,
+      18,
+      19
+    ],
+    "first_confirmed_round": 17
+  },
+  "Pa1eeb170": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r012",
+    "seller": "Seller B",
+    "rounds": [
+      30
+    ],
+    "matched_to": "20261024T070258Z_study1r_4.1-high_offer_07853b_r006|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      13,
+      14,
+      15,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "P160b8aa5": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000",
+    "seller": "Seller B",
+    "rounds": [
+      17,
+      18,
+      19
+    ],
+    "matched_to": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r009|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "Pe36635fa": {
+    "group": "control",
+    "cell": "4.1-low",
+    "replicate_id": "20261024T082903Z_study1r_4.1-low_offer_0cfd88_r021",
+    "seller": "Seller A",
+    "rounds": [
+      22,
+      23,
+      24
+    ],
+    "matched_to": "20261024T074632Z_study1r_4.1-low_offer_dfbd34_r009|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      13,
+      14,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "P8f4d93cf": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r013",
+    "seller": "Seller A",
+    "rounds": [
+      24,
+      25,
+      26
+    ],
+    "first_confirmed_round": 24
+  },
+  "Pf7afaedb": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r032",
+    "seller": "Seller A",
+    "rounds": [
+      24,
+      25,
+      26
+    ],
+    "matched_to": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r013|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      24,
+      25,
+      26
+    ]
+  },
+  "P48788b92": {
+    "group": "accepting",
+    "cell": "4.1-low",
+    "replicate_id": "20261024T074632Z_study1r_4.1-low_offer_dfbd34_r016",
+    "seller": "Seller B",
+    "rounds": [
+      11,
+      12,
+      13
+    ],
+    "first_confirmed_round": 11
+  },
+  "P0f546699": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r014",
+    "seller": "Seller B",
+    "rounds": [
+      26,
+      27,
+      28
+    ],
+    "first_confirmed_round": 26
+  },
+  "Pdb5385d0": {
+    "group": "control",
+    "cell": "4.1-low",
+    "replicate_id": "20261024T070258Z_study1r_4.1-low_offer_786ec3_r003",
+    "seller": "Seller B",
+    "rounds": [
+      15,
+      16,
+      17
+    ],
+    "matched_to": "20261024T074632Z_study1r_4.1-low_offer_dfbd34_r009|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "Pca8dfb1d": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r028",
+    "seller": "Seller A",
+    "rounds": [
+      30
+    ],
+    "matched_to": "20261024T070258Z_study1r_4.1-high_offer_07853b_r008|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      30
+    ]
+  },
+  "Pc52121d9": {
+    "group": "accepting",
+    "cell": "4.1-low",
+    "replicate_id": "20261024T074632Z_study1r_4.1-low_offer_dfbd34_r009",
+    "seller": "Seller B",
+    "rounds": [
+      15,
+      16,
+      17
+    ],
+    "first_confirmed_round": 15
+  },
+  "Pf4ca79d1": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000",
+    "seller": "Seller A",
+    "rounds": [
+      30
+    ],
+    "matched_to": "20261024T070258Z_study1r_4.1-high_offer_07853b_r002|Seller A",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "Pef3f1e7e": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r026",
+    "seller": "Seller B",
+    "rounds": [
+      26,
+      27,
+      28
+    ],
+    "matched_to": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r014|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "P1b613475": {
+    "group": "control",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r011",
+    "seller": "Seller A",
+    "rounds": [
+      25,
+      26,
+      27
+    ],
+    "matched_to": "20261024T070258Z_study1r_4.1-high_offer_07853b_r003|Seller B",
+    "fallback": false,
+    "round_distance": 0,
+    "mention_rounds": [
+      25
+    ]
+  },
+  "Pf4d5aec2": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r003",
+    "seller": "Seller B",
+    "rounds": [
+      25,
+      26,
+      27
+    ],
+    "first_confirmed_round": 25
+  },
+  "Pa3c137dc": {
+    "group": "accepting",
+    "cell": "4.1-high",
+    "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r031",
+    "seller": "Seller A",
+    "rounds": [
+      17,
+      18,
+      19
+    ],
+    "first_confirmed_round": 17
+  }
+}

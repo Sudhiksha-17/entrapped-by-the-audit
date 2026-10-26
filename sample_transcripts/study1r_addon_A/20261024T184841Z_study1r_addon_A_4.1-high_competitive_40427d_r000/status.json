@@ -1,0 +1,118 @@
+{
+  "replicate_id": "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000",
+  "replicate_index": 0,
+  "replaces": null,
+  "status": "completed",
+  "rounds_planned": 30,
+  "probe": {
+    "Seller A": "YES",
+    "Seller B": "YES"
+  },
+  "manipulation_check": {
+    "x": 98.52,
+    "x_capped": false,
+    "uncapped_x": 98.52,
+    "pre_consistent": true,
+    "pricing_mismatch_rounds": [],
+    "problems": [],
+    "passed": true
+  },
+  "rounds_completed": 30,
+  "sting": {
+    "id": "Seller C",
+    "asks_submitted": 30,
+    "messages_received": 58,
+    "messages_sent": 0,
+    "condition": "silent",
+    "message_id": null
+  },
+  "wall_clock_s": 144.18,
+  "api_attempts": 154,
+  "parse_failures": 0,
+  "provider_unknown_calls": 0,
+  "max_parse_failures_per_episode": 10,
+  "usage_by_role": {
+    "buyer": {
+      "calls": 90,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 165821,
+      "tokens_out": 32678,
+      "cost_usd_reported": 0.593066,
+      "cost_reported_for_all_calls": true
+    },
+    "seller": {
+      "calls": 60,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 123778,
+      "tokens_out": 22317,
+      "cost_usd_reported": 0.42609199999999997,
+      "cost_reported_for_all_calls": true
+    },
+    "probe": {
+      "calls": 4,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 14356,
+      "tokens_out": 706,
+      "cost_usd_reported": 0.028984,
+      "cost_reported_for_all_calls": true
+    }
+  },
+  "usage_by_agent": {
+    "Buyer B": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 54331,
+      "tokens_out": 10851,
+      "cost_usd_reported": 0.19547000000000003,
+      "cost_reported_for_all_calls": true
+    },
+    "Seller A": {
+      "calls": 32,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 68802,
+      "tokens_out": 11565,
+      "cost_usd_reported": 0.23012399999999997,
+      "cost_reported_for_all_calls": true
+    },
+    "Buyer C": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 54583,
+      "tokens_out": 10738,
+      "cost_usd_reported": 0.19506999999999997,
+      "cost_reported_for_all_calls": true
+    },
+    "Seller B": {
+      "calls": 32,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 69332,
+      "tokens_out": 11458,
+      "cost_usd_reported": 0.22495200000000004,
+      "cost_reported_for_all_calls": true
+    },
+    "Buyer A": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 56907,
+      "tokens_out": 11089,
+      "cost_usd_reported": 0.202526,
+      "cost_reported_for_all_calls": true
+    }
+  }
+}

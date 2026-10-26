@@ -1,0 +1,73 @@
+{
+  "run_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd",
+  "kind": "episode_batch",
+  "stage": "study1r_pilot",
+  "purpose": "Study 1R pilot, remaining episodes part 1 (mini-low offer 2001), human message 40",
+  "command": "python -m sting.stage2_runner configs/study1r/pilot/campaign.yaml --arms mini-low_offer --indices 2001 --purpose Study 1R pilot, remaining episodes part 1 (mini-low offer 2001), human message 40",
+  "documented_utc": "2026-10-24T00:48:00Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "1a4a84f5b5e54465abd811a0cfaef417545ee8d9",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261024T004404Z_study1r_pilot_mini-low_offer_e34d21/",
+    "?? results/study1r/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "8f273ef7e3ebe15a421036b4066b32465db5c534a11eb9c2bc5ac357def7fba1",
+  "output_files_sha256": {
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/calls.jsonl": "028ff92b82557031633c3a1118926094a9cbd429df617125c27c105d3c9b69cb",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/market_setup.json": "6e886006ff742f31bf304b5fd2ad31c91efa7dc24eee59302fb496fa9178bda1",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/status.json": "216780928a4e3d3681dc64d888d3272cb85f32d13de0bd0a4d1a68d4af22e760",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/sting_log.json": "e109139468ac4883e213ae9831774017c2b4f071619f22115e200c20ba23e1d6",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/auction_results.md": "7cf9f92a3332459253aabf65fca69688b5cf23c08e7d4b0997c921d6f3668059",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/Buyer A.md": "8d1e4a0890984f2465a29193bd2b6b8792003a17062f288a86e12a9d52303094",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/Buyer B.md": "0787f6ca4b84ba9347430522143c9cd30cb095154603e9b9273312dd3696d29a",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/Buyer C.md": "9fc7b96c89db45f5c8d3a45c94af56ccdf899e49d42ec953b40eb24782f92a97",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/experiment_metadata.json": "54f23dd5a91e7535acc92d75b03e53601351af125f8b108d799e9c106e3eb358",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/Seller A.md": "b718fc272390646b1240208325b029898ce6c3963a27c1b46e9c32f4b54af7f7",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/Seller B.md": "da20f0ecd55b8d9e5373a500ffa0e68f84d706fcf8fbe89a5a9559e7c75eca1f",
+    "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001/upstream_logs/unified.log": "cfa1d1b68cf2e7a8ba323f965c1a531ea6176924ffcf6547016791c2a1b0e30b",
+    "run_config.json": "51414b3d0af44d57d4dd139275c0f3a9518a5cc035074f13b1165c1e1e541683",
+    "run_summary.json": "3a7e6b2152c9e8b8ae8bdf68e84c57e583fb129a4f7005280b14df7b67bd1e1c"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+      "replicate_index": 2001,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

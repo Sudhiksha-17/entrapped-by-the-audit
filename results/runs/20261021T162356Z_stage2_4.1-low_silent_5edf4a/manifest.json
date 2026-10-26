@@ -1,0 +1,77 @@
+{
+  "run_id": "20261021T162356Z_stage2_4.1-low_silent_5edf4a",
+  "kind": "episode_batch",
+  "stage": "stage2",
+  "purpose": "Stage 2 confirmatory, block 0 only (replicate index 0, all 12 arms), against frozen prereg 40d93a9 / lock 1c2410c4 (human message 24)",
+  "command": "python -m sting.stage2_runner configs/stage2/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Stage 2 confirmatory, block 0 only (replicate index 0, all 12 arms), against frozen prereg 40d93a9 / lock 1c2410c4 (human message 24)",
+  "documented_utc": "2026-10-21T16:32:00Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "40d93a974195a95ba006bfaf75b57eb2479cd5a1",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_anchor_66273e/",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_rapport_ee5b7b/",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_sham_ca4733/",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_silent_84bec2/",
+    "?? results/runs/20261021T162356Z_stage2_mini-low_directive_29e56e/",
+    "?? results/runs/20261021T162356Z_stage2_mini-low_offer_de125e/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "e96b4bcde864deac2d6e51931e7b6b1855878aef1eb5a25448be55af923545be",
+  "output_files_sha256": {
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/calls.jsonl": "1a7fd71d4d7df03b66ec6eb53d4103cb3782c045f8f0515e8e469fbb02f816e6",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/market_setup.json": "501b5d5007ff90b2385ed4c04a4aac9d925f24b4de1d0aac32098b6e4d4547f7",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/status.json": "b22fad476e8635557c72bdefd52506ab18695d3c3209b489d16deac8fec33e65",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/sting_log.json": "be028eee48af17a7f99a5b715c1564eb53f743077cec18b412068f61ffe08318",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/auction_results.md": "b0273a327e7a73c1ab416aef09ed9b8a7e84319addf73be6db7ec80c7d166dc7",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/Buyer A.md": "97e4a1da024797605efebf3ba75a41796f81b4c03e537e7842af48cd03af38fb",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/Buyer B.md": "6f101bbdcff27f57319dd8837e024819793e8d70329f5ab1fdd1a9ed786c6c74",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/Buyer C.md": "5c037c9f4129a01cdf1ad2be8bb3c9f50672a7a74d1b2c7dc03ac8d2080d05d2",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/experiment_metadata.json": "a397eb653c66a682fd516629dfeec8866b9ce914f04b7963f32da8226251d1f3",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/Seller A.md": "fa3b29409e9a72a6cd8ad5f9bbbd2fd2b6b1eeeac8afcb891fc1644a323fc65d",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/Seller B.md": "82afe076446e7a8585a2c92b62ed1eb3434c2290411db2905a4b980ff23f3133",
+    "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000/upstream_logs/unified.log": "755d825c5da10af5aa6c4730a6746095fd872e9da22cc48b5ac1d3a283917800",
+    "run_config.json": "21d00fb0af74e184c6ace2194c0690d0eddd6a3cafc23ae9c2c50c91989a9bd2",
+    "run_summary.json": "a976ea3b6f60b06e52b17b55b9841b6641a8fac5b82637fb4df9750511dd78c0"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

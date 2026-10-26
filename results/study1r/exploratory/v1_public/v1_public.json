@@ -1,0 +1,104 @@
+{
+  "label": "exploratory, post hoc (robustness check; human message 93)",
+  "invalid_outputs": {
+    "all_fields": 69,
+    "public_only": 11
+  },
+  "groups": {
+    "mini group (gpt-4.1-mini, default)": {
+      "n": 60,
+      "all_fields": {
+        "k": 37,
+        "share": 0.6166666666666667,
+        "ci": [
+          0.49017595824099924,
+          0.7291172762591798
+        ]
+      },
+      "public_only": {
+        "k": 26,
+        "share": 0.43333333333333335,
+        "ci": [
+          0.3157239680468677,
+          0.5589656122387444
+        ]
+      }
+    },
+    "volume group (gpt-4.1, volume prompt)": {
+      "n": 33,
+      "all_fields": {
+        "k": 5,
+        "share": 0.15151515151515152,
+        "ci": [
+          0.06650457281607568,
+          0.3091987588044212
+        ]
+      },
+      "public_only": {
+        "k": 14,
+        "share": 0.42424242424242425,
+        "ci": [
+          0.2723559663341021,
+          0.5919273666268755
+        ]
+      }
+    },
+    "CEO group (gpt-4.1, CEO prompt)": {
+      "n": 33,
+      "all_fields": {
+        "k": 32,
+        "share": 0.9696969696969697,
+        "ci": [
+          0.846812746178811,
+          0.9946305894631283
+        ]
+      },
+      "public_only": {
+        "k": 27,
+        "share": 0.8181818181818182,
+        "ci": [
+          0.6561176836533009,
+          0.9138923179105933
+        ]
+      }
+    }
+  },
+  "validation": {
+    "all_fields": {
+      "n": 40,
+      "invalid": 0,
+      "full_label": {
+        "kappa": 0.01974132062627638,
+        "ci_low": -0.06412005457025921,
+        "ci_high": 0.10386965376782076,
+        "n": 40
+      },
+      "acceptance": {
+        "kappa": 0.14893617021276614,
+        "ci_low": -0.15789473684210567,
+        "ci_high": 0.48275862068965497,
+        "n": 40
+      },
+      "judge_accept": 9,
+      "gold_acceptances": 5
+    },
+    "public_only": {
+      "n": 40,
+      "invalid": 0,
+      "full_label": {
+        "kappa": -0.07558139534883723,
+        "ci_low": -0.18289319181267702,
+        "ci_high": 0.034090909090909075,
+        "n": 40
+      },
+      "acceptance": {
+        "kappa": 0.31428571428571417,
+        "ci_low": -0.10344827586206926,
+        "ci_high": 0.7222222222222219,
+        "n": 40
+      },
+      "judge_accept": 5,
+      "gold_acceptances": 5
+    }
+  }
+}

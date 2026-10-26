@@ -1,0 +1,146 @@
+{
+  "campaigns": [
+    "<repo>\\runs\\study1r_addon_A\\_campaigns\\20261024T184841Z_study1r_addon_A_9b61e6\\campaign.json",
+    "<repo>\\runs\\study1r_addon_A\\_campaigns\\20261024T185208Z_study1r_addon_A_a5e459\\campaign.json",
+    "<repo>\\runs\\study1r_addon_A\\_campaigns\\20261024T191057Z_study1r_addon_A_02149c\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "per_arm": {
+    "4.1-high_competitive": {
+      "completed": 17,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 1,
+      "cost": 17.145334000000002,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent": {
+      "completed": 17,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 3,
+      "cost": 16.813154,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 2.085918,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "1": {
+      "cost": 1.953644,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "2": {
+      "cost": 1.96103,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "3": {
+      "cost": 1.992328,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "4": {
+      "cost": 1.955858,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "5": {
+      "cost": 1.996508,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "6": {
+      "cost": 2.013086,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "7": {
+      "cost": 2.024158,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "8": {
+      "cost": 2.022544,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "9": {
+      "cost": 1.983338,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "10": {
+      "cost": 1.989766,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "11": {
+      "cost": 1.970104,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "12": {
+      "cost": 2.079778,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "13": {
+      "cost": 2.018976,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "14": {
+      "cost": 1.985178,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "15": {
+      "cost": 1.973736,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "16": {
+      "cost": 1.952538,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    }
+  },
+  "spent_usd": 33.958488,
+  "projected_total_usd": 65.9194,
+  "cap_usd": 76.49,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

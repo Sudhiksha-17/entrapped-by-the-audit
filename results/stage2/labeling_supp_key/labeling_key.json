@@ -1,0 +1,272 @@
+{
+  "item01": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261021T190107Z_stage2_mini-low_offer_aae96d_r024",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item02": {
+    "condition": "sham",
+    "cell": "mini-low",
+    "arm": "mini-low_sham",
+    "replicate_id": "20261021T175656Z_stage2_mini-low_sham_9e6ad3_r016",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item03": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261021T190108Z_stage2_4.1-high_offer_ef789c_r022",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item04": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261021T201114Z_stage2_4.1-low_offer_067ebd_r026",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item05": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261021T175658Z_stage2_4.1-high_offer_6c0414_r015",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item06": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261021T201114Z_stage2_4.1-low_offer_067ebd_r028",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item07": {
+    "condition": "offer",
+    "cell": "4.1-medium",
+    "arm": "4.1-medium_offer",
+    "replicate_id": "20261021T175658Z_stage2_4.1-medium_offer_d18e68_r014",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item08": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261021T164834Z_stage2_mini-low_offer_d8ca28_r006",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item09": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261021T201114Z_stage2_4.1-low_offer_067ebd_r032",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item10": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261021T164835Z_stage2_4.1-low_offer_14a824_r004",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item11": {
+    "condition": "offer",
+    "cell": "4.1-medium",
+    "arm": "4.1-medium_offer",
+    "replicate_id": "20261021T164835Z_stage2_4.1-medium_offer_17ccdb_r003",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item12": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261021T175657Z_stage2_mini-low_offer_5f508d_r014",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item13": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261021T175657Z_stage2_4.1-low_offer_4dce8d_r011",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item14": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261021T164835Z_stage2_4.1-high_offer_aefd5d_r004",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item15": {
+    "condition": "offer",
+    "cell": "4.1-medium",
+    "arm": "4.1-medium_offer",
+    "replicate_id": "20261021T190108Z_stage2_4.1-medium_offer_55d4d1_r021",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item16": {
+    "condition": "offer",
+    "cell": "4.1-medium",
+    "arm": "4.1-medium_offer",
+    "replicate_id": "20261021T190108Z_stage2_4.1-medium_offer_55d4d1_r020",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item17": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261021T201114Z_stage2_4.1-low_offer_067ebd_r030",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item18": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261021T164835Z_stage2_4.1-high_offer_aefd5d_r005",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item19": {
+    "condition": "directive",
+    "cell": "mini-low",
+    "arm": "mini-low_directive",
+    "replicate_id": "20261021T164834Z_stage2_mini-low_directive_333a46_r002",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item20": {
+    "condition": "anchor",
+    "cell": "mini-low",
+    "arm": "mini-low_anchor",
+    "replicate_id": "20261021T164833Z_stage2_mini-low_anchor_44e1b9_r006",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item21": {
+    "condition": "offer",
+    "cell": "4.1-medium",
+    "arm": "4.1-medium_offer",
+    "replicate_id": "20261021T175658Z_stage2_4.1-medium_offer_d18e68_r012",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item22": {
+    "condition": "rapport",
+    "cell": "mini-low",
+    "arm": "mini-low_rapport",
+    "replicate_id": "20261021T201113Z_stage2_mini-low_rapport_d8f324_r026",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item23": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261021T201115Z_stage2_4.1-high_offer_fed595_r030",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item24": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261021T190108Z_stage2_4.1-high_offer_ef789c_r022",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item25": {
+    "condition": "anchor",
+    "cell": "mini-low",
+    "arm": "mini-low_anchor",
+    "replicate_id": "20261021T164833Z_stage2_mini-low_anchor_44e1b9_r002",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item26": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261021T201114Z_stage2_mini-low_offer_da8089_r027",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item27": {
+    "condition": "offer",
+    "cell": "4.1-medium",
+    "arm": "4.1-medium_offer",
+    "replicate_id": "20261021T164835Z_stage2_4.1-medium_offer_17ccdb_r008",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1"
+  },
+  "item28": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261021T190107Z_stage2_mini-low_offer_aae96d_r021",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item29": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261021T190107Z_stage2_mini-low_offer_aae96d_r023",
+    "seller": "Seller A",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  },
+  "item30": {
+    "condition": "directive",
+    "cell": "mini-low",
+    "arm": "mini-low_directive",
+    "replicate_id": "20261021T164834Z_stage2_mini-low_directive_333a46_r003",
+    "seller": "Seller B",
+    "round": 11,
+    "model": "openai/gpt-4.1-mini"
+  }
+}

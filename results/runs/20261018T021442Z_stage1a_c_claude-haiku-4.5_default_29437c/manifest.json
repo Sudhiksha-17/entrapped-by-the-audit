@@ -1,0 +1,77 @@
+{
+  "run_id": "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Stage 1a 1-episode pilot, arm c_claude-haiku-4.5_default, index 0 (human message 13)",
+  "command": "python -m sting.minimal_runner configs/stage1a_c_claude-haiku-4.5_default.yaml --replicate-indices 0 --purpose Stage 1a 1-episode pilot, arm c_claude-haiku-4.5_default, index 0 (human message 13)",
+  "documented_utc": "2026-10-18T02:19:54Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "e73b65da6013db77c136c605491c4fb27219b397",
+  "code_dirty": true,
+  "code_changes": [
+    "?? scripts/stage1a_pilot_check.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c/",
+    "?? results/runs/20261018T021213Z_stage1a_b_gpt-4.1-mini_ceo_aec90d/",
+    "?? results/stage1a/",
+    "?? scripts/stage1a_pilot_check.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:anthropic/claude-haiku-4.5@anthropic"
+  ],
+  "config_sha256": "0462611f4d36d42c238cdb24b8446c48381ab0e27f2ddb1056501fc3eb5fee76",
+  "output_files_sha256": {
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/calls.jsonl": "1671d239e13539576b60ae83003038f80d1af2c219bcd6dce434fba0ef029f68",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/market_setup.json": "6738da21661dc1faaf38e6e9d1e2c8aa49bd0a5c904e16ea312c1877ae1e15cf",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/status.json": "50ba94f3bba7e96349091779c76753c3d5dc9762cfa751edb7753248e37ee4ee",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/sting_log.json": "7855c3640c13b863564b2431f14d81484a53e2613e510a6d6be89a8ccc9fd71f",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/auction_results.md": "894991ea58c67371cbbc1d8854675dbd8dc51853800f284a6d0faf403d63089d",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/Buyer A.md": "8251a919618761abe5fb83a5fc7a3708aaadfee7816061954103b523b1bd6edf",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/Buyer B.md": "59485b38fea67c392d6534a5ca8538e90869612078168b1c5fa277d67475153d",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/Buyer C.md": "ae4fb95ac99f4dc49530fa273d2da482c227a65595d158993f97cff1d4ff44ac",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/experiment_metadata.json": "791c281ab63ad88000e1072ce37aec011f52f2dbfce44b42df46c823d7a8c844",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/Seller A.md": "da4f3d1084a0d114e7c4e19069b785b7c92686a35af11d4d8820173e56b60e2d",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/Seller B.md": "0e50efd81148c91250a20cea4f32506a4f5090ecac60f12efb19b107068ef205",
+    "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000/upstream_logs/unified.log": "ef0e999fe20375418b4ad201398988005a73dc4e41c6d5b0dd61a267203b574c",
+    "run_config.json": "efac6cc8e7c4bfde193f8f084365033ab8b4dce44df56d7cdab2b6e7b50ff2d2",
+    "run_summary.json": "c43e5259bb3b7fda93bf87fb22aac45f3142a5a64393945179e736b93840092a"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T021442Z_stage1a_c_claude-haiku-4.5_default_29437c_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

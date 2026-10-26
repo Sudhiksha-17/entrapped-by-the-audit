@@ -1,0 +1,34 @@
+{
+  "readings": "D-134 extended and D-137 (approved, human message 89); status-file failure rate (I-066)",
+  "frozen_stop": true,
+  "identity_issues_after_d134": [],
+  "block_cost_flags_d137": {
+    "22": {
+      "d137_not_a_stop": true,
+      "evidence": "recomputed $0.4616 vs block 0 $0.4578 (+0.8%)",
+      "cost": 0.2500192,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "32": {
+      "d137_not_a_stop": true,
+      "evidence": "recomputed $0.4560 vs block 0 $0.4578 (-0.4%)",
+      "cost": 0.2489708,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    }
+  },
+  "status_failure_rate": {
+    "mini-low_offer_floor": 0.029411764705882353,
+    "mini-low_silent_floor": 0.029411764705882353
+  },
+  "status_completed": {
+    "mini-low_offer_floor": 34,
+    "mini-low_silent_floor": 34
+  },
+  "status_failed": {
+    "mini-low_offer_floor": 1,
+    "mini-low_silent_floor": 1
+  },
+  "stop": false
+}

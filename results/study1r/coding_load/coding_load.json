@@ -1,0 +1,66 @@
+{
+  "pilot_episodes": [
+    {
+      "episode": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000",
+      "verification": 8,
+      "flagged_negative": 1
+    },
+    {
+      "episode": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+      "verification": 0,
+      "flagged_negative": 0
+    },
+    {
+      "episode": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+      "verification": 1,
+      "flagged_negative": 6
+    },
+    {
+      "episode": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+      "verification": 22,
+      "flagged_negative": 3
+    },
+    {
+      "episode": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2001",
+      "verification": 7,
+      "flagged_negative": 11
+    },
+    {
+      "episode": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2002",
+      "verification": 0,
+      "flagged_negative": 8
+    }
+  ],
+  "labeler_a": {
+    "q = 5/7 (validation precision)": {
+      "mean": 210.8755,
+      "p2.5": 113.0,
+      "p97.5": 323.0
+    },
+    "q = 1.0": {
+      "mean": 201.065,
+      "p2.5": 108.0,
+      "p97.5": 305.02499999999964
+    },
+    "q = 0.5": {
+      "mean": 227.3223,
+      "p2.5": 117.0,
+      "p97.5": 351.0
+    },
+    "no stopping rule": {
+      "mean": 499.2945,
+      "p2.5": 156.0,
+      "p97.5": 968.0
+    }
+  },
+  "labeler_b": {
+    "mean": 84,
+    "p2.5": 15,
+    "p97.5": 179
+  },
+  "settings": {
+    "episodes": 66,
+    "sims": 10000,
+    "seed": 20261025
+  }
+}

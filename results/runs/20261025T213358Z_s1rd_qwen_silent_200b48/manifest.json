@@ -1,0 +1,76 @@
+{
+  "run_id": "20261025T213358Z_s1rd_qwen_silent_200b48",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D",
+  "purpose": "Study 1R-D confirmatory block 0 gate (human message 87)",
+  "command": "python -m sting.study1rd run configs/study1r_addon_D/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Study 1R-D confirmatory block 0 gate (human message 87)",
+  "documented_utc": "2026-10-25T21:52:54Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "fd11873062ace080aa562782bd104db776de75a0",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/DECISIONS.md",
+    " M notes/ISSUES.md",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261025T213357Z_s1rd_mini-low_offer_floor_a22004/",
+    "?? results/runs/20261025T213358Z_s1rd_mini-low_silent_floor_1157ff/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@deepinfra"
+  ],
+  "config_sha256": "fbb968716a1f41e85e70c88c4998c1491b2e745ce67878ac78c486e2f01de4d9",
+  "output_files_sha256": {
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/calls.jsonl": "ced9443bd8bee313ffeee9a958f8ed55eebbceeaadf0caedce76163432d3eee1",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/market_setup.json": "b63ab49a3b4b782414e88426e138d981d88a950d9723563bdaa55a8d27b99318",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/probe.json": "7a0d6d4c6cf06c6e5c6fd5bd3f14c910618f4a84c4ef922054dd72b2e7083dc5",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/status.json": "f04f52735e093f1392d6e1bff4ba7d0d90b2d89a34d3e81a424112d0d386eb90",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/sting_log.json": "75d014dbc372965f3c12dac9d95773cbc4a679c1ac72188bde67a6780b15b824",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/auction_results.md": "8826803fa5d225123abddd1bba370c82f56763555106def1653b26b2c9ce095f",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/Buyer A.md": "0c5899317f23d2d41928257f0a9a7fd5d32994316fb997bb1dc9ba7eb71bdd58",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/Buyer B.md": "11e8c804c0cb81a2b41ab6e35d9daa992722d1949cb85c26b8d06f548e203697",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/Buyer C.md": "6257a4daea84685ee1387e374d1f24c6fb0ebdd1f31a6272a45420883eb6533b",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/experiment_metadata.json": "3560edc4b6d78a95226cc48178779e35d1bea197e6c7a037781594154954c049",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/Seller A.md": "241f7ed588219e42f189d2b3935a62f903750a79926f411298dc0dc0a3697aaf",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/Seller B.md": "09be0a5fa6e85240c99bdefde77194629875cb1c4736bc6c7db3bd365b647ac1",
+    "20261025T213358Z_s1rd_qwen_silent_200b48_r000/upstream_logs/unified.log": "f45010e7346df3a49baffaa6d9f092fba92fa24037f2be9502312aaa6aea436d",
+    "run_config.json": "a7461fe51825f79d97f5da680e267ec7a9fd9782be02c5c0dbf54e8f7fc2604f",
+    "run_summary.json": "1baffd040e2c7bb4d0e9e3271cc35276037af6ac7deba76d764ee31d0204fecc"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T213358Z_s1rd_qwen_silent_200b48_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

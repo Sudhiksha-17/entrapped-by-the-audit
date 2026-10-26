@@ -1,0 +1,20 @@
+# Offline configuration used by tests: 2 fake LLM sellers + 1 silent sting + 3 fake buyers (no network).
+stage: test
+run_type: exploratory
+run_name: fake_sting
+replicates: 1
+concurrency: 1
+rounds: 4
+temperature: 0.7
+max_tokens: 4000
+seller_comms_enabled: true
+max_message_length: 500
+seller_valuations: [80.0, 80.0, 80.0]   # LLM Seller A, LLM Seller B, sting (Seller C)
+buyer_valuations: [100.0, 100.0, 100.0]
+model: &model {provider: fake, model: fake-model}
+sellers: [*model, *model]
+buyers: [*model, *model, *model]
+sting: {mode: silent, pricing_rule: follow, initial_ask: 97.5}
+max_api_attempts_per_episode: 100
+max_parse_failures_per_episode: 3
+estimated_cost_per_episode_usd: 0.0

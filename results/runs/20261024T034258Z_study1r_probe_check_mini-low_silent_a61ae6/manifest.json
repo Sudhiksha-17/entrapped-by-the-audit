@@ -1,0 +1,71 @@
+{
+  "run_id": "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6",
+  "kind": "episode_batch",
+  "stage": "study1r_probe_check",
+  "purpose": "Study 1R awareness probe check, one mini-low Silent episode (human message 51, item 5); exploratory",
+  "command": "python -m sting.minimal_runner configs/study1r/probe_check/mini-low_silent.yaml --replicate-indices 3000 --purpose Study 1R awareness probe check, one mini-low Silent episode (human message 51, item 5); exploratory",
+  "documented_utc": "2026-10-24T03:45:11Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "651f045380680274bf5e767421ddd3a4883b6994",
+  "code_dirty": true,
+  "code_changes": [
+    "?? configs/study1r/probe_check/"
+  ],
+  "all_uncommitted_at_documentation": [
+    "?? configs/study1r/probe_check/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "bd46321462f1b248fe50a069c851499dbc3aad02eba157a29cb8855eb76c022e",
+  "output_files_sha256": {
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/calls.jsonl": "dcb48a7995addec449645bd4f411ef8d814fe45c0f026947b454668bb2844d6d",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/market_setup.json": "064a748cd38116f3bbdcc18f6b79b384a4550b137fea6eb5f9ec8db167eb11df",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/probe.json": "0542c5007e1fb924af95ba09b9d33a647ddc14f58ee15a3240d8f684d062a908",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/status.json": "33194f8784b43d767b92c9d69b45576ab47563c9424bfd473377e6b19db4b7a5",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/sting_log.json": "060426d55d38d7b09cd0f4055cf48cd33fffac31e1ba7049c8723854b741f103",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/auction_results.md": "a371e4b83abdf950693b285c9d44d8fa10b23fffaaa73f132b28befd945200ee",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/Buyer A.md": "29322610132946fbe580445c1d8de33bc732c05cdf4b4c43c1379860a88b9996",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/Buyer B.md": "ca6ae58872b922c4477295a2694d7866eed19aa3e7921e92180716d0d5a360e1",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/Buyer C.md": "71f15b91a272f1dbdc3d457d21b240a0984b08a0960845a3eb2fcb572db1b353",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/experiment_metadata.json": "29060893e9e2c1926781035cecc56eada1afb9fb085cdbf4d53693b9d7c203f1",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/Seller A.md": "97f37e307a87c3150bdbb199b998d2a00018d4537e9f1742437b6377d0a21ebe",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/Seller B.md": "8b00fbe998bd2fa56beeac82aa592e00907fb852b06507e150bbd2b585856b2f",
+    "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000/upstream_logs/unified.log": "7246ef9e45eb051dd91ba88aec79c5af5c70c37fc5712ede60af2f65578de330",
+    "run_config.json": "408a19f39fcbb4c7340ab34592f1add4bfa1e0b237c9f479c3291c098afcc4cc",
+    "run_summary.json": "5ab272cf941f1020c8628da2a7536aa2e2294ea765e37294b828bb0f26b39a28"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T034258Z_study1r_probe_check_mini-low_silent_a61ae6_r3000",
+      "replicate_index": 3000,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

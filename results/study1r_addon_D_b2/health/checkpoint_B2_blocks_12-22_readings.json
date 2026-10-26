@@ -1,0 +1,22 @@
+{
+  "readings": "D-134 extended and D-137 (approved, human message 89); status-file failure rate (I-066)",
+  "frozen_stop": true,
+  "identity_issues_after_d134": [],
+  "block_cost_flags_d137": {},
+  "status_failure_rate": {
+    "qwenp_silent": 2.0,
+    "qwenp_silent_floor": 1.0,
+    "qwenp_offer_floor": 3.0
+  },
+  "status_completed": {
+    "qwenp_silent": 1,
+    "qwenp_offer_floor": 1,
+    "qwenp_silent_floor": 1
+  },
+  "status_failed": {
+    "qwenp_silent": 2,
+    "qwenp_offer_floor": 3,
+    "qwenp_silent_floor": 1
+  },
+  "stop": true
+}

@@ -1,0 +1,88 @@
+{
+  "run_id": "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_screening",
+  "purpose": "Study 1R-D Cell B screening, pilot episode (exploratory, index 1000; amendment section 8; human message 86)",
+  "command": "python -m sting.minimal_runner configs/study1r_addon_D/screening/kimi-k2-0905_silent.yaml --purpose Study 1R-D Cell B screening, pilot episode (exploratory, index 1000; amendment section 8; human message 86) --replicate-indices 1000",
+  "documented_utc": "2026-10-25T20:07:36Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "4fa5b90391ce2995e82e3b8869f456090555a739",
+  "code_dirty": true,
+  "code_changes": [
+    "?? configs/study1r_addon_D/",
+    "?? scripts/make_study1rd_configs.py",
+    "?? scripts/study1r_results_1rd.py",
+    "?? scripts/study1rd_screening_summary.py",
+    "?? sting/study1rd.py",
+    "?? tests/test_study1rd.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M results/study1r/labeling/plan_b/labels_template.csv",
+    " M results/study1r/labeling/plan_b_labeler_b/labels_template.csv",
+    "?? configs/study1r_addon_D/",
+    "?? results/runs/20261025T200147Z_s1rd_scr_gemini_silent_44f5d5/",
+    "?? scripts/make_study1rd_configs.py",
+    "?? scripts/study1r_results_1rd.py",
+    "?? scripts/study1rd_screening_summary.py",
+    "?? sting/study1rd.py",
+    "?? tests/test_study1rd.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:moonshotai/kimi-k2-0905@novita"
+  ],
+  "config_sha256": "b5234e3fe4895c63eb8d3b3c55e899f09a8bb4c6006937e57f50a7269fa804b6",
+  "output_files_sha256": {
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/calls.jsonl": "5a134e17af8b2c6fc43c3d60462989659159673f868815ad6e20aba93c3ec237",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/market_setup.json": "59f3c64127dcde4be965e2b16e5383750bd016e03a033c157a79854bf221c425",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/probe.json": "1022cd97ea1aca95fae255a2059772052acca82708d8b9f7cae711666dfebec6",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/status.json": "8e7744ff1afe3811990e47e92c7f75e0a090aebc347ddfebf86064bc24926088",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/sting_log.json": "4c8372f3ee43d69ffe3cddf97721e3ad39c2603b1340208ced665539c472264c",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/auction_results.md": "1375ece86f8457d7cf7b5f372ec10401aa2e7e53fca3f1d72006bb74195be29a",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/Buyer A.md": "efd0d3338ae7d52e085da908c3c2185f05986ced5998acadb730c1b03ac9667f",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/Buyer B.md": "73dc932ec50eb9f7faa2ca25d9d52341f2fdaaabe1d1abd38f211a5625f69f77",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/Buyer C.md": "823f3ca25e82c556c617e478138d8fd7f7975a4ad2d28088f718135afb56c859",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/experiment_metadata.json": "3f460e7542a749207a195d1804ebbb8b3acf8081adad6a2788c01cdc943a36e5",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/Seller A.md": "b3da1db53f15e748c4b5841f3c59c4d76acdbe99a6440cc30b945badf082405c",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/Seller B.md": "ecbfebb1487ea0f790239674e882ec464f79a90f92e194431a9948f4913608cc",
+    "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000/upstream_logs/unified.log": "61ee1fb51f53e212eb0394e888bed532efe0258163b06161e5936beda7bd54f8",
+    "run_config.json": "332d20ef1890380b7288a063018b02bd55d0eca4067801490ca1cc60ff0ba5c4",
+    "run_summary.json": "cbb8401710992a47b9b96cda2ed2893d575dabb008359f1c8388e2e00d23164e"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000",
+      "replicate_index": 1000,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "campaigns": [
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T065647Z_study1r_c95eb2\\campaign.json",
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T070256Z_study1r_d06cfe\\campaign.json",
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T074631Z_study1r_ab9e3c\\campaign.json",
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T082902Z_study1r_cb23b7\\campaign.json",
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T091014Z_study1r_0ada4f\\campaign.json",
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T095251Z_study1r_b9c3b5\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "per_arm": {
+    "4.1-high_offer": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 33.31986199999999,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 32.90612600000001,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-low_anchor": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 36.644736,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-low_offer": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 36.62669400000001,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-low_silent": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 36.96164999999999,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_anchor": {
+      "completed": 41,
+      "failed": 1,
+      "not_started": 0,
+      "replacements": 1,
+      "parse_failures": 1,
+      "cost": 9.358534399999996,
+      "reasons": {
+        "other": 1
+      },
+      "target": 60
+    },
+    "mini-low_offer": {
+      "completed": 41,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 9.353090400000001,
+      "reasons": {},
+      "target": 60
+    },
+    "mini-low_sham": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 7.3545484000000005,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_silent": {
+      "completed": 33,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 1,
+      "cost": 7.360140400000001,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 6.2462796,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "1": {
+      "cost": 6.2195984,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "2": {
+      "cost": 6.3104412,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "3": {
+      "cost": 6.2220128,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "4": {
+      "cost": 6.1435616,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "5": {
+      "cost": 6.41504,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "6": {
+      "cost": 6.2433796,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "7": {
+      "cost": 6.1644868,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "8": {
+      "cost": 6.1574112,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "9": {
+      "cost": 6.1279044,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "10": {
+      "cost": 6.2824032,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "11": {
+      "cost": 6.2164756,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "12": {
+      "cost": 6.3274032,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "13": {
+      "cost": 6.1965024,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "14": {
+      "cost": 6.2014712,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "15": {
+      "cost": 6.3521292,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "16": {
+      "cost": 6.259226,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "17": {
+      "cost": 6.3570748,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "18": {
+      "cost": 6.2746148,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "19": {
+      "cost": 6.1497792,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "20": {
+      "cost": 6.2050384,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "21": {
+      "cost": 6.321018,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "22": {
+      "cost": 6.286648,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "23": {
+      "cost": 6.1566168,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "24": {
+      "cost": 6.161746,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "25": {
+      "cost": 6.1029836,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "26": {
+      "cost": 6.2823012,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "27": {
+      "cost": 6.2882208,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "28": {
+      "cost": 6.0451276,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "29": {
+      "cost": 6.377308,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "30": {
+      "cost": 6.2818064,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "31": {
+      "cost": 6.333754,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "32": {
+      "cost": 6.2768444,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "33": {
+      "cost": 0.462552,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "34": {
+      "cost": 0.4500652,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "35": {
+      "cost": 0.462688,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "36": {
+      "cost": 0.4654736,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "37": {
+      "cost": 0.4572136,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "38": {
+      "cost": 0.4524008,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "39": {
+      "cost": 0.4547208,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    },
+    "40": {
+      "cost": 0.4616156,
+      "block0_same_arms": 0.449894,
+      "arms": 2
+    }
+  },
+  "spent_usd": 209.8853816,
+  "projected_total_usd": 248.5434,
+  "cap_usd": 287.56,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

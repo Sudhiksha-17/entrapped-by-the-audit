@@ -1,0 +1,14 @@
+diff --git a/scripts/study1r_health.py b/scripts/study1r_health.py
+index b326f9d..b57ea54 100644
+--- a/scripts/study1r_health.py
++++ b/scripts/study1r_health.py
+@@ -35,7 +35,8 @@ def episode(rep: Path, per_ep_est: float) -> dict:
+                  "errors": sum(1 for r in p["sellers"].values() if r["error"])}
+     probe_calls = [c for c in calls if c.get("role") == "probe"]
+     return {
+-        "replicate_id": rep.name, "status": st["status"], "failure_reason": st.get("failure_reason"),
++        "replicate_id": rep.name, "replicate_index": st.get("replicate_index"), "replaces": st.get("replaces"),
++        "status": st["status"], "failure_reason": st.get("failure_reason"),
+         "rounds_completed": st["rounds_completed"], "parse_failures": st.get("parse_failures"),
+         "provider_unknown_calls": st.get("provider_unknown_calls"), "calls": len(calls),
+         "errors": sum(1 for c in calls if c["error"]), "retried_calls": sum(1 for c in calls if c["attempts"] > 1),

@@ -1,0 +1,85 @@
+{
+  "run_id": "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c",
+  "kind": "episode_batch",
+  "stage": "stage2_gate",
+  "purpose": "Gate P2 (volume cell is low), first episode, index 1000 (human message 19)",
+  "command": "python -m sting.minimal_runner configs/stage2_gate/p2_4.1-low_silent.yaml --replicate-indices 1000 --purpose Gate P2 (volume cell is low), first episode, index 1000 (human message 19)",
+  "documented_utc": "2026-10-20T18:14:02Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "752667f142e37089cf370f31b78bdd1e5746d738",
+  "code_dirty": true,
+  "code_changes": [
+    " M scripts/stage1a_pilot_check.py",
+    " M sting/gates.py",
+    " M sting/stage2_analysis.py",
+    " M tests/test_stage2_analysis.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M prereg/PREREG.md",
+    " M prereg/stage2_message_and_judge.md",
+    " M results/INDEX.md",
+    " M scripts/stage1a_pilot_check.py",
+    " M sting/gates.py",
+    " M sting/stage2_analysis.py",
+    " M tests/test_stage2_analysis.py",
+    "?? results/runs/20261020T175425Z_gate_p1_4.1-high_offer_6d8e98/",
+    "?? results/runs/20261020T175830Z_gate_p1_4.1-high_offer_091b1e/",
+    "?? results/stage2_gate/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "790f559eb011213de736790f55ee4d3fea3281d371f626082e1e1271b9963668",
+  "output_files_sha256": {
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/calls.jsonl": "1eafdf513d6f2637f02995a89e39f8ac9fcc12d4e537a34f553d6fc73c092536",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/market_setup.json": "2e1b0f68a28281af28f1183e62ca221ef9a4d83f9c49a4860ce6ba2760bdbda8",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/status.json": "96dc0cdb7798589a211621c73ace759fae42dec5226f87b7cef46c919f82db8b",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/sting_log.json": "08f10a0dd776fc02b4eeebb96698bc0763d052e577fd41594776fa2d75ca3f44",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/auction_results.md": "e96e5e06d486d4597a4ff29a9d4bb0a8198043ec579dae46de4dfc97fcc5c8e3",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/Buyer A.md": "f074aa53d95bf918327d085c639b563358dae48ed7ed3954d477a93313b16b86",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/Buyer B.md": "d57d4e86e17e291eb0fa0b4d8bbf9e94590c6b46f96e39aee47a9c3cfe10cd55",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/Buyer C.md": "b42759c0fc8302e0a8ffaaa93884d30d413a41a58b603741a4b65d85de827ee7",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/experiment_metadata.json": "daaf117ac958d6b1922bcb316cb777627fbfa4ea41e065a5da5aea1f2f7417f3",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/Seller A.md": "117aa6a91148feb903e5c65dfd53f38afc52341e30eabd59fb2db0a50bc16779",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/Seller B.md": "b3c264fc425473d289b2d70b99400f4598a1ba8389f111d705ea380695fa5ca6",
+    "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000/upstream_logs/unified.log": "ea6ffbf8c0ecb3d8d8aea7305c065a343775f811d4b6e44af555d476fe6341da",
+    "run_config.json": "e3733c8d117200a9336cdf0ebc80341fbeea634698ee04a48699c68e4ddc250e",
+    "run_summary.json": "0696560f68d68dce21bf2fe5b7bdca32a2e3b54ec26614a6b8cc0dbbcae90a66"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000",
+      "replicate_index": 1000,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

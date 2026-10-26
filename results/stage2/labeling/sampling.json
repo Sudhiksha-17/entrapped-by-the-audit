@@ -1,0 +1,32 @@
+{
+  "n_items": 30,
+  "pool_per_stratum": {
+    "anchor|mini-low": 1320,
+    "directive|mini-low": 1320,
+    "offer|4.1-high": 1320,
+    "offer|4.1-low": 1320,
+    "offer|4.1-medium": 1320,
+    "offer|mini-low": 1320,
+    "rapport|mini-low": 1320,
+    "sham|mini-low": 1320
+  },
+  "sample_per_stratum": {
+    "anchor|mini-low": 4,
+    "directive|mini-low": 4,
+    "offer|4.1-high": 4,
+    "offer|4.1-low": 4,
+    "offer|4.1-medium": 4,
+    "offer|mini-low": 4,
+    "rapport|mini-low": 3,
+    "sham|mini-low": 3
+  },
+  "sample_in_rounds_11_15_offer": 8,
+  "campaign_logs": [
+    "runs\\stage2\\_campaigns\\20261021T162355Z_stage2_70c4ae\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T164833Z_stage2_606400\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T175655Z_stage2_e59ebe\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T190105Z_stage2_dd7c4c\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T201112Z_stage2_7a5139\\campaign.json"
+  ],
+  "sampling": "stratified_sample defaults (n=30, first_exposure_share=0.5, rounds 11-15, seed judge-validation); order seed judge-validation-order"
+}

@@ -1,0 +1,689 @@
+{
+  "campaign_id": "20261021T162355Z_stage2_70c4ae",
+  "arms": {
+    "mini-low_silent": {
+      "run_id": "20261021T162355Z_stage2_mini-low_silent_84bec2",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162355Z_stage2_mini-low_silent_84bec2_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": null,
+          "sting_messages_sent": [],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1-mini": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 344622,
+          "tokens_out": 49711,
+          "cost_usd": 0.2173864,
+          "estimated_cost_usd": 0.2384,
+          "wall_clock_s": 108.03,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "mini-low_sham": {
+      "run_id": "20261021T162355Z_stage2_mini-low_sham_ca4733",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162355Z_stage2_mini-low_sham_ca4733_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "S1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1-mini": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 346460,
+          "tokens_out": 49892,
+          "cost_usd": 0.2184112,
+          "estimated_cost_usd": 0.2384,
+          "wall_clock_s": 124.22,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "mini-low_anchor": {
+      "run_id": "20261021T162355Z_stage2_mini-low_anchor_66273e",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162355Z_stage2_mini-low_anchor_66273e_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "A1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1-mini": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 336075,
+          "tokens_out": 51028,
+          "cost_usd": 0.2160748,
+          "estimated_cost_usd": 0.2384,
+          "wall_clock_s": 116.23,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "mini-low_rapport": {
+      "run_id": "20261021T162355Z_stage2_mini-low_rapport_ee5b7b",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162355Z_stage2_mini-low_rapport_ee5b7b_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "R1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1-mini": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 335819,
+          "tokens_out": 50492,
+          "cost_usd": 0.2151148,
+          "estimated_cost_usd": 0.2384,
+          "wall_clock_s": 119.46,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "mini-low_directive": {
+      "run_id": "20261021T162356Z_stage2_mini-low_directive_29e56e",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162356Z_stage2_mini-low_directive_29e56e_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "D1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1-mini": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 327109,
+          "tokens_out": 52198,
+          "cost_usd": 0.2143604,
+          "estimated_cost_usd": 0.2384,
+          "wall_clock_s": 121.96,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "mini-low_offer": {
+      "run_id": "20261021T162356Z_stage2_mini-low_offer_de125e",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1-mini": {
+          "canonical_slug": "openai/gpt-4.1-mini-2025-04-14",
+          "created": 1744651381,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162356Z_stage2_mini-low_offer_de125e_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "O1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1-mini": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 343495,
+          "tokens_out": 52440,
+          "cost_usd": 0.221302,
+          "estimated_cost_usd": 0.2384,
+          "wall_clock_s": 127.57,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "4.1-low_silent": {
+      "run_id": "20261021T162356Z_stage2_4.1-low_silent_5edf4a",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162356Z_stage2_4.1-low_silent_5edf4a_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": null,
+          "sting_messages_sent": [],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 306063,
+          "tokens_out": 54954,
+          "cost_usd": 1.051758,
+          "estimated_cost_usd": 1.0705,
+          "wall_clock_s": 172.43,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "4.1-low_offer": {
+      "run_id": "20261021T162356Z_stage2_4.1-low_offer_88f7a2",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162356Z_stage2_4.1-low_offer_88f7a2_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "O1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 303367,
+          "tokens_out": 54532,
+          "cost_usd": 1.04299,
+          "estimated_cost_usd": 1.0705,
+          "wall_clock_s": 167.09,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "4.1-medium_silent": {
+      "run_id": "20261021T162356Z_stage2_4.1-medium_silent_817118",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162356Z_stage2_4.1-medium_silent_817118_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": null,
+          "sting_messages_sent": [],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 274978,
+          "tokens_out": 53734,
+          "cost_usd": 0.979828,
+          "estimated_cost_usd": 1.0705,
+          "wall_clock_s": 159.57,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "4.1-medium_offer": {
+      "run_id": "20261021T162357Z_stage2_4.1-medium_offer_47eced",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162357Z_stage2_4.1-medium_offer_47eced_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "O1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 270286,
+          "tokens_out": 55065,
+          "cost_usd": 0.981092,
+          "estimated_cost_usd": 1.0705,
+          "wall_clock_s": 168.14,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "4.1-high_silent": {
+      "run_id": "20261021T162357Z_stage2_4.1-high_silent_0691e7",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162357Z_stage2_4.1-high_silent_0691e7_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": null,
+          "sting_messages_sent": [],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 262141,
+          "tokens_out": 54133,
+          "cost_usd": 0.957346,
+          "estimated_cost_usd": 1.0623,
+          "wall_clock_s": 162.87,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    },
+    "4.1-high_offer": {
+      "run_id": "20261021T162357Z_stage2_4.1-high_offer_80d017",
+      "run_type": "confirmatory",
+      "frozen_prereg_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+      "frozen_lock_sha256": "1c2410c4699f8b958d993b4c9b868dda86b321aedd2482e614526435f63b8341",
+      "snapshots_start": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "snapshots_end": {
+        "openai/gpt-4.1": {
+          "canonical_slug": "openai/gpt-4.1-2025-04-14",
+          "created": 1744651385,
+          "expiration_date": null
+        }
+      },
+      "model_identity_flag": false,
+      "failures_by_reason": {},
+      "episodes": [
+        {
+          "replicate_id": "20261021T162357Z_stage2_4.1-high_offer_80d017_r000",
+          "status": "completed",
+          "failure_reason": null,
+          "rounds_completed": 30,
+          "parse_failures": 0,
+          "provider_unknown_calls": 0,
+          "calls": 150,
+          "errors": 0,
+          "retried_calls": 0,
+          "manipulation_check": {
+            "round": 11,
+            "passed": true,
+            "missing": []
+          },
+          "sting_messages_sent": [
+            "O1"
+          ],
+          "sting_rule_mismatch_rounds": 0,
+          "routed_providers": {
+            "OpenAI": 150
+          },
+          "returned_models": {
+            "openai/gpt-4.1": 150
+          },
+          "system_fingerprints": [
+            "None"
+          ],
+          "tokens_in": 257827,
+          "tokens_out": 53942,
+          "cost_usd": 0.94719,
+          "estimated_cost_usd": 1.0623,
+          "wall_clock_s": 143.55,
+          "upstream_log_error_lines": 0
+        }
+      ]
+    }
+  }
+}

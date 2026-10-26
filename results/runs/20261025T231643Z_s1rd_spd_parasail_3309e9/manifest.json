@@ -1,0 +1,81 @@
+{
+  "run_id": "20261025T231643Z_s1rd_spd_parasail_3309e9",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_speedtest",
+  "purpose": "Study 1R-D Cell B provider speed test (exploratory, index 2000; addendum 1; human message 88)",
+  "command": "python -m sting.minimal_runner configs/study1r_addon_D/speedtest/parasail_silent.yaml --purpose Study 1R-D Cell B provider speed test (exploratory, index 2000; addendum 1; human message 88) --replicate-indices 2000",
+  "documented_utc": "2026-10-25T23:21:38Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "5f6c6799454c8daf651ef2766c51da5422e0719b",
+  "code_dirty": true,
+  "code_changes": [
+    "?? scripts/make_study1rd_b2_configs.py",
+    "?? sting/study1rd_b2.py",
+    "?? tests/test_study1rd_b2.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261025T231643Z_s1rd_spd_gmicloud_0af0d0/",
+    "?? results/runs/20261025T231643Z_s1rd_spd_vertex_670ea1/",
+    "?? scripts/make_study1rd_b2_configs.py",
+    "?? sting/study1rd_b2.py",
+    "?? tests/test_study1rd_b2.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@parasail"
+  ],
+  "config_sha256": "8a245700833b24cb27c63f578225e9250310bea7e64c4b7564aaa51016970a2a",
+  "output_files_sha256": {
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/calls.jsonl": "8187bd7d3e5bd9e4fcfb42face04909f84c772e1703e2c8da64d47f9ca7611f3",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/market_setup.json": "be9faa0d1ca71e012b23d1fb88087a835572a6a5bb9437b689e0af140f5bd7b4",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/probe.json": "3f18cbbff01aa3faf73079698cd5f51121f1a183cd37b339ed6ffb8666334b43",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/status.json": "bc3426b90c412b175264c89303abe79b3836b77b5950ba83f5215b15c95f9e25",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/sting_log.json": "cc92ab45a0d218c6b69194abd0b07eca0b56efe9b7cfa76b321988405b26019e",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/auction_results.md": "934f85e3be28876bb927ba68b87ffc4c08e55f58b1c1fa0ed856bd220c0c75c5",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/Buyer A.md": "36c8040ba0de8de019d0938369128f918d42b68c7fbef6b7adaf21882fee0091",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/Buyer B.md": "1690fbef88316600becedb301c9876b08ea5a83cdcb66e39ddbbc9fbeff41515",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/Buyer C.md": "cc02f61e4b5ae34c20568772b6ca2b425156627f34b17892d0a68916cc9cbb36",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/experiment_metadata.json": "ab74c5bbb7ef4971168ed555b231bc380ccab97598b3c91b75296275e45076a3",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/Seller A.md": "41427b824e4af579c9e304677b26151643c80b7d0b9facb4058ebc263de3d889",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/Seller B.md": "b33140d51144ae13f34c2dd3dfa241814c1c2a5052c468e02f2d0a5f3de92daf",
+    "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000/upstream_logs/unified.log": "99e79fb938cee12b6a7e5714af8aab41e332c6d42e15e2d0afa3e983e0d43737",
+    "run_config.json": "291dbdc4db5ad46f4a8582ae3256e6facd100065bb3dc5067d83e63e6d2c1362",
+    "run_summary.json": "84005e351a5e4920312b727576a5c21c4247445c6577b8e40211371fa6e9d1d7"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T231643Z_s1rd_spd_parasail_3309e9_r2000",
+      "replicate_index": 2000,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

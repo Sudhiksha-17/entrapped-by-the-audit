@@ -1,0 +1,48 @@
+{
+  "campaigns": [
+    "runs\\study1r_addon_A\\_campaigns\\20261024T184841Z_study1r_addon_A_9b61e6\\campaign.json"
+  ],
+  "blocks_done": [
+    0
+  ],
+  "per_arm": {
+    "4.1-high_competitive": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 1.048142,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 1.037776,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 2.085918,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    }
+  },
+  "spent_usd": 2.085918,
+  "projected_total_usd": 68.8353,
+  "cap_usd": 76.49,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

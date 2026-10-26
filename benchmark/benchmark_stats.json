@@ -1,0 +1,75 @@
+{
+  "n": 224,
+  "by_source": {
+    "dev": 30,
+    "validation": 40,
+    "main_verification": 81,
+    "main_audit_flagged": 23,
+    "main_audit_unflagged": 50
+  },
+  "by_group": {
+    "mini": 30,
+    "volume": 102,
+    "CEO": 92
+  },
+  "by_arm": {
+    "offer": 214,
+    "sham": 10
+  },
+  "human_A_response": {
+    "counter": 20,
+    "ignored": 144,
+    "conditional_accept": 24,
+    "reject": 12,
+    "accept": 13,
+    "not_applicable": 10,
+    "noncommittal": 1
+  },
+  "human_B_response": {
+    "ignored": 11,
+    "counter": 23,
+    "reject": 9,
+    "conditional_accept": 14,
+    "accept": 5,
+    "not_applicable": 10
+  },
+  "gold_response": {
+    "ignored": 21,
+    "counter": 2,
+    "reject": 2,
+    "conditional_accept": 3,
+    "accept": 2,
+    "not_applicable": 10
+  },
+  "with_B": 72,
+  "with_gold": 40,
+  "judge_coverage": {
+    "judge_v1_allfields_response": 192,
+    "judge_v1_public_response": 194,
+    "judge_v2_response": 213
+  },
+  "group_by_source": {
+    "dev": {
+      "mini": 10,
+      "volume": 10,
+      "CEO": 10
+    },
+    "validation": {
+      "mini": 20,
+      "volume": 10,
+      "CEO": 10
+    },
+    "main_verification": {
+      "CEO": 36,
+      "volume": 45
+    },
+    "main_audit_flagged": {
+      "CEO": 14,
+      "volume": 9
+    },
+    "main_audit_unflagged": {
+      "volume": 28,
+      "CEO": 22
+    }
+  }
+}

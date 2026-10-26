@@ -1,0 +1,76 @@
+{
+  "run_id": "20261021T162356Z_stage2_mini-low_offer_de125e",
+  "kind": "episode_batch",
+  "stage": "stage2",
+  "purpose": "Stage 2 confirmatory, block 0 only (replicate index 0, all 12 arms), against frozen prereg 40d93a9 / lock 1c2410c4 (human message 24)",
+  "command": "python -m sting.stage2_runner configs/stage2/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Stage 2 confirmatory, block 0 only (replicate index 0, all 12 arms), against frozen prereg 40d93a9 / lock 1c2410c4 (human message 24)",
+  "documented_utc": "2026-10-21T16:32:00Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "40d93a974195a95ba006bfaf75b57eb2479cd5a1",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_anchor_66273e/",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_rapport_ee5b7b/",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_sham_ca4733/",
+    "?? results/runs/20261021T162355Z_stage2_mini-low_silent_84bec2/",
+    "?? results/runs/20261021T162356Z_stage2_mini-low_directive_29e56e/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "423c9ea197e6c4e5ca56438c03f684bf2ee30791f87999a3c0a627660f7091ff",
+  "output_files_sha256": {
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/calls.jsonl": "7520331a931c961c168495bba02a28e7ecc187bf35d796c6c2a68e45df6259da",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/market_setup.json": "ddfcbdf1ce1b8706078faea838718db052995f8e118b0b555a07c956789e71a5",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/status.json": "9387edef78e9cdc824a010e5ef597e795668125ff25bcffd1b70ab37afe02454",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/sting_log.json": "087ef28103dbb618af6c2c7532e33f4710517e347cd4881af557c1341996ca87",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/auction_results.md": "5b45f3d9a6e9314e8fd7c99e98d3f2a70994a446d95bcb83d6022e19accc9858",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/Buyer A.md": "cfe76f6b34a364110bbd2ed9721ce684e4734cfb97eb11fd42e1e0f6eab23da2",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/Buyer B.md": "26f7a91cbb5f0e1b6f92663766e4c1bc82161b7b22cb1e1cd032853fcbdfaf29",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/Buyer C.md": "e5d69017e781e63ccd9474927f929565bd1f4775d710ef27beefaae061e4e7e1",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/experiment_metadata.json": "35828e038b753391c496f9de94c2ddcc0c694bacd354bd0380105c8e8d295cbe",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/Seller A.md": "3b1afbd4b0c58e669955ad5debd539febbcb0c0e65e9df02004e58c3aeba266b",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/Seller B.md": "3f69212da9da8946e7e382b10553fdd93622c60720ec6ae10bf62ca8b62cf51c",
+    "20261021T162356Z_stage2_mini-low_offer_de125e_r000/upstream_logs/unified.log": "e3fec2eefdc496f26984b7d24a5db4cf8929f6aae723af0039e01eb0c49dea14",
+    "run_config.json": "9a73422af83f624626137f3a797a74ef0b5de3caac29d53dfe056f5bd8850499",
+    "run_summary.json": "fb36f4056053bdd7f355d8fceaf19a507d2a1a0c6467894f7cdf170d8eede801"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261021T162356Z_stage2_mini-low_offer_de125e_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Stage 2 judge settings (prereg/stage2_message_and_judge.md section 3: gpt-4.1-mini, temperature 0, JSON mode on).
+model: {provider: openrouter, model: openai/gpt-4.1-mini, openrouter_provider: openai, json_mode: true}
+temperature: 0.0
+max_tokens: 4000            # not set by the spec; upstream default (DECISIONS D-065)
+retry: {max_attempts: 5, base_delay_s: 1.0, max_delay_s: 30.0}
+max_attempts_total: 20000   # guard per judge run
+# Cost estimate inputs (planning only; OpenRouter-reported cost is recorded per call).
+price_in_per_m: 0.40        # openai/gpt-4.1-mini, OpenRouter list price fetched 2026-10-17T07:16Z
+price_out_per_m: 1.60
+chars_per_token: 4.0        # rough English average; replaced by measured values after the first real judge run
+expected_output_tokens: 150
+margin: 1.25

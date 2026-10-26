@@ -1,0 +1,380 @@
+{
+  "items": 10560,
+  "valid": 10521,
+  "no_proposal": {
+    "engaged": 14,
+    "valid": 14,
+    "total": 14,
+    "responses": {
+      "counter": 1,
+      "accept": 12,
+      "noncommittal": 1
+    },
+    "items": [
+      {
+        "sample": "labeling_key",
+        "item": "item01",
+        "arm": "anchor",
+        "round": 19,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "counter"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item02",
+        "arm": "rapport",
+        "round": 26,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item03",
+        "arm": "anchor",
+        "round": 17,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item08",
+        "arm": "anchor",
+        "round": 28,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item10",
+        "arm": "rapport",
+        "round": 22,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item20",
+        "arm": "sham",
+        "round": 13,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item22",
+        "arm": "anchor",
+        "round": 21,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item23",
+        "arm": "sham",
+        "round": 12,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item28",
+        "arm": "rapport",
+        "round": 22,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_key",
+        "item": "item29",
+        "arm": "sham",
+        "round": 11,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_supp_key",
+        "item": "item02",
+        "arm": "sham",
+        "round": 11,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_supp_key",
+        "item": "item20",
+        "arm": "anchor",
+        "round": 11,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_supp_key",
+        "item": "item22",
+        "arm": "rapport",
+        "round": 11,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "accept"
+      },
+      {
+        "sample": "labeling_supp_key",
+        "item": "item25",
+        "arm": "anchor",
+        "round": 11,
+        "status": "ok",
+        "engaged": "yes",
+        "response": "noncommittal"
+      }
+    ]
+  },
+  "engaged_r11": [
+    517,
+    524
+  ],
+  "engaged_r12_30": [
+    9886,
+    9997
+  ],
+  "engaged_by_arm": {
+    "sham": {
+      "r11": [
+        65,
+        66
+      ],
+      "r12_30": [
+        1202,
+        1254
+      ]
+    },
+    "anchor": {
+      "r11": [
+        65,
+        66
+      ],
+      "r12_30": [
+        1240,
+        1249
+      ]
+    },
+    "rapport": {
+      "r11": [
+        65,
+        66
+      ],
+      "r12_30": [
+        1235,
+        1253
+      ]
+    },
+    "directive": {
+      "r11": [
+        62,
+        66
+      ],
+      "r12_30": [
+        1225,
+        1254
+      ]
+    },
+    "offer": {
+      "r11": [
+        260,
+        260
+      ],
+      "r12_30": [
+        4984,
+        4987
+      ]
+    }
+  },
+  "engaged_by_round": {
+    "11": [
+      517,
+      524
+    ],
+    "12": [
+      522,
+      527
+    ],
+    "13": [
+      521,
+      524
+    ],
+    "14": [
+      520,
+      525
+    ],
+    "15": [
+      525,
+      528
+    ],
+    "16": [
+      520,
+      527
+    ],
+    "17": [
+      518,
+      524
+    ],
+    "18": [
+      524,
+      525
+    ],
+    "19": [
+      521,
+      527
+    ],
+    "20": [
+      522,
+      526
+    ],
+    "21": [
+      520,
+      527
+    ],
+    "22": [
+      520,
+      525
+    ],
+    "23": [
+      518,
+      527
+    ],
+    "24": [
+      515,
+      526
+    ],
+    "25": [
+      521,
+      526
+    ],
+    "26": [
+      518,
+      527
+    ],
+    "27": [
+      522,
+      527
+    ],
+    "28": [
+      517,
+      524
+    ],
+    "29": [
+      522,
+      527
+    ],
+    "30": [
+      520,
+      528
+    ]
+  },
+  "invalid_by_arm": {
+    "4.1-high_offer": [
+      10,
+      1320
+    ],
+    "4.1-low_offer": [
+      7,
+      1320
+    ],
+    "4.1-medium_offer": [
+      15,
+      1320
+    ],
+    "mini-low_anchor": [
+      5,
+      1320
+    ],
+    "mini-low_directive": [
+      0,
+      1320
+    ],
+    "mini-low_offer": [
+      1,
+      1320
+    ],
+    "mini-low_rapport": [
+      1,
+      1320
+    ],
+    "mini-low_sham": [
+      0,
+      1320
+    ]
+  },
+  "names_seller_c": {
+    "r11|all": [
+      528,
+      1,
+      300
+    ],
+    "r11|anchor": [
+      66,
+      0,
+      49
+    ],
+    "r11|directive": [
+      66,
+      0,
+      49
+    ],
+    "r11|offer": [
+      264,
+      1,
+      132
+    ],
+    "r11|rapport": [
+      66,
+      0,
+      37
+    ],
+    "r11|sham": [
+      66,
+      0,
+      33
+    ],
+    "r12_30|all": [
+      10032,
+      444,
+      6473
+    ],
+    "r12_30|anchor": [
+      1254,
+      40,
+      1082
+    ],
+    "r12_30|directive": [
+      1254,
+      0,
+      1086
+    ],
+    "r12_30|offer": [
+      5016,
+      400,
+      2944
+    ],
+    "r12_30|rapport": [
+      1254,
+      0,
+      728
+    ],
+    "r12_30|sham": [
+      1254,
+      4,
+      633
+    ]
+  }
+}

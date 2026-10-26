@@ -1,0 +1,16 @@
+{
+  "cells": [
+    "4.1-low",
+    "4.1-high"
+  ],
+  "offer_episodes": 66,
+  "offer_messages": 2640,
+  "screener_missing": 14,
+  "verification": 162,
+  "screener_negative_flagged": 227,
+  "screener_negative_unflagged": 2251,
+  "audit_flagged": 23,
+  "audit_unflagged": 50,
+  "labeler_a_items": 235,
+  "labeler_b_items": 32
+}

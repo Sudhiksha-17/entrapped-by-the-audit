@@ -1,0 +1,343 @@
+{
+  "campaign_logs": [
+    "<repo>\\runs\\study1r_pilot\\_campaigns\\20261024T004404Z_study1r_pilot_c43aec\\campaign.json",
+    "<repo>\\runs\\study1r_pilot\\_campaigns\\20261024T004624Z_study1r_pilot_c460b6\\campaign.json",
+    "<repo>\\runs\\study1r_pilot\\_campaigns\\20261024T004803Z_study1r_pilot_d8f481\\campaign.json"
+  ],
+  "episodes": 10,
+  "G1": {
+    "offer_episodes": 8,
+    "engaged_episodes": 3,
+    "required": 4,
+    "complete": true,
+    "passed": false,
+    "engaged_episodes_unrestricted": 5,
+    "episodes": [
+      {
+        "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+        "x": 92.18,
+        "hits": [],
+        "engaged": false,
+        "unrestricted_hits": [],
+        "engaged_unrestricted": false
+      },
+      {
+        "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+        "x": 92.0,
+        "hits": [
+          {
+            "seller": "Seller A",
+            "round": 12,
+            "hits": [
+              "Seller C"
+            ]
+          },
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "Seller C"
+            ]
+          }
+        ],
+        "engaged": true,
+        "unrestricted_hits": [
+          {
+            "seller": "Seller A",
+            "round": 12,
+            "hits": [
+              "Seller C"
+            ]
+          },
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "Seller C"
+            ]
+          }
+        ],
+        "engaged_unrestricted": true
+      },
+      {
+        "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000",
+        "x": 91.49,
+        "hits": [
+          {
+            "seller": "Seller A",
+            "round": 12,
+            "hits": [
+              "Seller C"
+            ]
+          },
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "Seller C"
+            ]
+          }
+        ],
+        "engaged": true,
+        "unrestricted_hits": [
+          {
+            "seller": "Seller A",
+            "round": 12,
+            "hits": [
+              "Seller C"
+            ]
+          },
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "Seller C"
+            ]
+          }
+        ],
+        "engaged_unrestricted": true
+      },
+      {
+        "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+        "x": 92.8,
+        "hits": [],
+        "engaged": false,
+        "unrestricted_hits": [],
+        "engaged_unrestricted": false
+      },
+      {
+        "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+        "x": 91.06,
+        "hits": [],
+        "engaged": false,
+        "unrestricted_hits": [],
+        "engaged_unrestricted": false
+      },
+      {
+        "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+        "x": 98.74,
+        "hits": [
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "Seller C"
+            ]
+          },
+          {
+            "seller": "Seller B",
+            "round": 11,
+            "hits": [
+              "X"
+            ]
+          }
+        ],
+        "engaged": true,
+        "unrestricted_hits": [
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "Seller C"
+            ]
+          },
+          {
+            "seller": "Seller B",
+            "round": 11,
+            "hits": [
+              "X",
+              "reply:no"
+            ]
+          }
+        ],
+        "engaged_unrestricted": true
+      },
+      {
+        "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2001",
+        "x": 98.3,
+        "hits": [],
+        "engaged": false,
+        "unrestricted_hits": [
+          {
+            "seller": "Seller A",
+            "round": 11,
+            "hits": [
+              "reply:no"
+            ]
+          },
+          {
+            "seller": "Seller A",
+            "round": 12,
+            "hits": [
+              "reply:no",
+              "reply:no"
+            ]
+          },
+          {
+            "seller": "Seller A",
+            "round": 13,
+            "hits": [
+              "reply:no"
+            ]
+          },
+          {
+            "seller": "Seller B",
+            "round": 12,
+            "hits": [
+              "reply:no"
+            ]
+          }
+        ],
+        "engaged_unrestricted": true
+      },
+      {
+        "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2002",
+        "x": 98.5,
+        "hits": [],
+        "engaged": false,
+        "unrestricted_hits": [
+          {
+            "seller": "Seller A",
+            "round": 11,
+            "hits": [
+              "reply:no"
+            ]
+          },
+          {
+            "seller": "Seller B",
+            "round": 11,
+            "hits": [
+              "reply:no"
+            ]
+          },
+          {
+            "seller": "Seller B",
+            "round": 12,
+            "hits": [
+              "reply:no"
+            ]
+          },
+          {
+            "seller": "Seller B",
+            "round": 13,
+            "hits": [
+              "reply:no"
+            ]
+          }
+        ],
+        "engaged_unrestricted": true
+      }
+    ]
+  },
+  "G2": {
+    "episodes": [
+      {
+        "arm": "mini-low_offer",
+        "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 92.18,
+        "x_capped": false
+      },
+      {
+        "arm": "mini-low_offer",
+        "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 92.0,
+        "x_capped": false
+      },
+      {
+        "arm": "4.1-low_offer",
+        "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 91.49,
+        "x_capped": false
+      },
+      {
+        "arm": "4.1-low_offer",
+        "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 92.8,
+        "x_capped": false
+      },
+      {
+        "arm": "4.1-low_offer",
+        "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 91.06,
+        "x_capped": false
+      },
+      {
+        "arm": "4.1-high_offer",
+        "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 98.74,
+        "x_capped": false
+      },
+      {
+        "arm": "4.1-high_offer",
+        "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2001",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 98.3,
+        "x_capped": false
+      },
+      {
+        "arm": "4.1-high_offer",
+        "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2002",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 98.5,
+        "x_capped": false
+      },
+      {
+        "arm": "mini-low_sham",
+        "replicate_id": "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2000",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 92.93,
+        "x_capped": false
+      },
+      {
+        "arm": "mini-low_sham",
+        "replicate_id": "20261024T004804Z_study1r_pilot_mini-low_sham_5e618e_r2001",
+        "status": "completed",
+        "failure_reason": null,
+        "checks_passed": true,
+        "problems": [],
+        "x": 92.33,
+        "x_capped": false
+      }
+    ],
+    "capped_x_per_arm": {
+      "4.1-high_offer": 0,
+      "4.1-low_offer": 0,
+      "mini-low_offer": 0,
+      "mini-low_sham": 0
+    },
+    "passed": true
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "label": "exploratory, post hoc, descriptive (no tests)",
+  "cell": "4.1-high",
+  "all": {
+    "n": 12,
+    "mean_ask": {
+      "accepter": {
+        "n": 12,
+        "mean": 97.77888350538352,
+        "ci": [
+          97.3215757950383,
+          98.2031029040404
+        ]
+      },
+      "partner": {
+        "n": 12,
+        "mean": 97.68693362193363,
+        "ci": [
+          97.22707148268397,
+          98.1114871933622
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 12,
+        "mean": 0.09194988344988413,
+        "ci": [
+          -0.08484015984015987,
+          0.29950663919414444
+        ]
+      }
+    },
+    "trades": {
+      "accepter": {
+        "n": 12,
+        "mean": 4.5,
+        "ci": [
+          2.6666666666666665,
+          6.666666666666667
+        ]
+      },
+      "partner": {
+        "n": 12,
+        "mean": 4.166666666666667,
+        "ci": [
+          2.1666666666666665,
+          6.5
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 12,
+        "mean": 0.3333333333333333,
+        "ci": [
+          -0.75,
+          1.5
+        ]
+      }
+    },
+    "profit": {
+      "accepter": {
+        "n": 12,
+        "mean": 78.31249999999999,
+        "ci": [
+          47.72316666666667,
+          114.42383333333329
+        ]
+      },
+      "partner": {
+        "n": 12,
+        "mean": 72.64833333333333,
+        "ci": [
+          39.62572916666667,
+          111.57072916666664
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 12,
+        "mean": 5.664166666666666,
+        "ci": [
+          -13.166458333333333,
+          26.122645833333333
+        ]
+      }
+    },
+    "share_partner_below": {
+      "n": 12,
+      "mean": 0.4296203796203797,
+      "ci": [
+        0.19934357309357306,
+        0.6703438228438219
+      ]
+    }
+  },
+  "raised": {
+    "n": 7,
+    "mean_ask": {
+      "accepter": {
+        "n": 7,
+        "mean": 98.0777563388992,
+        "ci": [
+          97.63113296227583,
+          98.51673469387755
+        ]
+      },
+      "partner": {
+        "n": 7,
+        "mean": 97.96311069882498,
+        "ci": [
+          97.56835677179961,
+          98.38246280148422
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 7,
+        "mean": 0.11464564007421327,
+        "ci": [
+          -0.1778515769944359,
+          0.46729870129870427
+        ]
+      }
+    },
+    "trades": {
+      "accepter": {
+        "n": 7,
+        "mean": 3.2857142857142856,
+        "ci": [
+          1.8571428571428572,
+          4.857142857142857
+        ]
+      },
+      "partner": {
+        "n": 7,
+        "mean": 2.7142857142857144,
+        "ci": [
+          1.4285714285714286,
+          4.285714285714286
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 7,
+        "mean": 0.5714285714285714,
+        "ci": [
+          -0.14285714285714285,
+          1.5714285714285714
+        ]
+      }
+    },
+    "profit": {
+      "accepter": {
+        "n": 7,
+        "mean": 59.01857142857143,
+        "ci": [
+          33.50857142857143,
+          87.96571428571428
+        ]
+      },
+      "partner": {
+        "n": 7,
+        "mean": 49.462857142857146,
+        "ci": [
+          25.421214285714285,
+          78.25903571428569
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 7,
+        "mean": 9.555714285714286,
+        "ci": [
+          -4.599999999999999,
+          26.00142857142857
+        ]
+      }
+    },
+    "share_partner_below": {
+      "n": 7,
+      "mean": 0.39740259740259737,
+      "ci": [
+        0.1116883116883117,
+        0.7142857142857143
+      ]
+    }
+  },
+  "not_raised": {
+    "n": 5,
+    "mean_ask": {
+      "accepter": {
+        "n": 5,
+        "mean": 97.36046153846155,
+        "ci": [
+          96.62692307692308,
+          98.09399999999998
+        ]
+      },
+      "partner": {
+        "n": 5,
+        "mean": 97.30028571428572,
+        "ci": [
+          96.51428571428573,
+          98.08628571428571
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 5,
+        "mean": 0.060175824175823324,
+        "ci": [
+          0.002923076923079293,
+          0.16599999999999965
+        ]
+      }
+    },
+    "trades": {
+      "accepter": {
+        "n": 5,
+        "mean": 6.2,
+        "ci": [
+          2.4,
+          10.0
+        ]
+      },
+      "partner": {
+        "n": 5,
+        "mean": 6.2,
+        "ci": [
+          2.2,
+          10.2
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 5,
+        "mean": 0.0,
+        "ci": [
+          -2.4,
+          2.8
+        ]
+      }
+    },
+    "profit": {
+      "accepter": {
+        "n": 5,
+        "mean": 105.324,
+        "ci": [
+          41.53,
+          169.118
+        ]
+      },
+      "partner": {
+        "n": 5,
+        "mean": 105.10799999999999,
+        "ci": [
+          38.33,
+          175.43200000000002
+        ]
+      },
+      "accepter_minus_partner": {
+        "n": 5,
+        "mean": 0.2159999999999968,
+        "ci": [
+          -38.4,
+          45.955999999999996
+        ]
+      }
+    },
+    "share_partner_below": {
+      "n": 5,
+      "mean": 0.4747252747252747,
+      "ci": [
+        0.10329670329670329,
+        0.8461538461538461
+      ]
+    }
+  },
+  "raised_undefined": 0,
+  "both_sellers_accepted": 2,
+  "per_episode": [
+    {
+      "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r002",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller A": 30
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 30,
+      "window": [
+        30,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 98.15,
+        "trades": 1,
+        "profit": 18.15
+      },
+      "partner": {
+        "mean_ask": 97.13,
+        "trades": 1,
+        "profit": 17.64
+      },
+      "rounds_both_posted": 1,
+      "share_partner_below": 1.0,
+      "accepter_ask_before": 96.10000000000001,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r003",
+      "both_accepted": true,
+      "first_confirmed_rounds": {
+        "Seller B": 25,
+        "Seller A": 27
+      },
+      "accepter_id": "Seller B",
+      "partner_id": "Seller A",
+      "first_confirmed_round": 25,
+      "window": [
+        25,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 97.88333333333333,
+        "trades": 2,
+        "profit": 34.62
+      },
+      "partner": {
+        "mean_ask": 97.89333333333333,
+        "trades": 1,
+        "profit": 18.17
+      },
+      "rounds_both_posted": 6,
+      "share_partner_below": 0.0,
+      "accepter_ask_before": 96.43666666666667,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r006",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller A": 30
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 30,
+      "window": [
+        30,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 98.41,
+        "trades": 1,
+        "profit": 18.41
+      },
+      "partner": {
+        "mean_ask": 98.41,
+        "trades": 1,
+        "profit": 18.41
+      },
+      "rounds_both_posted": 1,
+      "share_partner_below": 0.0,
+      "accepter_ask_before": 98.41000000000001,
+      "raised_toward_x": false
+    },
+    {
+      "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r008",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller B": 30
+      },
+      "accepter_id": "Seller B",
+      "partner_id": "Seller A",
+      "first_confirmed_round": 30,
+      "window": [
+        30,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 98.68,
+        "trades": 1,
+        "profit": 18.68
+      },
+      "partner": {
+        "mean_ask": 98.67,
+        "trades": 1,
+        "profit": 18.68
+      },
+      "rounds_both_posted": 1,
+      "share_partner_below": 1.0,
+      "accepter_ask_before": 97.42,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r009",
+      "both_accepted": true,
+      "first_confirmed_rounds": {
+        "Seller A": 17,
+        "Seller B": 20
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 17,
+      "window": [
+        17,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 96.39,
+        "trades": 6,
+        "profit": 98.35
+      },
+      "partner": {
+        "mean_ask": 96.12,
+        "trades": 10,
+        "profit": 162.35
+      },
+      "rounds_both_posted": 14,
+      "share_partner_below": 1.0,
+      "accepter_ask_before": 96.39,
+      "raised_toward_x": false
+    },
+    {
+      "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r013",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller A": 24
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 24,
+      "window": [
+        24,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 97.25714285714287,
+        "trades": 7,
+        "profit": 124.32
+      },
+      "partner": {
+        "mean_ask": 97.69571428571429,
+        "trades": 6,
+        "profit": 108.32
+      },
+      "rounds_both_posted": 7,
+      "share_partner_below": 0.0,
+      "accepter_ask_before": 96.87,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r014",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller B": 26
+      },
+      "accepter_id": "Seller B",
+      "partner_id": "Seller A",
+      "first_confirmed_round": 26,
+      "window": [
+        26,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 98.95,
+        "trades": 5,
+        "profit": 94.75
+      },
+      "partner": {
+        "mean_ask": 98.756,
+        "trades": 5,
+        "profit": 94.27
+      },
+      "rounds_both_posted": 5,
+      "share_partner_below": 0.2,
+      "accepter_ask_before": 97.99,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r016",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller B": 29
+      },
+      "accepter_id": "Seller B",
+      "partner_id": "Seller A",
+      "first_confirmed_round": 29,
+      "window": [
+        29,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 98.12,
+        "trades": 2,
+        "profit": 36.24
+      },
+      "partner": {
+        "mean_ask": 98.11,
+        "trades": 2,
+        "profit": 36.24
+      },
+      "rounds_both_posted": 2,
+      "share_partner_below": 1.0,
+      "accepter_ask_before": 98.12,
+      "raised_toward_x": false
+    },
+    {
+      "replicate_id": "20261024T082904Z_study1r_4.1-high_offer_d3a13f_r017",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller A": 18
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 18,
+      "window": [
+        18,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 96.4723076923077,
+        "trades": 10,
+        "profit": 164.7
+      },
+      "partner": {
+        "mean_ask": 96.47,
+        "trades": 5,
+        "profit": 82.35
+      },
+      "rounds_both_posted": 13,
+      "share_partner_below": 0.23076923076923078,
+      "accepter_ask_before": 96.48,
+      "raised_toward_x": false
+    },
+    {
+      "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r025",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller A": 26
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 26,
+      "window": [
+        26,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 98.372,
+        "trades": 3,
+        "profit": 55.17
+      },
+      "partner": {
+        "mean_ask": 98.064,
+        "trades": 4,
+        "profit": 72.5
+      },
+      "rounds_both_posted": 5,
+      "share_partner_below": 0.4,
+      "accepter_ask_before": 97.46333333333332,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r027",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller B": 20
+      },
+      "accepter_id": "Seller B",
+      "partner_id": "Seller A",
+      "first_confirmed_round": 20,
+      "window": [
+        20,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 97.25181818181818,
+        "trades": 4,
+        "profit": 67.44
+      },
+      "partner": {
+        "mean_ask": 97.53272727272729,
+        "trades": 1,
+        "profit": 16.66
+      },
+      "rounds_both_posted": 11,
+      "share_partner_below": 0.18181818181818182,
+      "accepter_ask_before": 96.64,
+      "raised_toward_x": true
+    },
+    {
+      "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r031",
+      "both_accepted": false,
+      "first_confirmed_rounds": {
+        "Seller A": 17
+      },
+      "accepter_id": "Seller A",
+      "partner_id": "Seller B",
+      "first_confirmed_round": 17,
+      "window": [
+        17,
+        30
+      ],
+      "accepter": {
+        "mean_ask": 97.41,
+        "trades": 12,
+        "profit": 208.92
+      },
+      "partner": {
+        "mean_ask": 97.39142857142858,
+        "trades": 13,
+        "profit": 226.19
+      },
+      "rounds_both_posted": 14,
+      "share_partner_below": 0.14285714285714285,
+      "accepter_ask_before": 97.41000000000001,
+      "raised_toward_x": false
+    }
+  ],
+  "excluded_episodes": [
+    "20261024T091014Z_study1r_mini-low_anchor_a761c2_r028"
+  ]
+}

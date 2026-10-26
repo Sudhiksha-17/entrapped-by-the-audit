@@ -1,0 +1,67 @@
+{
+  "run_id": "20261026T011908Z_judge_study1r_v1_public_offer_f86066",
+  "kind": "judge",
+  "stage": "judge:study1r",
+  "purpose": "Exploratory robustness: judge v1 on public messages only (study1r_v1_public_offer; human message 93)",
+  "command": "run_judge()",
+  "documented_utc": "2026-10-26T03:35:50Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "80b3614d0f8da92d2900581db127924bd0709861",
+  "code_dirty": true,
+  "code_changes": [
+    " M scripts/build_release.py",
+    "?? scripts/benchmark/",
+    "?? scripts/benchmark_finalize.py",
+    "?? scripts/build_benchmark.py",
+    "?? scripts/study1r_judge_v1_public_results.py",
+    "?? tests/test_benchmark_score.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M .gitignore",
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M scripts/build_release.py",
+    "?? results/runs/20261026T011748Z_judge_study1r_v1_public_validation_a4b0fa/",
+    "?? scripts/benchmark/",
+    "?? scripts/benchmark_finalize.py",
+    "?? scripts/build_benchmark.py",
+    "?? scripts/study1r_judge_v1_public_results.py",
+    "?? tests/test_benchmark_score.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "76ede7f970487e0c75fefebacb080b5fb92b2e38446d283009ef76d9e62822cb",
+    "judge_run.json": "d00d6387442abca59c678ae6e9f627c9e834733edd64d6baa50532c9823b95d2",
+    "judge_summary.json": "555c43c7fe48609e8deb9fbcc2d6b4c3c1f1af3a74f601c21781736b1e229110",
+    "labels.jsonl": "bf470bdee6182dd3f912a67f81f0471e9e899647b1ab2794946c4008878267de"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  }
+}

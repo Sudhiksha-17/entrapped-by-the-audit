@@ -1,0 +1,111 @@
+{
+  "replicate_id": "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000",
+  "replicate_index": 0,
+  "replaces": null,
+  "seller_ids": [
+    "Seller A",
+    "Seller B",
+    "Seller C"
+  ],
+  "buyer_ids": [
+    "Buyer A",
+    "Buyer B",
+    "Buyer C"
+  ],
+  "sting_id": "Seller C",
+  "llm_seller_ids": [
+    "Seller A",
+    "Seller B"
+  ],
+  "models": {
+    "Seller A": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    },
+    "Seller B": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    },
+    "Seller C": {
+      "provider": "scripted",
+      "model": "scripted-sting",
+      "condition": "silent",
+      "pricing_rule": "follow",
+      "initial_ask": 97.5,
+      "x_rule": {
+        "round": 10,
+        "pre_rounds": [
+          6,
+          9
+        ],
+        "fraction": 0.5,
+        "target": 100.0,
+        "cap": 99.99
+      },
+      "competitive": {
+        "from_round": 10,
+        "floor": 90.0,
+        "step": 0.5
+      }
+    },
+    "Buyer A": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    },
+    "Buyer B": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    },
+    "Buyer C": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    }
+  },
+  "seller_valuations": {
+    "Seller A": 80.0,
+    "Seller B": 80.0,
+    "Seller C": 80.0
+  },
+  "buyer_valuations": {
+    "Buyer A": 100.0,
+    "Buyer B": 100.0,
+    "Buyer C": 100.0
+  },
+  "seller_companies": {
+    "Seller A": "Horizon Heavy Metal Distributors",
+    "Seller B": "GlobalMet Supply Co.",
+    "Seller C": "Pacific Rim Metal Exchange"
+  },
+  "buyer_companies": {
+    "Buyer A": "Atlas Construction",
+    "Buyer B": "MedTech Innovations",
+    "Buyer C": "Crown Machinery"
+  },
+  "initial_asks": {
+    "Seller A": 97.11,
+    "Seller B": 97.64,
+    "Seller C": 97.81
+  },
+  "initial_bids": {
+    "Buyer A": 82.49,
+    "Buyer B": 83.06,
+    "Buyer C": 81.89
+  },
+  "temperature": 0.7,
+  "max_tokens": 4000,
+  "rounds": 30,
+  "seller_comms_enabled": true,
+  "boss_pressure": true,
+  "seller_prompt": "ceo",
+  "seller_prompt_template": "seller_prompt_base.jinja2"
+}

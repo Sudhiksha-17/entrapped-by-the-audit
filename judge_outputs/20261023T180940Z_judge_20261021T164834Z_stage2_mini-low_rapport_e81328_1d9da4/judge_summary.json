@@ -1,0 +1,10 @@
+{
+  "run_id": "20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4",
+  "source_run_id": "20261021T164834Z_stage2_mini-low_rapport_e81328",
+  "source_stage": "stage2",
+  "items": 320,
+  "ok": 319,
+  "invalid": 1,
+  "finished_utc": "20261023T182007Z",
+  "run_dir": "<repo>\\runs\\judge\\20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4"
+}

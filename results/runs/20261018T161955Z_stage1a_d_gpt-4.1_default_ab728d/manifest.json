@@ -1,0 +1,66 @@
+{
+  "run_id": "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Step B 1-episode pilot, arm d_gpt-4.1_default, index 0 (human message 14)",
+  "command": "python -m sting.minimal_runner configs/stage1a_d_gpt-4.1_default.yaml --replicate-indices 0 --purpose Step B 1-episode pilot, arm d_gpt-4.1_default, index 0 (human message 14)",
+  "documented_utc": "2026-10-18T16:21:55Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "2852c35eece497497c2fd64eaaca00c639f6336a",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "229b23a0ddb15d9c4bda81cd96dc76e2a9b3fcc51534f236083377f2b719e45d",
+  "output_files_sha256": {
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/calls.jsonl": "8d4bba4000999002b620d7809f038fde4d37a28b6533c948d92d31811f5b148e",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/market_setup.json": "1c7e0322168a3c6c1032e0e61477194b5c97a557f62e0fe186b50ab4cf7b5def",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/status.json": "58acbe8de8dcfa847838b0870ae715251c0cd53f6be09c58481815130db65e6a",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/sting_log.json": "19825c1e9a53a6e912e1fa9b2679daf483705d2e0adb915659aa87e69de82c64",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/auction_results.md": "2fd56bdcc2d9626107fa626acec2efec9e227ec3b68cb4eeedbf486d8e9e4d4c",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/Buyer A.md": "d1972b782f4f33e4abd422963a08442915b77bca111d23f35d4bee4a692318b4",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/Buyer B.md": "76ef8a2c6cf970385bf8e2139cd706b14551ea0110c3e85a45377f3fa59fc085",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/Buyer C.md": "055728376ddbcfe8e272e9cffffff5546e1f622952fad6bde9ce1023171c8a30",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/experiment_metadata.json": "cf29a29a2fce30573c616d6b83f5a39813d80fe9e4158b0f56f7c75d84ee3862",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/Seller A.md": "637846b43def4973f6906aa1a06a64bf5240b5fea705e041bb4a12ff868ba298",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/Seller B.md": "00ab6ff14fb9a9e034d3d47e909e88a0c23b828cf6b482205e9927d570e7dad1",
+    "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000/upstream_logs/unified.log": "d34c7f3f139ff9f7b18dbc101b2a9e48e4e49a5a1b50cff48a7d8d04e58daa00",
+    "run_config.json": "98cf8bb14d08df6e3c37477924efa97d5ed7fa87ae1c11b22010ec0a58e6e441",
+    "run_summary.json": "bcf9a635d2770592bd37c4a66cbdcb15b77d5255d5d0cfe0cd79e2486529692d"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

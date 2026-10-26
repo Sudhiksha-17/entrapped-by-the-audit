@@ -1,0 +1,10 @@
+{
+  "run_id": "20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897",
+  "source_run_id": "20261021T201115Z_stage2_4.1-high_offer_fed595",
+  "source_stage": "stage2",
+  "items": 320,
+  "ok": 318,
+  "invalid": 2,
+  "finished_utc": "20261023T190617Z",
+  "run_dir": "<repo>\\runs\\judge\\20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897"
+}

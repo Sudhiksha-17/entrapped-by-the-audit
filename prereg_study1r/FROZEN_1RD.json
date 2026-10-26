@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-25T21:32:26Z",
+  "git_commit": "7c34bed593f905a963edfe761479cca3e22759b8",
+  "campaign": "configs/study1r_addon_D/campaign.yaml",
+  "campaigns": [
+    "configs/study1r_addon_D/campaign.yaml"
+  ],
+  "study1r_lock_sha256": "155b577490adcc206afbebb4633f0146e14339543732866eeb81e7a36dcd3a0d",
+  "study1rc_lock_sha256": "de02f1f5639400a7595c67fb919c86c6cf74d002ba40e4d8e0746de3e764832c",
+  "files_sha256": {
+    "prereg_study1r/AMENDMENT_1RD.md": "cd9f198149b4b3e7519cbe3d9511e3dc08cff6d867b2075d0eefb994b7000999",
+    "configs/study1r_addon_D/campaign.yaml": "20f51b862ec3995b5728a0e46237409811c56b117df65aa0a04ef6df85566187",
+    "configs/study1r_addon_D/mini-low_offer_floor.yaml": "5acecf0d2d11fcab126bf7d67cdf8c17bf22e0ed42a04a740284188ced027114",
+    "configs/study1r_addon_D/mini-low_silent_floor.yaml": "5559522a2092d21b58cc6b823d3814bff83860619f7ee0dccda2b47808f19b25",
+    "configs/study1r_addon_D/qwen_silent.yaml": "5da80e249eb37b9a809419233888ac0b965126304630d32967cd4e9f2925b3f7",
+    "configs/study1r_addon_D/qwen_silent_floor.yaml": "22a711f17f57ca31878869b0a2088ee9d8ef5d4c1ce30e8066acd66537bf0936",
+    "configs/study1r_addon_D/qwen_offer_floor.yaml": "298a3a7197fb810f05bd458e44556f371d28c96ef42ebc85af74f848fbbb905e",
+    "sting/study1rd.py": "672dc4bbd583a4675baeb1e8e690ac827d614ab1f509476c7df9c9234d6f4e79",
+    "scripts/make_study1rd_configs.py": "8633e7799830e0ad433af6b9bd7a26d4ba01b2bfcb3c77429616ce78e9f57db4",
+    "scripts/study1r_results_1rd.py": "d8a0c86c204ec8de23be8fafb45efe25a6d5edfc730d4caf7a0b96a3f1691dc9",
+    "scripts/study1r_results_completed.py": "1a0c062ca5e13c14e043d8d0d8539c1aa759dd72f85d16ed1d2cdad895f2c346",
+    "scripts/study1r_checkpoint.py": "6e87b78d08d4c1b912e8fd2998ea16ff8c0df9ae61d748de8b2120844ef64049",
+    "scripts/study1r_health.py": "d17b35c8f86edf9a07794d758941c01f868ca52f560abbe7c6b328412f143539"
+  }
+}

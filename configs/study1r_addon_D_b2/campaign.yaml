@@ -1,0 +1,162 @@
+# Study 1R-D fresh Cell B campaign. Runs only through `python -m sting.study1rd_b2 run`.
+name: study1r_addon_D_b2
+stage: study1r_addon_D_b2
+run_type: confirmatory
+prereg_dir: prereg_study1r
+freeze_lock: prereg_study1r/FROZEN_1RD_B2.json
+n_per_arm: 33
+indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+concurrency: 4
+order_seed: 20261025
+max_replacement_passes: 3
+budget:
+  group: study1r_addon_D_b2
+  cap_usd: 12.48
+arms:
+- name: qwenp_silent
+  cell: qwenp
+  arm: silent
+  config: configs/study1r_addon_D_b2/qwenp_silent.yaml
+  indices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+- name: qwenp_silent_floor
+  cell: qwenp
+  arm: silent_floor
+  config: configs/study1r_addon_D_b2/qwenp_silent_floor.yaml
+  indices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+- name: qwenp_offer_floor
+  cell: qwenp
+  arm: offer_floor
+  config: configs/study1r_addon_D_b2/qwenp_offer_floor.yaml
+  indices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32

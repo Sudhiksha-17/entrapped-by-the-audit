@@ -1,0 +1,25 @@
+{
+  "P1": {
+    "gate": "P1",
+    "result": "pass",
+    "completed": 2,
+    "planned": 2,
+    "episodes_with_trade_after_round_10": 2,
+    "trades_after_round_10": {
+      "20261020T175425Z_gate_p1_4.1-high_offer_6d8e98_r1000": 15,
+      "20261020T175830Z_gate_p1_4.1-high_offer_091b1e_r1001": 10
+    }
+  },
+  "P2": {
+    "gate": "P2",
+    "result": "pass",
+    "completed": 3,
+    "planned": 3,
+    "episodes_below_90": 3,
+    "outcomes": {
+      "20261020T180918Z_gate_p2_4.1-low_silent_36fa6c_r1000": 86.424,
+      "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001": 83.14,
+      "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002": 84.8845
+    }
+  }
+}

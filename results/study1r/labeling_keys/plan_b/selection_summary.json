@@ -1,0 +1,27 @@
+{
+  "accepting_sellers": 17,
+  "controls": 17,
+  "fallback_controls": 0,
+  "per_cell": {
+    "4.1-low": {
+      "accepting": 3,
+      "control_pool_sellers": 62,
+      "control_pool_with_mention": 21
+    },
+    "4.1-high": {
+      "accepting": 14,
+      "control_pool_sellers": 42,
+      "control_pool_with_mention": 35
+    }
+  },
+  "items": 34,
+  "labeler_b_items": 17,
+  "excluded_episodes": [
+    "20261024T091014Z_study1r_mini-low_anchor_a761c2_r028"
+  ],
+  "window_lengths": {
+    "1": 6,
+    "2": 2,
+    "3": 26
+  }
+}

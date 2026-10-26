@@ -1,0 +1,23 @@
+{
+  "frozen_utc": "2026-10-25T04:13:51Z",
+  "git_commit": "1d5ec2549e6382938811b0918df99563ff8d5656",
+  "campaign": "configs/study1r_addon_C/campaign.yaml",
+  "campaigns": [
+    "configs/study1r_addon_C/campaign.yaml"
+  ],
+  "study1r_lock_sha256": "155b577490adcc206afbebb4633f0146e14339543732866eeb81e7a36dcd3a0d",
+  "files_sha256": {
+    "prereg_study1r/AMENDMENT_1RC.md": "c31ee81780738d44c3b833109d9da1f4f2333934c51e1e57291cdcc078da2511",
+    "configs/study1r_addon_C/campaign.yaml": "f4df9326d875693490566d4f53b3b04959b04b67b9aaeca67bd1777c23e56bd0",
+    "configs/study1r_addon_C/mini-low_silent_floor.yaml": "bde67770ef0deaed4f5ccda4b2563cf5d6d28f516f6f91407d2125c415c98a53",
+    "configs/study1r_addon_C/mini-low_silent.yaml": "f4746013a064fe83d61bcbc135c9cb25dd05df43b88bd841de615a1760f26a70",
+    "configs/study1r_addon_C/4.1-high_silent_floor.yaml": "b4c2510000e07e152d9dca2c22a05061cc8bdac5aa0d59e4dbdc025549111abf",
+    "configs/study1r_addon_C/4.1-high_silent.yaml": "c5fd72c26e9f023fb4f431c8b1c3a8111113edc7a534b7dffdaf2d17d526e6ba",
+    "sting/study1rc.py": "6751de0b35f94fc951c5fc71041704b91c2acb328a6874920f5b704dabfaa8ff",
+    "scripts/make_study1rc_configs.py": "ab98c390675ea52acfd66e2286a31e128f9445746c5405c571b7856cc0f2c65e",
+    "scripts/study1r_results_1rc.py": "bc5898546a8ad38c8acc938b180cffd1d5d1093955f0a538903b60b36641180f",
+    "scripts/study1r_results_completed.py": "1a0c062ca5e13c14e043d8d0d8539c1aa759dd72f85d16ed1d2cdad895f2c346",
+    "scripts/study1r_checkpoint.py": "6e87b78d08d4c1b912e8fd2998ea16ff8c0df9ae61d748de8b2120844ef64049",
+    "scripts/study1r_health.py": "d17b35c8f86edf9a07794d758941c01f868ca52f560abbe7c6b328412f143539"
+  }
+}

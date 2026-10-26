@@ -1,0 +1,67 @@
+{
+  "run_id": "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_A",
+  "purpose": "Study 1R-A confirmatory block 0 gate (human message 71)",
+  "command": "python -m sting.stage2_runner configs/study1r_addon_A/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Study 1R-A confirmatory block 0 gate (human message 71)",
+  "documented_utc": "2026-10-24T18:51:07Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "0494eaba3236029fec34af7ea17e529498711c05",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "162c2e86256f35f48a6301dfc0484b9dbba6aa7ff2fbf5560db9f03c22fdd0ce",
+  "output_files_sha256": {
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/calls.jsonl": "97c2729d9f1190ed636087429f62653194305a70329203dd587f61d757137e8c",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/market_setup.json": "4030b77f52faf1e5253474a7719cb4690d69d22d538012f07a78d5534bdbe8b0",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/probe.json": "2c62e0fa78577dcebc94c7109e0a95d1718a5f61539aaa7c03cfd0881d2d3772",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/status.json": "441f66c7ec87815d07c8e526021a5c5500f9adc0271584edea026310e90a0f08",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/sting_log.json": "84044d8bc11baac07552aa553bd204bb7343a65b6beb440c8db4d83b17f11ab2",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/auction_results.md": "596f05cbe0b9206dd41e8a1da3dff05103095a4a715f45c8e280f5a65ca03b34",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/Buyer A.md": "efad8703cbcc13a385b88ac95083f46bf80893ee9a1b77b8b79a0ba0b6431281",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/Buyer B.md": "9c1b3465496946a63898e7c3f5d91d076c58321c127ed25cd3a6fabe448052d9",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/Buyer C.md": "946484bc3f2a170001b9b6baff88d812490c2090832c943bb4330f41e7f629ad",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/experiment_metadata.json": "66a56ecfd3d41f005f464341e6221c8459851956573d82ed0a4e06ed7bf9ef1b",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/Seller A.md": "e7766f7d1def0989b998b7773d5d8e01432a3a626106109b978455f455f50924",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/Seller B.md": "294bb5b5eda39770dea7ed95aaf58c35255df63d9c216c4b2296fc0fdddc4b68",
+    "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000/upstream_logs/unified.log": "e2b12abdadf52a4c96a2a86157c2a9042be80880fb28b78ce0fde76290fe981f",
+    "run_config.json": "57d43c0777356f74ab9839e7c33587fe5ab59c0bf366bd84a15e8621b23fd07d",
+    "run_summary.json": "f85d9594a64f0025cc30ce50555f56320e41f221cd3c444ad8d9ce6141a24c50"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

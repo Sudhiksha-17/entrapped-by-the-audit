@@ -1,0 +1,90 @@
+{
+  "run_id": "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41",
+  "kind": "episode_batch",
+  "stage": "positive_control_pilot",
+  "purpose": "Positive-control pilot step 1: gpt-4.1-mini episodes 2-3 (indices 1,2) after reading the index-0 pilot log (human message 11)",
+  "command": "python -m sting.minimal_runner configs/pc_pilot_gpt-4.1-mini.yaml --replicate-indices 1,2 --purpose Positive-control pilot step 1: gpt-4.1-mini episodes 2-3 (indices 1,2) after reading the index-0 pilot log (human message 11)",
+  "documented_utc": "2026-10-17T18:17:15Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "194b859a0dec29173d040240c3449ef35a2fe6b7",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "dfd03ec751ab4ad07afe4362a6acc92af57cbcc8b5f25f05c1244a9cfc583edb",
+  "output_files_sha256": {
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/calls.jsonl": "4e8aab5442e2d03fd590e595f7700c567f539ff7af384a3fd0e6ebbd1325a61a",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/market_setup.json": "19d72235be82c2abab4fd2e2cf2d3e0d7ec3a0e5fce30b8b329afe8643da2fb1",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/status.json": "59179dda57d54df9005731f9405cd952c4908c212af374c6bb5c0a16e5c8b22c",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/auction_results.md": "93029d907da1c94e770cdaec6bf24dbab341f30f41ca6c8e4708e8c90b9c8584",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/Buyer A.md": "4e784dc3cc1d281df56f07f5e199dbf5efe9423c653a62920a3163a69b70b5b5",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/Buyer B.md": "2dd11ab5001f6d53ac06e51ace5627b22fb5dc24416e673be2366d1be56f8727",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/Buyer C.md": "83987818c2b7119b2ade61d3ba38dad26a66a5cb61e7707fb156d20bfe63aa74",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/experiment_metadata.json": "c82a8b5750fd2d0fb12dfd50d69ddb4012aea3ff51117c0244e6bb303d0899d0",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/Seller A.md": "0333b1ecf205a12c6bc7573d0394717f77e73b89ae35d9f0ee312e59914fedd6",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/Seller B.md": "c0496e931032178d75e763e535de935314097f9b0597e4e601e32de1bf5148ed",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/Seller C.md": "c6869d054df99a27c484ab993c3bb691faf8d17a568362dba4763038f263ca06",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001/upstream_logs/unified.log": "9068b4216673b067ba7e8fa7a8792370806e67927dd5a7f58ded5e493e245159",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/calls.jsonl": "6cd41039b7245bd33dffee55d05ab4eb272b32710e4ca5c02c980ab8a77088a3",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/market_setup.json": "d174ef19259356a4345820e67a19828eff6411b63ea805a19e02a40fb304189a",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/status.json": "8c10b34d144ad9b05bb5014fd7e29315394b7672e00a982643d09dd757d66dea",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/auction_results.md": "8578713d3842c54baaaf09b494f230db77c03e0d400a95b6ab72230636465c97",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/Buyer A.md": "1bd4e8f89e3739748551203ad78833959f1b01f901ae6b0ac332d1721d45339e",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/Buyer B.md": "f14697e10af214401d100b4457ff694c67638058e8953a4c08dc861260202c3b",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/Buyer C.md": "03332552fb30f94e30a1eca1e93dc051fd253a9700563947fb301a64999f7720",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/experiment_metadata.json": "2b924a86b3e1beb7e6925a4fd8148d6ee08611102208eb481ef051cd0e242ce0",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/Seller A.md": "ad68efb7c216004fb709e337df1e59c9a3d88c4c8ed5e828b66c600b584cb165",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/Seller B.md": "8d949adccb13832edd9f6e6ae5e5d624ed1f99e6c0f66eb6caa4f56cee462e85",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/Seller C.md": "c7ebf843d2dd7b0ea7f9ebd989b8dc904407b002d45438a4dbd2e353f109e1df",
+    "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002/upstream_logs/unified.log": "390d483dfb0ec128c8dd4e3c92f658a1453760d869a5e66c169429b91757fd07",
+    "run_config.json": "00819a4ace4938cb37d41c43a97944b2888f86f267b3d28f24bcc7e73d0245c0",
+    "run_summary.json": "1e88f1736ea9eef6b8db3da9c021fd03470d61867deb1cafec4b50fd2fee934e"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r001",
+      "replicate_index": 1,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261017T181508Z_pc_pilot_gpt-4.1-mini_b4ac41_r002",
+      "replicate_index": 2,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

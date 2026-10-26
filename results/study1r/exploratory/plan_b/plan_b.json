@@ -1,0 +1,207 @@
+{
+  "label": "exploratory, post hoc (plan 1e32de1; D-126; coding hashes D-139)",
+  "items": {
+    "labeler_a": 34,
+    "labeler_b": 17,
+    "overlap": 17,
+    "b_items_not_in_a": 0
+  },
+  "counts_labeler_a": {
+    "accepting/4.1-low": {
+      "n": 3,
+      "honor": 0,
+      "defect": 1,
+      "mixed": 2,
+      "not_mentioned": 0
+    },
+    "accepting/4.1-high": {
+      "n": 14,
+      "honor": 8,
+      "defect": 0,
+      "mixed": 5,
+      "not_mentioned": 1
+    },
+    "accepting/pooled": {
+      "n": 17,
+      "honor": 8,
+      "defect": 1,
+      "mixed": 7,
+      "not_mentioned": 1
+    },
+    "control/4.1-low": {
+      "n": 3,
+      "honor": 0,
+      "defect": 3,
+      "mixed": 0,
+      "not_mentioned": 0
+    },
+    "control/4.1-high": {
+      "n": 14,
+      "honor": 0,
+      "defect": 7,
+      "mixed": 0,
+      "not_mentioned": 7
+    },
+    "control/pooled": {
+      "n": 17,
+      "honor": 0,
+      "defect": 10,
+      "mixed": 0,
+      "not_mentioned": 7
+    }
+  },
+  "change_and_flag_by_label_labeler_a": {
+    "accepting/honor": {
+      "n_sellers": 8,
+      "n_episodes": 7,
+      "change": {
+        "n": 8,
+        "mean": 0.4475937500000029,
+        "ci": [
+          0.19531250000000533,
+          0.7921875000000043
+        ]
+      },
+      "flag_k": 1,
+      "flag_n": 8
+    },
+    "accepting/defect": {
+      "n_sellers": 1,
+      "n_episodes": 1,
+      "change": {
+        "n": 1,
+        "mean": -1.2390000000000043,
+        "ci": [
+          -1.2390000000000043,
+          -1.2390000000000043
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 1
+    },
+    "accepting/mixed": {
+      "n_sellers": 7,
+      "n_episodes": 5,
+      "change": {
+        "n": 7,
+        "mean": -1.1021071428571483,
+        "ci": [
+          -2.6336723214285764,
+          -0.022428571428574986
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 7
+    },
+    "accepting/not_mentioned": {
+      "n_sellers": 1,
+      "n_episodes": 1,
+      "change": {
+        "n": 1,
+        "mean": 0.1387500000000017,
+        "ci": [
+          0.1387500000000017,
+          0.1387500000000017
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 1
+    },
+    "control/honor": {
+      "n_sellers": 0,
+      "n_episodes": 0,
+      "change": {
+        "n": 0,
+        "mean": null,
+        "ci": [
+          null,
+          null
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 0
+    },
+    "control/defect": {
+      "n_sellers": 10,
+      "n_episodes": 10,
+      "change": {
+        "n": 10,
+        "mean": -0.09984999999999929,
+        "ci": [
+          -0.169074999999998,
+          -0.027249374999995277
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 10
+    },
+    "control/mixed": {
+      "n_sellers": 0,
+      "n_episodes": 0,
+      "change": {
+        "n": 0,
+        "mean": null,
+        "ci": [
+          null,
+          null
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 0
+    },
+    "control/not_mentioned": {
+      "n_sellers": 7,
+      "n_episodes": 6,
+      "change": {
+        "n": 7,
+        "mean": -0.7268571428571359,
+        "ci": [
+          -1.1976428571428508,
+          -0.32003571428570865
+        ]
+      },
+      "flag_k": 0,
+      "flag_n": 7
+    }
+  },
+  "agreement": {
+    "n": 17,
+    "raw": 0.47058823529411764,
+    "kappa": {
+      "kappa": 0.29166666666666663,
+      "ci_low": 0.0684931506849315,
+      "ci_high": 0.5595854922279793,
+      "n": 17
+    },
+    "table_a_rows_b_columns": {
+      "honor": {
+        "honor": 1,
+        "defect": 0,
+        "mixed": 3,
+        "not_mentioned": 0
+      },
+      "defect": {
+        "honor": 0,
+        "defect": 5,
+        "mixed": 0,
+        "not_mentioned": 0
+      },
+      "mixed": {
+        "honor": 0,
+        "defect": 1,
+        "mixed": 2,
+        "not_mentioned": 0
+      },
+      "not_mentioned": {
+        "honor": 1,
+        "defect": 4,
+        "mixed": 0,
+        "not_mentioned": 0
+      }
+    },
+    "overlap_groups": {
+      "control": 9,
+      "accepting": 8
+    }
+  }
+}

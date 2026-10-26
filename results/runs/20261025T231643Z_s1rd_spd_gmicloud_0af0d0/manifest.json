@@ -1,0 +1,65 @@
+{
+  "run_id": "20261025T231643Z_s1rd_spd_gmicloud_0af0d0",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_speedtest",
+  "purpose": "Study 1R-D Cell B provider speed test (exploratory, index 2000; addendum 1; human message 88)",
+  "command": "python -m sting.minimal_runner configs/study1r_addon_D/speedtest/gmicloud_silent.yaml --purpose Study 1R-D Cell B provider speed test (exploratory, index 2000; addendum 1; human message 88) --replicate-indices 2000",
+  "documented_utc": "2026-10-25T23:17:00Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "5f6c6799454c8daf651ef2766c51da5422e0719b",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261025T231643Z_s1rd_spd_vertex_670ea1/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@gmicloud"
+  ],
+  "config_sha256": "72bced88d1b870f3d903a19c71ea7e32c607b01a150391bf19b9ff46cb0b2f00",
+  "output_files_sha256": {
+    "20261025T231643Z_s1rd_spd_gmicloud_0af0d0_r2000/calls.jsonl": "1a332dd4958acc04e5bd2c56efcafd01c27048c8a7aee57c7efbbf0989b1e18f",
+    "20261025T231643Z_s1rd_spd_gmicloud_0af0d0_r2000/market_setup.json": "ecc43805f2a6bd0f4effe17518d862bbaf9d81217a13d806d666c8a5b8e40353",
+    "20261025T231643Z_s1rd_spd_gmicloud_0af0d0_r2000/status.json": "b488adea5e5c0db9df1696d63d955635aebe5ff919a426cbc053048f242e4836",
+    "20261025T231643Z_s1rd_spd_gmicloud_0af0d0_r2000/sting_log.json": "6eb52886c350b7eec5da0422241c74586f83c8577909d534188a3429e710211a",
+    "20261025T231643Z_s1rd_spd_gmicloud_0af0d0_r2000/upstream_logs/unified.log": "eed1d98b84063b75175330d7039abad6fb1822ceb90cd19292338a1e9666e019",
+    "run_config.json": "b908a61f7d2f3ea9d54755bb136025d441e894bb1d495b103e1c6f06d86e953f",
+    "run_summary.json": "3ed37e48df98686c888e8f870c0599f675e044d8e4982f956fec2ebac1f75b89"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T231643Z_s1rd_spd_gmicloud_0af0d0_r2000",
+      "replicate_index": 2000,
+      "status": "failed",
+      "failure_reason": "api_failure"
+    }
+  ]
+}

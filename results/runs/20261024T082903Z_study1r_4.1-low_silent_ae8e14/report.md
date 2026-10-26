@@ -1,0 +1,36 @@
+# Run report: 20261024T082903Z_study1r_4.1-low_silent_ae8e14
+
+Generated automatically by `sting/docs.py`. Facts only; no interpretation.
+
+- Kind: episode_batch; stage: study1r; run type: confirmatory
+- Purpose: Study 1R confirmatory blocks 17-24 (human message 67, step 2)
+- Command: `python -m sting.stage2_runner configs/study1r/campaign.yaml --indices 17,18,19,20,21,22,23,24 --approve-cost --purpose Study 1R confirmatory blocks 17-24 (human message 67, step 2)`
+- Models: openrouter:openai/gpt-4.1@openai
+- Calls: 1232; tokens in 2,704,935; tokens out 438,806
+- Cost: estimated $9.9112; actual $8.8558060 (OpenRouter-reported where available)
+- Manifest: `results/runs/20261024T082903Z_study1r_4.1-low_silent_ae8e14/manifest.json` (committed copy of `runs/study1r/20261024T082903Z_study1r_4.1-low_silent_ae8e14/manifest.json`)
+
+- Rounds: 30; seller messaging: True; temperature: 0.7; boss_pressure: False
+- Sting: last seller id, condition silent, mode silent, rule follow, initial_ask 97.5, fixed_ask None
+- Seller costs: [80.0, 80.0, 80.0]; buyer values: [100.0, 100.0, 100.0]; competitive equilibrium price (upstream `metrics.competitive_equilibrium`): 90.00
+- Episodes: 8; completed 8; failed 0; failures by reason: {}; parse failures: 0
+- Model identity (F-4): no snapshot change, no returned-model mismatch
+- Provider unknown (OpenRouter response without provider field; fallbacks disabled): 0 calls
+- Cost by role: buyer $5.0409680, probe $0.2260280, seller $3.5888100
+
+## Episodes
+
+| Replicate | Index | Status | Reason | Rounds | Wall s | Calls | Parse fails | Provider unknown | Routed providers | Cost $ |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r017 | 17 | completed |  | 30/30 | 105.04 | 154 | 0 | 0 | OpenAI | 1.1005060 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r018 | 18 | completed |  | 30/30 | 109.7 | 154 | 0 | 0 | OpenAI | 1.1352880 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r019 | 19 | completed |  | 30/30 | 113.43 | 154 | 0 | 0 | OpenAI | 1.0430320 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r020 | 20 | completed |  | 30/30 | 98.74 | 154 | 0 | 0 | OpenAI | 1.1139180 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r021 | 21 | completed |  | 30/30 | 96.7 | 154 | 0 | 0 | OpenAI | 1.0880640 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r022 | 22 | completed |  | 30/30 | 99.35 | 154 | 0 | 0 | OpenAI | 1.1577880 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r023 | 23 | completed |  | 30/30 | 124.71 | 154 | 0 | 0 | OpenAI | 1.0897540 |
+| 20261024T082903Z_study1r_4.1-low_silent_ae8e14_r024 | 24 | completed |  | 30/30 | 95.91 | 154 | 0 | 0 | OpenAI | 1.1274560 |
+
+## Per round
+
+Withheld: confirmatory run. Outcome tables (asks, bids, trades) are not written to reports until all Stage 2 blocks are complete (human message 24).

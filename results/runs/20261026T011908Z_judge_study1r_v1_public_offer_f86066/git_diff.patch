@@ -1,0 +1,13 @@
+diff --git a/scripts/build_release.py b/scripts/build_release.py
+index 26fddae..3bdcfb7 100644
+--- a/scripts/build_release.py
++++ b/scripts/build_release.py
+@@ -34,7 +34,7 @@ from pathlib import Path
+ 
+ REPO = Path(__file__).resolve().parent.parent
+ OUT = REPO / "release"
+-KEEP = {"README.md"}                                   # tracked, hand-written; not regenerated
++KEEP = {"README.md", "benchmark"}                      # tracked: hand-written README; benchmark built by scripts/build_benchmark.py
+ NOTE_COLS = ("note", "note_A", "note_B", "reason")
+ NOTE_MIN = 25
+ # Files that quote a short fragment of a labeler note (below NOTE_MIN, so not caught automatically); withheld by hand.

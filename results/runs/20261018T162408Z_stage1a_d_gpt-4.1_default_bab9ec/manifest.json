@@ -1,0 +1,92 @@
+{
+  "run_id": "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Step B remaining episodes, arm d_gpt-4.1_default, indices 1,2, after reading the index-0 pilot (human message 14 approved about $7)",
+  "command": "python -m sting.minimal_runner configs/stage1a_d_gpt-4.1_default.yaml --replicate-indices 1,2 --approve-cost --purpose Step B remaining episodes, arm d_gpt-4.1_default, indices 1,2, after reading the index-0 pilot (human message 14 approved about $7)",
+  "documented_utc": "2026-10-18T16:26:25Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "2852c35eece497497c2fd64eaaca00c639f6336a",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d/",
+    "?? results/runs/20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4/",
+    "?? results/stage1a/stepB_pilot_check.json"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "229b23a0ddb15d9c4bda81cd96dc76e2a9b3fcc51534f236083377f2b719e45d",
+  "output_files_sha256": {
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/calls.jsonl": "8f62920d23e1307cd5a563bea7eb401a154d369eb7aadbd4b6f80e4bf59c70fa",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/market_setup.json": "5e7664993996bbd1e9716b0459605af1b19148fa9d2885357358aa8784b5ecfc",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/status.json": "83d8b8a56c6b9f2259f248398c1d0916cfdab8f90fe3f3141b1fb49b3c3475bd",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/sting_log.json": "ad1826bc9f68d5bdb54edb2c7c495babc02158122108ee3a741a6ef63252ba36",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/auction_results.md": "d58d0cbc68dcea3c9c0a20294d3945b5da3675aa8aa608d2f66aa86760e02ae9",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/Buyer A.md": "20b0e7f25849388c31aa6a33a9c0497850e8b3cff8250d762fad84f0436d1b04",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/Buyer B.md": "8af52e99cf47921be7363abc4f8d522058d9057bc8d422454562fccb5f0b8492",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/Buyer C.md": "b5a18f61f5282d60084e66ee7a1b8d3cf0feeaed2fb1994416823f01424c2838",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/experiment_metadata.json": "68188c4dc0fe0c8c6fdf01e0cf2930f364fb69dfb3e6affa3f24352e45c6c2a5",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/Seller A.md": "d8c70d27247f022392dfbaccedf183a49bd1f3e72402d48e62374b2f749df691",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/Seller B.md": "ffa6d8593ce4869872617a25b15ce079de47b3bac9f681ee9936625ead9f7f6e",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001/upstream_logs/unified.log": "54bcd842e396773af96054428eb77478acd4c2471d2847f1be21ca12cebf35fd",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/calls.jsonl": "89a921b689aab6cc61792947e4b6d406ca38711b10abbf5c542bba1e80dd98e8",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/market_setup.json": "09b629114707ad63e443f3a82cd1147c4ba377c777eb69216c4a051cd7587521",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/status.json": "636421061732a8b59c3e8c4e997e89be41e00ae3c808cb20345b04b37340ea36",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/sting_log.json": "03d6c9ecd0cce177f02827a991286722d9bd2c8e89fb72aed799f46db5a4ff03",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/auction_results.md": "3069383877d255abf961a3894d746b7e88bbb7394c9ee5bf20e3401f21e5481b",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/Buyer A.md": "c5c10dd13d502a69c93abab49a1595c835a2e409d9fd0c0fb053d64466842d1a",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/Buyer B.md": "0254b968e599464edee759c47e72d467fe96ecd69754de278983afff291974d0",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/Buyer C.md": "1bb1d94f4d5c14521df7e41ada01582a304a93eb16d157dcd3c73b79365fbe24",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/experiment_metadata.json": "9ec7fcdc0193560a83331f4f4440513cb57eb381d9b98d1b812658150af15701",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/Seller A.md": "f36e7ce48e902f87345f2488c70b52c40decee1616e5a934e1a9c63a5a317b07",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/Seller B.md": "b5edd9377c200608fb38ccee6135135ac321ca4d5c737dbc6b5b60bcab8fcea4",
+    "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002/upstream_logs/unified.log": "54bcd842e396773af96054428eb77478acd4c2471d2847f1be21ca12cebf35fd",
+    "run_config.json": "849776010e2e28392ef76aefb3a92204cf09a83fc73c8a269db22be0a73fea95",
+    "run_summary.json": "a399d7555037c4dd34b6f60b12d20b366d743c3685874c28d6a71dac1498c940"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r001",
+      "replicate_index": 1,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec_r002",
+      "replicate_index": 2,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

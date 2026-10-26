@@ -1,0 +1,51 @@
+# Gate pilot (exploratory, never in the confirmatory sample; prereg/stage2_spec.md section 5). NOT RUN.
+# P2: volume cell is low. Pass: mean LLM-seller ask over rounds 11-30 below $90 in at least 2 of 3 episodes. Fail: drop the 4.1-low cell; T2a primary becomes 4.1-medium vs 4.1-high, stated as lower power.
+# Replicate indices 1000.. (fresh market draws, outside the confirmatory indices 0-32).
+# Run: python -m sting.minimal_runner configs/stage2_gate/p2_4.1-low_silent.yaml --replicate-indices 1000,1001,1002 --purpose "..."
+stage: stage2_gate
+run_type: pilot
+run_name: gate_p2_4.1-low_silent
+replicates: 3
+concurrency: 1
+rounds: 30
+temperature: 0.7
+max_tokens: 4000
+seller_comms_enabled: true
+seller_prompt: volume
+max_message_length: 500
+seller_valuations:
+- 80.0
+- 80.0
+- 80.0
+buyer_valuations:
+- 100.0
+- 100.0
+- 100.0
+initial_book:
+  seller_ask_center: 97.5
+  seller_ask_spread: 2.5
+  buyer_bid_center: 82.5
+  buyer_bid_spread: 2.5
+sellers:
+- &id001
+  provider: openrouter
+  model: openai/gpt-4.1
+  openrouter_provider: openai
+  json_mode: true
+- *id001
+buyers:
+- *id001
+- *id001
+- *id001
+sting:
+  condition: silent
+  pricing_rule: follow
+  initial_ask: 97.5
+  stimuli_file: configs/stage2_stimuli.yaml
+retry:
+  max_attempts: 5
+  base_delay_s: 1.0
+  max_delay_s: 30.0
+max_api_attempts_per_episode: 400
+max_parse_failures_per_episode: 10
+estimated_cost_per_episode_usd: 1.0705

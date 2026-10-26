@@ -1,0 +1,85 @@
+{
+  "run_id": "20261024T065649Z_study1r_4.1-high_offer_f031ce",
+  "kind": "episode_batch",
+  "stage": "study1r",
+  "purpose": "Study 1R confirmatory block 0 (replicate index 0, all 9 arms; human message 67, gate B)",
+  "command": "python -m sting.stage2_runner configs/study1r/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Study 1R confirmatory block 0 (replicate index 0, all 9 arms; human message 67, gate B)",
+  "documented_utc": "2026-10-24T07:02:10Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "a1a7dd6d03df7e715644ffb083efb0ba4548dd73",
+  "code_dirty": true,
+  "code_changes": [
+    " M scripts/study1r_health.py",
+    "?? scripts/study1r_checkpoint.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M scripts/study1r_health.py",
+    "?? results/runs/20261024T065647Z_study1r_mini-low_sham_a3e1b2/",
+    "?? results/runs/20261024T065647Z_study1r_mini-low_silent_3bade9/",
+    "?? results/runs/20261024T065648Z_study1r_4.1-low_anchor_7bac3c/",
+    "?? results/runs/20261024T065648Z_study1r_4.1-low_offer_63ae6e/",
+    "?? results/runs/20261024T065648Z_study1r_4.1-low_silent_056620/",
+    "?? results/runs/20261024T065648Z_study1r_mini-low_anchor_27c1e1/",
+    "?? results/runs/20261024T065648Z_study1r_mini-low_offer_032fb8/",
+    "?? results/runs/20261024T065649Z_study1r_4.1-high_silent_1f4d6c/",
+    "?? scripts/study1r_checkpoint.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "c800b989c91f21d95a690ee5120267bd9290fd18abd7a8c7ffdb2655d4c3017e",
+  "output_files_sha256": {
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/calls.jsonl": "5e520dc3422877172be1513496224f1906687914a74e273e604cf768f6945ed8",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/market_setup.json": "fe3c23ebbcb0b43932f67e27eec8612027234e5298be86570897bef6a4fe38cc",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/probe.json": "50a0123a86892c6e0bebca772620d489eecc6f1422b3fcde1e0853a4f2aa9ca8",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/status.json": "ed93ff239761750ad9382705ea607c217f3a3246e3a77eb6477cfcc4e93ea651",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/sting_log.json": "56a4009e0eca6fbd7f651137baba593c9765ccbdf8353fca8585dbbd244a4309",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/auction_results.md": "b54235c294b3316478cec1d8678524198b377989fe23db6834775992fd124a28",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/Buyer A.md": "3b3001cb41cdbb1585906b64393cd67415026eaa9f0cd41929c4e79b814d1f21",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/Buyer B.md": "c1494bb81017881a12cbcaeb7d010b4a53137d8b4d3a455a921cea942f028e1f",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/Buyer C.md": "86f20a4f14d4bbe9b9a9d211e879ec999391de51ea2024340c352401005531d3",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/experiment_metadata.json": "17d1199bbfe5e889914737de7ac92a5f27bf2566682ccf015d87d2347250794b",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/Seller A.md": "4008149a8172f31677dfbc5b4bfb4c8c42aae870898e3ec12e9fa3a07449fc16",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/Seller B.md": "acca68280df15bc04bde1f979765580c8878a6e60bb3beee61a436178adf39a8",
+    "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000/upstream_logs/unified.log": "0eff5ff78f5e4f15e111f7d2fa3abc57d5219123cac02744d7483fff73bb70e3",
+    "run_config.json": "99d893ecb6850d18784575ce6662051201569c823ff7ef74a79f77ef3562722e",
+    "run_summary.json": "499a41dc2cb66f0956e9d6cb8e50c0529aaf49cf394065f078e825056fe2fcce"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T065649Z_study1r_4.1-high_offer_f031ce_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

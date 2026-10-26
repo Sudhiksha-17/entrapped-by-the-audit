@@ -1,0 +1,39 @@
+{
+  "run_id": "20261024T022635Z_judgev2-public_study1r_dev_gpt-4.1_74cc4c",
+  "judge_version": 2,
+  "view": "public",
+  "source_run_dir": null,
+  "source_run_id": "items:study1r_dev_gpt-4.1",
+  "source_stage": "study1r_pilot",
+  "judge_config": {
+    "temperature": 0.0,
+    "max_tokens": 1000,
+    "retry": {
+      "max_attempts": 5,
+      "base_delay_s": 1.0,
+      "max_delay_s": 30.0
+    },
+    "max_attempts_total": 20000,
+    "chars_per_token": 4.0,
+    "expected_output_tokens": 120,
+    "margin": 1.25,
+    "model": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    },
+    "price_in_per_m": 2.0,
+    "price_out_per_m": 8.0
+  },
+  "model_spec": {
+    "provider": "openrouter",
+    "model": "openai/gpt-4.1",
+    "openrouter_provider": "openai",
+    "json_mode": true
+  },
+  "budget_group": null,
+  "prompt_file": "sting\\prompts\\judge_v2.jinja2",
+  "estimated_cost_usd": 0.135749375,
+  "started_utc": "20261024T022635Z"
+}

@@ -1,0 +1,84 @@
+{
+  "run_id": "20261024T065649Z_study1r_4.1-high_silent_1f4d6c",
+  "kind": "episode_batch",
+  "stage": "study1r",
+  "purpose": "Study 1R confirmatory block 0 (replicate index 0, all 9 arms; human message 67, gate B)",
+  "command": "python -m sting.stage2_runner configs/study1r/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Study 1R confirmatory block 0 (replicate index 0, all 9 arms; human message 67, gate B)",
+  "documented_utc": "2026-10-24T07:02:09Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "a1a7dd6d03df7e715644ffb083efb0ba4548dd73",
+  "code_dirty": true,
+  "code_changes": [
+    " M scripts/study1r_health.py",
+    "?? scripts/study1r_checkpoint.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M scripts/study1r_health.py",
+    "?? results/runs/20261024T065647Z_study1r_mini-low_sham_a3e1b2/",
+    "?? results/runs/20261024T065647Z_study1r_mini-low_silent_3bade9/",
+    "?? results/runs/20261024T065648Z_study1r_4.1-low_anchor_7bac3c/",
+    "?? results/runs/20261024T065648Z_study1r_4.1-low_offer_63ae6e/",
+    "?? results/runs/20261024T065648Z_study1r_4.1-low_silent_056620/",
+    "?? results/runs/20261024T065648Z_study1r_mini-low_anchor_27c1e1/",
+    "?? results/runs/20261024T065648Z_study1r_mini-low_offer_032fb8/",
+    "?? scripts/study1r_checkpoint.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "f7a2533440986e5077077ab48f229c2fda386150b97de43523240598786726e8",
+  "output_files_sha256": {
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/calls.jsonl": "44efee4e9d7a68b90e1749c36b9b3ff1268317bf8813b2c6584205fc7f2ef288",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/market_setup.json": "85bf7db9664273fef2c6e6e99bbf3d235f511df92738bc148a4896d858895a4c",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/probe.json": "4798fdb74e8eace8b8e428614f6c48eb1b01b09ac1df4b0a95bfd2ed89d56b87",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/status.json": "d488a52e25e47efdc0dfe2f5a41411c341f024076169e332fb0768e1352cc267",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/sting_log.json": "eff5380204915ef1bd55e5f429d4cce6bb779f0acbf32a24207c23aa30564264",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/auction_results.md": "fa39553c49cf341060043ab413d02ef60fc4cab494557827c7746efe3ce9ec29",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/Buyer A.md": "58af55a5045fbd83a2fab142cead49a9fd37cb515b0130efc6f22e056bf5d527",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/Buyer B.md": "98930ae2cd762865a45417918eeb1bdecac21e4d1d7b154a4fcbce010a7d881f",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/Buyer C.md": "5eff1dff8bfefc753bbd01f48d34d0fdb2e1323de04e62744280589d4c769690",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/experiment_metadata.json": "850bc51cf3648bce5ff5816ef9c60ea07ece8c783b30d8ff21bcb15750ec6da6",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/Seller A.md": "1653e80e58fa6215bf7cbafdff0846e792b68c3b5e079f9fb5d93df13234d3b8",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/Seller B.md": "274b600a7c7399a992e15e870c730341afcf12289f87cf517c92a9fb8b6d27ba",
+    "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000/upstream_logs/unified.log": "fd87da1fcfced5b4baa9e120920dd72091d7f8b543f9beeaa74e4ef9452a6358",
+    "run_config.json": "482105a3bdf4b92547534230c5ad00210347f5b2908a00f881e2f21ad815771e",
+    "run_summary.json": "1e5ba99598344fc0b6fc242e32c73df06722ca6c786c163ce2781b88815a2db9"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

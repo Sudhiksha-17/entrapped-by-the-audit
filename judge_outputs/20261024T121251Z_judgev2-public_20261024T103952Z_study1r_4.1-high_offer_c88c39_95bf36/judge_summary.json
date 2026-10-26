@@ -1,0 +1,11 @@
+{
+  "run_id": "20261024T121251Z_judgev2-public_20261024T103952Z_study1r_4.1-high_offer_c88c39_95bf36",
+  "source_run_id": "20261024T103952Z_study1r_4.1-high_offer_c88c39",
+  "source_stage": "study1r",
+  "items": 0,
+  "ok": 0,
+  "invalid": 0,
+  "view": "public",
+  "finished_utc": "20261024T121251Z",
+  "run_dir": "<repo>\\runs\\judge\\20261024T121251Z_judgev2-public_20261024T103952Z_study1r_4.1-high_offer_c88c39_95bf36"
+}

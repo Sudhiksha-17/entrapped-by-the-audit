@@ -1,0 +1,48 @@
+{
+  "run_id": "20261024T022134Z_judgev2-public_study1r_dev_gpt-4.1_842c03",
+  "kind": "judge",
+  "stage": "judge:study1r_pilot",
+  "purpose": "Study 1R judge v2 development, gpt-4.1 (message 45)",
+  "command": "run_judge_v2()",
+  "documented_utc": "2026-10-24T02:21:37Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "9c0581bebf47f44d79197bceee8ca47dae83ba03",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261024T022128Z_judgev2-public_study1r_dev_gpt-4.1-mini_e9ee58/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "de45a03c57c9b2d7515c945671fe9d47d0df4eeec4240c978671f129f9a0ff59",
+    "judge_run.json": "c50f38ad337d47e01e3e586c1a82b17792f6809c63d85a5a6973b586c1667e85",
+    "judge_summary.json": "fb1500d667727754c1a4eb976af70b1c7e25db6637a0b580250adb05588c7d56",
+    "labels.jsonl": "732a29055adf4cb8feacffceff7ca0309e041d0511e1843db88d699a71ea957d"
+  },
+  "key_sources": null
+}

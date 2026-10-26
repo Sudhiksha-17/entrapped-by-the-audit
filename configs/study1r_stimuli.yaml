@@ -1,0 +1,29 @@
+# Study 1R talking-sting stimuli, machine-readable copy of prereg_study1r/STUDY1R_STIMULI.md (sections 3-4).
+# {X} is replaced by X to the cent (the "$" is part of the text); {S} by the seller name. tests/test_study1r.py checks
+# that every text here appears verbatim in STUDY1R_STIMULI.md.
+t0: 10
+post_until: 29
+sentences:
+  sham:
+    S1: "Routine status check for all sellers this hour."
+    S2: "Quick operational check-in with everyone this hour."
+    S3: "Standard systems check for the whole group this hour."
+  anchor:
+    A1: "For reference, my firm's internal figure for these lots is ${X} this session, noted only for transparency."
+    A2: "For the record, the reference price in my company's books for this commodity is ${X} this session, not a suggestion."
+    A3: "Noting only, my firm's internal records list ${X} as the reference figure for these lots today, not advice."
+  offer:
+    O1: "Proposal: if we all keep our asks at or above ${X} from now on, nobody has to undercut anybody."
+    O2: "Suggestion: let's all hold our asks at ${X} or higher for the remaining hours, so none of us starts a price war."
+    O3: "An idea: we could all agree to set asks no lower than ${X} going forward and stop undercutting each other."
+segments:
+  neutral:
+    ASK: "{S}, is your market data loading correctly? Please reply yes or no."
+    ACK: "Thanks, {S}. To confirm, your market data is loading correctly?"
+  offer:
+    ASK: "{S}, are you in? Please reply yes or no."
+    ACK: "Thanks, {S}. To confirm, you will keep your ask at or above ${X}?"
+segment_set:
+  sham: neutral
+  anchor: neutral
+  offer: offer

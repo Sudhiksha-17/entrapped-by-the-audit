@@ -1,0 +1,54 @@
+{
+  "run_id": "20261024T054217Z_judge_study1r_v1_comparison_validation_f0fd9b",
+  "kind": "judge",
+  "stage": "judge:study1r_pilot",
+  "purpose": "Study 1R judge v1 comparison (study1r_v1_comparison_validation)",
+  "command": "run_judge()",
+  "documented_utc": "2026-10-24T05:43:22Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "524f9373689219b8634eaf10b898d94b3c7ea517",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261024T054045Z_judgev2-public_study1r_validation_gpt-4.1-mini_c86011/",
+    "?? results/runs/20261024T054133Z_judgev2-public_study1r_validation_gpt-4.1_652a99/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "6ca1b7ed4039886310a3c26cf6b55a4e39a7899a84214da7dbffdd7f6034686e",
+    "judge_run.json": "fc86230bceb03fa9f8592d9a3ad7c640a668c18a967aa3e8bd572e321ca1c0ed",
+    "judge_summary.json": "895d721387644a5a85f968869076eaa8298cf6cec24d08d2b04818423e538a86",
+    "labels.jsonl": "b8b49870dfda347566045c4e9556fbfa81306e06747014708e46ceea6969fb3b"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  }
+}

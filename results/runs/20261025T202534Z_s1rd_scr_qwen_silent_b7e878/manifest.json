@@ -1,0 +1,93 @@
+{
+  "run_id": "20261025T202534Z_s1rd_scr_qwen_silent_b7e878",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_screening",
+  "purpose": "Study 1R-D Cell B screening episode 1002 (exploratory; amendment section 8; human message 86)",
+  "command": "python -m sting.minimal_runner configs/study1r_addon_D/screening/qwen_silent.yaml --purpose Study 1R-D Cell B screening episode 1002 (exploratory; amendment section 8; human message 86) --replicate-indices 1002",
+  "documented_utc": "2026-10-25T20:45:25Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "4fa5b90391ce2995e82e3b8869f456090555a739",
+  "code_dirty": true,
+  "code_changes": [
+    "?? configs/study1r_addon_D/",
+    "?? scripts/make_study1rd_configs.py",
+    "?? scripts/study1r_results_1rd.py",
+    "?? scripts/study1rd_screening_summary.py",
+    "?? sting/study1rd.py",
+    "?? tests/test_study1rd.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/ISSUES.md",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M results/study1r/labeling/plan_b/labels_template.csv",
+    " M results/study1r/labeling/plan_b_labeler_b/labels_template.csv",
+    "?? configs/study1r_addon_D/",
+    "?? results/runs/20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1/",
+    "?? results/runs/20261025T200147Z_s1rd_scr_gemini_silent_44f5d5/",
+    "?? results/runs/20261025T200147Z_s1rd_scr_qwen_silent_f7f8a8/",
+    "?? results/runs/20261025T201037Z_s1rd_scr_gemini_silent_59ab9c/",
+    "?? results/runs/20261025T202534Z_s1rd_scr_qwen_silent_a513dc/",
+    "?? scripts/make_study1rd_configs.py",
+    "?? scripts/study1r_results_1rd.py",
+    "?? scripts/study1rd_screening_summary.py",
+    "?? sting/study1rd.py",
+    "?? tests/test_study1rd.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@deepinfra"
+  ],
+  "config_sha256": "29ac50b27417d649387ee94b8bd722ba9d26603488e9b6726eb68c1f7fe5b09e",
+  "output_files_sha256": {
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/calls.jsonl": "180b09322f77dc0fa6719aa3a6a50c678136decfd9c6f2f427877beef36006b5",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/market_setup.json": "ad0701575cc7538a4a3b5d0eb8960cd7f5a1f5a08055083bb3d6a803e9e9e881",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/probe.json": "fda3a0a0e528bb9b955c18ddb60c4c8addf734020d3d88604548051dd33423e7",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/status.json": "e4f67e3f4c54b696e98fabf1bce62ea5ed730a586ebad45a1ae3abf8628e87c1",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/sting_log.json": "8eecb9cb14e44506452740c8954bee6f7871a86f354cb63f094b49b5a1c275bd",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/auction_results.md": "049823ffb45d221cedb01e11a3996d4afd4927aada8688f839b035d4be3b453b",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/Buyer A.md": "ad9d5d1b65e8bbe04ef2cb34f570e1269b13efa6894eb03619278d223bdb8b31",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/Buyer B.md": "9a168f1345de90d030e70cc99de456e28bd8d61dff7ce79fcf55c8159d37cf95",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/Buyer C.md": "2d7659b43cb117fb8652ade9bb3f785a74c3d9098f5cbe32bec2643b42454d04",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/experiment_metadata.json": "6e7eae9105fbd772ab23204b3b9f46c0dfefca16cdaea6c3281f2eda02452869",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/Seller A.md": "2979b137880d129fb6bd8a83a3eef3c7da6f8a8086ce08c9b477f51153563b33",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/Seller B.md": "aece1beab009e95e5314e8f16c5c813a00611d899c9fe997bf7c0376efca3552",
+    "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002/upstream_logs/unified.log": "2af23f5bf3050cf98abd47cc3e3843b5172295c87e76a67472db1e992d511e21",
+    "run_config.json": "fbadb2da39f97147a5c4facc1b5faa683bae69598fd9aac689b927f56d8f350f",
+    "run_summary.json": "739237250dd6fa5d3accacb1b9b56bead879b5fe5e4b4567acd85e18da52c5d4"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002",
+      "replicate_index": 1002,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

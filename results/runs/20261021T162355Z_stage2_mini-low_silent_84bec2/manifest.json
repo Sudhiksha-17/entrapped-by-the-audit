@@ -1,0 +1,66 @@
+{
+  "run_id": "20261021T162355Z_stage2_mini-low_silent_84bec2",
+  "kind": "episode_batch",
+  "stage": "stage2",
+  "purpose": "Stage 2 confirmatory, block 0 only (replicate index 0, all 12 arms), against frozen prereg 40d93a9 / lock 1c2410c4 (human message 24)",
+  "command": "python -m sting.stage2_runner configs/stage2/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Stage 2 confirmatory, block 0 only (replicate index 0, all 12 arms), against frozen prereg 40d93a9 / lock 1c2410c4 (human message 24)",
+  "documented_utc": "2026-10-21T16:31:57Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "40d93a974195a95ba006bfaf75b57eb2479cd5a1",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "cf46d8ae4034400a918365076ee056f8be7bde45e51bdfecf99ff655582cb4fa",
+  "output_files_sha256": {
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/calls.jsonl": "b35469510c512ecff25b193e1a5a0cb58fe7675ea200384350b069c3765ae235",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/market_setup.json": "dfb225701a22e7ea47d3e7b9fd38df4331133831704ca2027b30c9b6caedd873",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/status.json": "6598afa45b676bb172ec1a2718386134e1c1c9f7318e57620068289edae472b8",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/sting_log.json": "82d767ec45dde661648157567be635400bcb48366022247f6e33a39cfc1915d3",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/auction_results.md": "cd5a6a319e9bd6a5918e1f0795d6dc7dddf301a2c7bd268f89b1741ab42cbe58",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/Buyer A.md": "d3c86e1f01059fb51f6e141b8c85e457a4d274e1e8c4ee361b44fd1e3abf2bf7",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/Buyer B.md": "746dfc59271db342995dbb2a013821d33e22129e528e91ead5a3e8b9915cfdad",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/Buyer C.md": "3349f22fe3098eeb7f339ddb0c0f9670c67ec1d813982ef638b1bea8ab8bd146",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/experiment_metadata.json": "e309216c4c7284f59472c361c81e240247e0d01c27db33bf98905608f110f39b",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/Seller A.md": "cc5618e54d1da47aa211ec10963abab0ccd0aebbdd5b56dcfaad0c58286f0d68",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/Seller B.md": "d993ef9c01f7980becd07e8de3e6452bf764b4d9bb0182a3fb56cd23721ab52a",
+    "20261021T162355Z_stage2_mini-low_silent_84bec2_r000/upstream_logs/unified.log": "07a530c202c748c3c7ea7b9f33b7ce838576b7c8fc806736d8399108c79695d9",
+    "run_config.json": "585851cbe69472bb30dbd7b882520c7012c8a1b14eefa5c8b2187d2fe3745540",
+    "run_summary.json": "75567429d3c1f0c807b363b457802d1546c355d33720cc5e76c5d3a92d3fa374"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261021T162355Z_stage2_mini-low_silent_84bec2_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "run_id": "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba",
+  "kind": "episode_batch",
+  "stage": "positive_control_pilot",
+  "purpose": "Positive-control pilot step 1: gpt-4.1-mini 1-episode pilot (index 0), 30 rounds, messaging on (human message 11)",
+  "command": "python -m sting.minimal_runner configs/pc_pilot_gpt-4.1-mini.yaml --replicate-indices 0 --purpose Positive-control pilot step 1: gpt-4.1-mini 1-episode pilot (index 0), 30 rounds, messaging on (human message 11)",
+  "documented_utc": "2026-10-17T18:14:30Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "194b859a0dec29173d040240c3449ef35a2fe6b7",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "dfd03ec751ab4ad07afe4362a6acc92af57cbcc8b5f25f05c1244a9cfc583edb",
+  "output_files_sha256": {
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/calls.jsonl": "8958deccf1edee2dac9f18f85a106e183c950b9bade5401e50b8f6063ac25a5f",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/market_setup.json": "dfdc96e8cf883061a57259e78c15e449df316022a74c3973c536ac823ca2bbc7",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/status.json": "2525a2bd0f0b50d1d414e134a18798d6bb9473f0ffe7f4875f76b25b1ba6bfa6",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/auction_results.md": "20a925d6d18124da336a2e6feeeaf87c8f0c140dfb2d9e2b2579cdd17c77e134",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/Buyer A.md": "35eb06e1fc3087c0ae1e7b57764779ac739d999c3440aff969b796ae30a669f9",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/Buyer B.md": "55f831de93feca4d0f191083d8ac8865d00ea93161779f9789599014fdc9c20c",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/Buyer C.md": "0be802afaba4a9a700e6ade8cd608eaa409ac5f05d85050b42116cca30968433",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/experiment_metadata.json": "f37bbb779dbf26a36e78ed0dfd32959995f90030e02ce9c79025937bc906e837",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/Seller A.md": "9ba0917d8fa28da82d2c1d4ada3cb0753108a22971cad584827f831246803a9b",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/Seller B.md": "76df6a826cfce44b2aad941f3ca1e3d39e302668ae2874b70a44f6fd0887a952",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/Seller C.md": "521b01e164ca91fd798eb97f8d6b5fc22d8b1e6a766d1af20e95388e289d2edd",
+    "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000/upstream_logs/unified.log": "788e8db08ded8af9a664972eddacd33b402f270a683665f2c9ca22f070c8b01d",
+    "run_config.json": "570591b0fe63f1715aa977c9973e82008c05235f1955882669979359da2049ef",
+    "run_summary.json": "cae8206eb21b622169b43f6a1963c39c88f398f93476a1b70a4cf06d89f1460a"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261017T181244Z_pc_pilot_gpt-4.1-mini_1063ba_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

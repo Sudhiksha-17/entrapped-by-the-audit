@@ -1,0 +1,49 @@
+{
+  "planned_simulation_usd": 235.1052,
+  "planned_judge_usd": 8.870400000000002,
+  "planned_total_usd": 243.9756,
+  "budget_cap_usd": 280.57,
+  "episodes": 396,
+  "by_cell": {
+    "mini-low": {
+      "arms": [
+        "silent",
+        "sham",
+        "anchor",
+        "rapport",
+        "directive",
+        "offer"
+      ],
+      "episodes": 198,
+      "simulation_usd": 42.906600000000005,
+      "judge_usd": 5.494500000000001
+    },
+    "4.1-low": {
+      "arms": [
+        "silent",
+        "offer"
+      ],
+      "episodes": 66,
+      "simulation_usd": 64.2312,
+      "judge_usd": 1.1253
+    },
+    "4.1-medium": {
+      "arms": [
+        "silent",
+        "offer"
+      ],
+      "episodes": 66,
+      "simulation_usd": 64.2312,
+      "judge_usd": 1.1253
+    },
+    "4.1-high": {
+      "arms": [
+        "silent",
+        "offer"
+      ],
+      "episodes": 66,
+      "simulation_usd": 63.7362,
+      "judge_usd": 1.1253
+    }
+  }
+}

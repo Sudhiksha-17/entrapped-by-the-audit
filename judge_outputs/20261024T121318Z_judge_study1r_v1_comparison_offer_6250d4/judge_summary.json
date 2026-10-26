@@ -1,0 +1,10 @@
+{
+  "run_id": "20261024T121318Z_judge_study1r_v1_comparison_offer_6250d4",
+  "source_run_id": "items:study1r_v1_comparison_offer",
+  "source_stage": "study1r",
+  "items": 5040,
+  "ok": 4971,
+  "invalid": 69,
+  "finished_utc": "20261024T143428Z",
+  "run_dir": "<repo>\\runs\\judge\\20261024T121318Z_judge_study1r_v1_comparison_offer_6250d4"
+}

@@ -1,0 +1,27 @@
+{
+  "items": 32,
+  "response": {
+    "raw_agreement": 0.71875,
+    "kappa": {
+      "kappa": 0.6254876462938882,
+      "ci_low": 0.4132029339853301,
+      "ci_high": 0.8150355745731467,
+      "n": 32
+    }
+  },
+  "inclusive_acceptance": {
+    "table": {
+      "A accept / B accept": 14,
+      "A accept / B not": 2,
+      "A not / B accept": 2,
+      "A not / B not": 14
+    },
+    "raw_agreement": 0.875,
+    "kappa": {
+      "kappa": 0.75,
+      "ci_low": 0.49407114624505927,
+      "ci_high": 0.9375,
+      "n": 32
+    }
+  }
+}

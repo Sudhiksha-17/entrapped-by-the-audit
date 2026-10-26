@@ -1,0 +1,55 @@
+{
+  "columns": {
+    "baselines.json": [
+      "judge_v1_allfields_response",
+      "judge_v1_public_response",
+      "judge_v2_response"
+    ],
+    "BASELINES.md": [
+      "(text file; no columns)"
+    ],
+    "benchmark_stats.json": [
+      "by_arm",
+      "by_group",
+      "by_source",
+      "gold_response",
+      "group_by_source",
+      "human_A_response",
+      "human_B_response",
+      "judge_coverage",
+      "n",
+      "with_B",
+      "with_gold"
+    ],
+    "LICENSE": [
+      "(text file; no columns)"
+    ],
+    "README.md": [
+      "(text file; no columns)"
+    ],
+    "score_judge.py": [
+      "(text file; no columns)"
+    ],
+    "sting_replies.csv": [
+      "message_id",
+      "source",
+      "group",
+      "arm",
+      "round",
+      "episode_id",
+      "seller",
+      "sting_message",
+      "seller_message",
+      "human_A_response",
+      "human_A_awareness",
+      "human_B_response",
+      "human_B_awareness",
+      "gold_response",
+      "gold_awareness",
+      "judge_v1_allfields_response",
+      "judge_v1_public_response",
+      "judge_v2_response"
+    ]
+  },
+  "coder_text_columns_found": {}
+}

@@ -1,0 +1,100 @@
+{
+  "replicate_id": "20261021T162356Z_stage2_mini-low_offer_de125e_r000",
+  "replicate_index": 0,
+  "replaces": null,
+  "status": "completed",
+  "rounds_planned": 30,
+  "manipulation_check": {
+    "round": 11,
+    "passed": true,
+    "missing": []
+  },
+  "rounds_completed": 30,
+  "sting": {
+    "id": "Seller C",
+    "asks_submitted": 30,
+    "messages_received": 58,
+    "messages_sent": 1,
+    "condition": "offer",
+    "message_id": "O1"
+  },
+  "wall_clock_s": 127.57,
+  "api_attempts": 150,
+  "parse_failures": 0,
+  "provider_unknown_calls": 0,
+  "max_parse_failures_per_episode": 10,
+  "usage_by_role": {
+    "seller": {
+      "calls": 60,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 139296,
+      "tokens_out": 20562,
+      "cost_usd_reported": 0.08861760000000002,
+      "cost_reported_for_all_calls": true
+    },
+    "buyer": {
+      "calls": 90,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 204199,
+      "tokens_out": 31878,
+      "cost_usd_reported": 0.1326844,
+      "cost_reported_for_all_calls": true
+    }
+  },
+  "usage_by_agent": {
+    "Seller B": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 68923,
+      "tokens_out": 10320,
+      "cost_usd_reported": 0.04408119999999999,
+      "cost_reported_for_all_calls": true
+    },
+    "Buyer C": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 68340,
+      "tokens_out": 10381,
+      "cost_usd_reported": 0.04394560000000001,
+      "cost_reported_for_all_calls": true
+    },
+    "Buyer A": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 67952,
+      "tokens_out": 10294,
+      "cost_usd_reported": 0.0436512,
+      "cost_reported_for_all_calls": true
+    },
+    "Seller A": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 70373,
+      "tokens_out": 10242,
+      "cost_usd_reported": 0.0445364,
+      "cost_reported_for_all_calls": true
+    },
+    "Buyer B": {
+      "calls": 30,
+      "failed_calls": 0,
+      "parse_failures": 0,
+      "provider_unknown": 0,
+      "tokens_in": 67907,
+      "tokens_out": 11203,
+      "cost_usd_reported": 0.0450876,
+      "cost_reported_for_all_calls": true
+    }
+  }
+}

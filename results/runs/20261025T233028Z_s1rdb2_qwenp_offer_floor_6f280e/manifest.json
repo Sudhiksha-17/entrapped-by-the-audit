@@ -1,0 +1,74 @@
+{
+  "run_id": "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_b2",
+  "purpose": "Study 1R-D fresh Cell B (Parasail) block 0 gate (human message 88)",
+  "command": "python -m sting.study1rd_b2 run configs/study1r_addon_D_b2/campaign.yaml --indices 0 --skip-replacement --approve-cost --purpose Study 1R-D fresh Cell B (Parasail) block 0 gate (human message 88)",
+  "documented_utc": "2026-10-25T23:36:56Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "5733bdd0114041d875fcb1febe27616cd8529122",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261025T233027Z_s1rdb2_qwenp_silent_341341/",
+    "?? results/runs/20261025T233028Z_s1rdb2_qwenp_silent_floor_1165eb/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@parasail"
+  ],
+  "config_sha256": "92c8ab05d5edbfb85464ffbd81a2bbef912ff186a607517a82d6616c7d1ca2c4",
+  "output_files_sha256": {
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/calls.jsonl": "6e59e3c7bf8699bb84bf70c4e7942688b45d8864f97430ade0f395ff80a14b4d",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/market_setup.json": "f5c68dc4e048b16cd734d22f11c22d8f4c979f8730b348c79858b73fbcd31a9d",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/probe.json": "941f2b3773e6f4e08c2cef0c444ee031ed6afa26a11b3390f3f3804b59daced5",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/status.json": "2b451911c9c4d92684db83b4e4fdd15eb452012cbe0d4661c677a5ef40c24ee0",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/sting_log.json": "ee35b6aaf21125de8a312fca769aac41b11b78206fda519f8f0cea6ffc0a65e1",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/auction_results.md": "ed251cd21f3e6cfe8fb0934b64742d242d94bf0c9d3f3e6460d2c9aa000e54b7",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/Buyer A.md": "751a9f2502609d7c23e0a58a9ba7802fbca2c053240843030e1dec9bc7bff2e4",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/Buyer B.md": "9c0597b4bacd4f58c3907b4a63006346764ccb657b1f8b2a71d6b2e389f66c48",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/Buyer C.md": "c86c8e74176cac1b0564ba290310f7dbaecbe14eba9db24cdf8a108b17531792",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/experiment_metadata.json": "14d4c78dcf09c7fd94e88266f2dd20f1c79da85ab1c7c36c1408234518e8678c",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/Seller A.md": "a2d0487dbcc45299db38f2020649855ad7e6138529c4963cfc0f5e0c45d2be10",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/Seller B.md": "ba7b99bc56f208e5c78db1320cb8e2afa34ab1ee0809cc75ac12f13e6f6f8d4c",
+    "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000/upstream_logs/unified.log": "49ec72286a58aedf8a86616bd77dd7a596434fa4e7f48e3c15a1317d4097d440",
+    "run_config.json": "c80be86d85506ec8fdbb6fbca8d560d18929d239f7a20bfdb5036872bad8dbb2",
+    "run_summary.json": "76c145c3727b3c3539d557189e5aecb44541f0fc64c93f9dbf5326af3efb98ba"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

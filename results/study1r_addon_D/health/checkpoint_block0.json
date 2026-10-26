@@ -1,0 +1,82 @@
+{
+  "campaigns": [
+    "runs\\study1r_addon_D\\_campaigns\\20261025T213357Z_study1r_addon_D_c130fc\\campaign.json"
+  ],
+  "blocks_done": [
+    0
+  ],
+  "per_arm": {
+    "mini-low_offer_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.231344,
+      "reasons": {},
+      "target": 60
+    },
+    "mini-low_silent_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.2264336,
+      "reasons": {},
+      "target": 60
+    },
+    "qwen_offer_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.0776056,
+      "reasons": {},
+      "target": 33
+    },
+    "qwen_silent": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.0766341,
+      "reasons": {},
+      "target": 33
+    },
+    "qwen_silent_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.0769776,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 0.6889949,
+      "block0_same_arms": 0.6889949,
+      "arms": 5
+    }
+  },
+  "spent_usd": 0.6889949,
+  "projected_total_usd": 35.0968,
+  "cap_usd": 43.87,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [
+      "qwen_silent 20261025T213358Z_s1rd_qwen_silent_200b48_r000: routed {'DeepInfra': 154}",
+      "qwen_silent_floor 20261025T213358Z_s1rd_qwen_silent_floor_5e25a6_r000: routed {'DeepInfra': 154}",
+      "qwen_offer_floor 20261025T213358Z_s1rd_qwen_offer_floor_76dcbc_r000: routed {'DeepInfra': 154}"
+    ],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": true
+}

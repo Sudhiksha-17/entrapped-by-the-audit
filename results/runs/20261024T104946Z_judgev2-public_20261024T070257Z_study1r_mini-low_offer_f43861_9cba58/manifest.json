@@ -1,0 +1,55 @@
+{
+  "run_id": "20261024T104946Z_judgev2-public_20261024T070257Z_study1r_mini-low_offer_f43861_9cba58",
+  "kind": "judge",
+  "stage": "judge:study1r",
+  "purpose": "Study 1R exploratory judge v2 comparison (gpt-4.1), 20261024T070257Z_study1r_mini-low_offer_f43861",
+  "command": "run_judge_v2()",
+  "documented_utc": "2026-10-24T10:55:27Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "589de7359c602f4460e2cfe3eb1051e39448ada0",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261024T104728Z_judgev2-public_20261024T065648Z_study1r_mini-low_offer_032fb8_c38822/",
+    "?? results/runs/20261024T104807Z_judgev2-public_20261024T065648Z_study1r_4.1-low_offer_63ae6e_ce219a/",
+    "?? results/runs/20261024T104905Z_judgev2-public_20261024T065649Z_study1r_4.1-high_offer_f031ce_89bf69/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "a5d6c33e7fa3ef3fb2b92e6ae6e32b670afcda1024e83f99b38cd5c05e1f86fd",
+    "judge_run.json": "6a516298c1f5af39a871c3a4236aac4a66861d4aaab28cf45ca170866990de0d",
+    "judge_summary.json": "5b2e458b31a2d315d6a440b60334fcb95c1c706d5ec16567190467a9df9c98c8",
+    "labels.jsonl": "a18850e1427383abd25631eb0aba0f9a39332881197e4d53ce187cb997081efb"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  }
+}

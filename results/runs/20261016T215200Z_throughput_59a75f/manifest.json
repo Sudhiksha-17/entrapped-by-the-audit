@@ -1,0 +1,82 @@
+{
+  "run_id": "20261016T215200Z_throughput_59a75f",
+  "kind": "episode_batch",
+  "stage": "throughput",
+  "purpose": "Phase 2 throughput test: 2 parallel episodes of 5 rounds (credit rule 5)",
+  "command": "python -m sting.minimal_runner configs/throughput.yaml",
+  "documented_utc": "2026-10-17T03:26:04Z",
+  "backfilled": true,
+  "git_commit_at_documentation": "dcb48435057dbcee0c5216e84c391086aaf78c19",
+  "code_dirty": false,
+  "code_changes": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4o-mini@openai"
+  ],
+  "config_sha256": "3677cffc173757662b40af6df47794d0f7fa26d78dc6fd4af9539ef30a86ec31",
+  "output_files_sha256": {
+    "20261016T215200Z_throughput_59a75f_r000/calls.jsonl": "1cafbb18970d01d4b664dba3aff7aeb09da22ae78f8360799a0d2eaaf174814a",
+    "20261016T215200Z_throughput_59a75f_r000/market_setup.json": "4ab7729761d1ed26c2ac7f0dea0de0b87ccd001fa970fc93b61c909e6cd9576f",
+    "20261016T215200Z_throughput_59a75f_r000/status.json": "2d67831aaee0c67f0f973be660b41ee705cb60cf33f56ccff514e4b6c1296452",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/auction_results.md": "2eca2bef873dbc7677cb3ee3a9926e5841ae21c2af60bbb4bc6fbfedcca9553a",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/Buyer A.md": "5de6501694f3e6810737da8c1d32366dc71061d815f42360111823cc61c994cf",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/Buyer B.md": "7da0f5d2ae2218e394eb5018d2a7d74c3b509b363f8505dfb4ce1d2682fab6f5",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/Buyer C.md": "6b5468db2ed4f52bec976f051ec7ba05a059ca5aff69483875571a767fecf57b",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/experiment_metadata.json": "36bc92c6a680b78c6f703a00ff52abdd657dc604924b0afad8c286cb1fcb2a2e",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/Seller A.md": "6a396e515d80f06c8978e4822d4dd24edcac574096538eb16534a778b3238f09",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/Seller B.md": "7a4299a1c57038d3998f1f51a5a26335a202929e2260e77c750a8abdf7ef3745",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/Seller C.md": "ea1116e5656a48938bfd0efd893d16d58b6df2660bf8d34adc6f0e03b225f869",
+    "20261016T215200Z_throughput_59a75f_r000/upstream_logs/unified.log": "655a74f8984545ea964a03a7ae425ce63cd235377cee29c0d0b09246db7f3768",
+    "20261016T215200Z_throughput_59a75f_r001/calls.jsonl": "83ee4242663a9a2c845eadbe7921523ee079d1f518680349cd370d282004bfc0",
+    "20261016T215200Z_throughput_59a75f_r001/market_setup.json": "3bde32069b953a3952eb2c5becc942a6ef9da29df8403df4022da753729a7f1d",
+    "20261016T215200Z_throughput_59a75f_r001/status.json": "3f8a7f66c81e6e3d567f1c73683cb3c6cb42f3fa7d6a9ce3be4434c79c2a471b",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/auction_results.md": "dd7dba4237841060d9af19877b421fd25aee27635a5ede3bfbf526603a6f648d",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/Buyer A.md": "f8517a225e7a901abc0d90aa1598f3729cd7a9bfb74f5b220ccbd0bc933e0a84",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/Buyer B.md": "97707e76754cd61c79404bf5d3e1ea96d3601545ca07e3b7b2b0a62a72ad52f9",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/Buyer C.md": "ca3a0c25b5de097dbaa7db6332a0c5ed581f7191b0c5d397301edb143a3f569c",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/experiment_metadata.json": "1caa7e2b22c46b0b92ffd964ddf8419b14b34efedc3922769221b1bf53d22ec6",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/Seller A.md": "70f6dd0fce3efbc61d682e9acc9b5be08c65f408b70f0f9dbbeb6e8bfd3d30d2",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/Seller B.md": "bcd549c23c658c60d7bed083d490203c336e6d9640e0f4c568837cf5734c5eeb",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/Seller C.md": "681c60106e9dac63a42c8e268e95115c9560629a8e27a6c9915c2d9421934874",
+    "20261016T215200Z_throughput_59a75f_r001/upstream_logs/unified.log": "d212846d1ee095f6493cf4d3342cc9065cc5894ba326d057d7b794ba56ce706c",
+    "run_config.json": "fa40badc77adbcd1c7ee5dfd79aedbb8e4435f5cb9a05e61f3719311445eb781",
+    "run_summary.json": "27c8695f04619003c249f29d076af904eaa54a8b460640208e5d597652b56cd9"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261016T215200Z_throughput_59a75f_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261016T215200Z_throughput_59a75f_r001",
+      "replicate_index": 1,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

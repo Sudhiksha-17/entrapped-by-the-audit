@@ -1,0 +1,49 @@
+{
+  "run_id": "20261023T183032Z_judge_20261021T190106Z_stage2_mini-low_anchor_8920e9_619808",
+  "source_run_dir": "<repo>\\runs\\stage2\\20261021T190106Z_stage2_mini-low_anchor_8920e9",
+  "source_run_id": "20261021T190106Z_stage2_mini-low_anchor_8920e9",
+  "source_stage": "stage2",
+  "judge_config": {
+    "model": {
+      "provider": "openrouter",
+      "model": "openai/gpt-4.1-mini",
+      "openrouter_provider": "openai",
+      "json_mode": true
+    },
+    "temperature": 0.0,
+    "max_tokens": 4000,
+    "retry": {
+      "max_attempts": 5,
+      "base_delay_s": 1.0,
+      "max_delay_s": 30.0
+    },
+    "max_attempts_total": 20000,
+    "price_in_per_m": 0.4,
+    "price_out_per_m": 1.6,
+    "chars_per_token": 4.0,
+    "expected_output_tokens": 150,
+    "margin": 1.25
+  },
+  "model_spec": {
+    "provider": "openrouter",
+    "model": "openai/gpt-4.1-mini",
+    "openrouter_provider": "openai",
+    "json_mode": true
+  },
+  "budget_group": "stage2_confirmatory",
+  "prompt_file": "sting\\prompts\\judge_prompt.jinja2",
+  "estimated_cost_usd": 0.270485125,
+  "keys_present": {
+    "OPENAI_API_KEY": false,
+    "ANTHROPIC_API_KEY": false,
+    "OPENROUTER_API_KEY": true,
+    "GOOGLE_PROJECT_ID": false
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "started_utc": "20261023T183032Z"
+}

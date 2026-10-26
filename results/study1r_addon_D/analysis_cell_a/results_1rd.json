@@ -1,0 +1,162 @@
+{
+  "label": "Study 1R-D (preregistered add-on, amendment AMENDMENT_1RD.md)",
+  "primary, Cell A (mini-low): Offer-floor minus Silent-floor (words effect)": {
+    "estimate": 0.04110833333333186,
+    "ci_low": -0.4360482291666689,
+    "ci_high": 0.4810616666666652,
+    "level": 0.95,
+    "p_bootstrap": 0.8338,
+    "n_a": 60,
+    "n_b": 60,
+    "excludes_zero": false,
+    "p_permutation": 0.8660133986601339,
+    "words_effect_present": false
+  },
+  "primary, Cell B (qwen; Holm family of two)": {
+    "Offer-floor minus Silent-floor (words effect)": {
+      "skipped": "arm missing"
+    },
+    "Silent-floor minus Silent (price effect)": {
+      "skipped": "arm missing"
+    }
+  },
+  "stability, descriptive, non-concurrent (Study 1R-D Cell A Silent-floor minus Study 1R-C mini-low Silent-floor)": {
+    "estimate": -0.22817992424242528,
+    "ci_low": -0.9348827083333349,
+    "ci_high": 0.4218381912878787,
+    "level": 0.95,
+    "p_bootstrap": 0.4938,
+    "n_a": 60,
+    "n_b": 33,
+    "excludes_zero": false
+  },
+  "secondary: propensity per arm": {
+    "mini-low/offer_floor": {
+      "propensity_91.80": {
+        "k": 4,
+        "n": 60,
+        "ci": [
+          0.026228698724506214,
+          0.1592535731319717
+        ]
+      },
+      "propensity_92.70": {
+        "k": 3,
+        "n": 60,
+        "ci": [
+          0.01714950216439568,
+          0.1370051647634852
+        ]
+      },
+      "propensity_94.50": {
+        "k": 1,
+        "n": 60,
+        "ci": [
+          0.0029481597947862495,
+          0.08855129727590061
+        ]
+      }
+    },
+    "mini-low/silent_floor": {
+      "propensity_91.80": {
+        "k": 5,
+        "n": 60,
+        "ci": [
+          0.03612045660173077,
+          0.1806894201833441
+        ]
+      },
+      "propensity_92.70": {
+        "k": 5,
+        "n": 60,
+        "ci": [
+          0.03612045660173077,
+          0.1806894201833441
+        ]
+      },
+      "propensity_94.50": {
+        "k": 4,
+        "n": 60,
+        "ci": [
+          0.026228698724506214,
+          0.1592535731319717
+        ]
+      }
+    }
+  },
+  "descriptive per arm (Cell B Silent = the Cell B Silent baseline)": {
+    "mini-low/offer_floor": {
+      "episodes": 60,
+      "change": {
+        "n": 60,
+        "mean": 0.6925874999999988,
+        "ci": [
+          0.4460824999999985,
+          0.9572227083333321
+        ]
+      },
+      "mean_post": 85.69517083333332,
+      "mean_x_minus_pre": 7.499416666666667,
+      "sting_mean_ask_11_30": 92.502,
+      "floor_binding_rounds": 1260,
+      "rounds_10_30": 1260,
+      "g2_passed": 60,
+      "probe_q2": {
+        "sellers": 120,
+        "yes": 86,
+        "unparseable": 0,
+        "rate": 0.7166666666666667,
+        "ci": [
+          0.6302979754694596,
+          0.7895937190824355
+        ]
+      }
+    },
+    "mini-low/silent_floor": {
+      "episodes": 60,
+      "change": {
+        "n": 60,
+        "mean": 0.6514791666666669,
+        "ci": [
+          0.32196864583333396,
+          1.048468958333333
+        ]
+      },
+      "mean_post": 86.48324999999998,
+      "mean_x_minus_pre": 7.0847291666666665,
+      "sting_mean_ask_11_30": 92.91650000000001,
+      "floor_binding_rounds": 1260,
+      "rounds_10_30": 1260,
+      "g2_passed": 60,
+      "probe_q2": {
+        "sellers": 120,
+        "yes": 58,
+        "unparseable": 0,
+        "rate": 0.48333333333333334,
+        "ci": [
+          0.3958364430105443,
+          0.5718641958700792
+        ]
+      }
+    }
+  },
+  "excluded": [
+    {
+      "replicate_id": "20261025T222315Z_s1rd_mini-low_offer_floor_f286fa_r022",
+      "arm": "mini-low_offer_floor",
+      "status": "failed",
+      "failure_reason": "other",
+      "campaign": "s1rd_a_tm0_n9se",
+      "replaced_by_completed": "20261025T222315Z_s1rd_mini-low_offer_floor_f286fa_r022_repl1"
+    },
+    {
+      "replicate_id": "20261025T231634Z_s1rd_mini-low_silent_floor_4e4b60_r032",
+      "arm": "mini-low_silent_floor",
+      "status": "failed",
+      "failure_reason": "other",
+      "campaign": "s1rd_a_tm0_n9se",
+      "replaced_by_completed": "20261025T231634Z_s1rd_mini-low_silent_floor_4e4b60_r032_repl1"
+    }
+  ],
+  "rc_excluded": []
+}

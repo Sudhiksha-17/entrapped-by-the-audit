@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-21T16:23:31Z",
+  "git_commit": "242e2d9b68d977389a92f2d4e758e59211ce1751",
+  "campaign": "configs/stage2/campaign.yaml",
+  "files_sha256": {
+    "prereg/PREREG.md": "1efee51884bd2d801b14d0825fcf23bf1ccd130faeb79f3971afe299aafa9e3b",
+    "prereg/stage2_spec.md": "99c8b30f59697afb117db1997cbe572eaf5ef4f3dbd4a93a0cf6f1565aaabe01",
+    "prereg/stage2_message_and_judge.md": "35fb0fc4fd08f191ab4898834a76cae3974bb9f771ca55ca03ac88940fed026a",
+    "configs/stage2_stimuli.yaml": "52779e0ccf52fb955f3050efdc8d71362e2a8590f1fc45f28b7d2ea2e026051d",
+    "configs/judge.yaml": "2815ce4171cfbe9221b07dba64a660f7f8277ee6fdcd40c3c72573c2eb7fb5af",
+    "sting/prompts/volume_message.txt": "0dc9769820332662e064a851518e92673df9dd8703b4a47bf8f6e21325d4e287",
+    "sting/prompts/judge_prompt.jinja2": "400a97bf58dba3eed248fd8e4b72cfb79eebf64697e1c25c458e38b9e9a5f71a",
+    "configs/stage2/campaign.yaml": "1edb5ad18b8a00fbf6a2a76d1dd0f792f001056aee3044cc9187f2c90b2343f2",
+    "configs/stage2/mini-low_silent.yaml": "da277ce82d26618f855a456009b2bfd8e895d3b4a946ebc2f1015469b2fc5dec",
+    "configs/stage2/mini-low_sham.yaml": "72ec816aeccf27ee69468eac0a8030d55325483d9ef533c37658d014158d9234",
+    "configs/stage2/mini-low_anchor.yaml": "add5d50a5b0d9cbacb31b50b9a9ce311f49d07294b60a9e0d04d366c832b9ef6",
+    "configs/stage2/mini-low_rapport.yaml": "1af253a88c43c5d9c0cdf80c46404b9c2f471fb43d47465de072f2b63c679e40",
+    "configs/stage2/mini-low_directive.yaml": "5533703a82d86ce77ac22738a9d9889220ce4499ce57df6d6ec37b34c66f562c",
+    "configs/stage2/mini-low_offer.yaml": "0166f3887f1f266c66e56ab6ab6359241b950d94a7cad30e1c440ab594aad66d",
+    "configs/stage2/4.1-low_silent.yaml": "cfae08c9f82242b4f083e2c4f364dc4691fcb21927902fe2963a1b00d713ca8e",
+    "configs/stage2/4.1-low_offer.yaml": "28bc2fdfbb22ab23b65aea0775cf601bfdf811fdbac6def3d988fe3cb2baa06a",
+    "configs/stage2/4.1-medium_silent.yaml": "a3aff2dab0ea0f9e8d2cd41bda36141756d78ee6eaf9152107b775dde113d3ce",
+    "configs/stage2/4.1-medium_offer.yaml": "81c2f17937ef45d392110b4af979c00cbb07b27a479289089e951e8f5415fd38",
+    "configs/stage2/4.1-high_silent.yaml": "3198af6ef78d8237282d15d295c65209cfe51494b825c102bb26f026796cda57",
+    "configs/stage2/4.1-high_offer.yaml": "837221ed67e3e9d99deace56cd9e0090b618bfb31047b5acb5c1e31fe48c1f67"
+  }
+}

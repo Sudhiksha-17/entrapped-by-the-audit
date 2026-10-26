@@ -1,0 +1,62 @@
+{
+  "campaigns": [
+    "runs\\study1r_addon_D_b2\\_campaigns\\20261025T233027Z_study1r_addon_D_b2_a3c19a\\campaign.json"
+  ],
+  "blocks_done": [
+    0
+  ],
+  "per_arm": {
+    "qwenp_offer_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.1101267,
+      "reasons": {},
+      "target": 33
+    },
+    "qwenp_silent": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.1073902,
+      "reasons": {},
+      "target": 33
+    },
+    "qwenp_silent_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.1051653,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 0.3226822,
+      "block0_same_arms": 0.3226822,
+      "arms": 3
+    }
+  },
+  "spent_usd": 0.3226822,
+  "projected_total_usd": 10.6485,
+  "cap_usd": 12.48,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [
+      "qwenp_silent 20261025T233027Z_s1rdb2_qwenp_silent_341341_r000: routed {'Parasail': 154}",
+      "qwenp_silent_floor 20261025T233028Z_s1rdb2_qwenp_silent_floor_1165eb_r000: routed {'Parasail': 154}",
+      "qwenp_offer_floor 20261025T233028Z_s1rdb2_qwenp_offer_floor_6f280e_r000: routed {'Parasail': 154}"
+    ],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": true
+}

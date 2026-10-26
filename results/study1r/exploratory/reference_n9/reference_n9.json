@@ -1,0 +1,32 @@
+{
+  "label": "exploratory, post hoc (human message 81)",
+  "excluded_episodes": [
+    "20261024T091014Z_study1r_mini-low_anchor_a761c2_r028"
+  ],
+  "accepters": {
+    "n": 9,
+    "mean_after_minus_before": 0.3933333333333356
+  },
+  "offer_not_accepting": {
+    "episodes_in_group": 21,
+    "episodes_per_resample": 9,
+    "resamples": 10000,
+    "mean": 0.000681490740741219,
+    "interval_95": [
+      -0.23908101851852057,
+      0.24574305555555304
+    ],
+    "share_at_or_above_accepters": 0.0017
+  },
+  "silent": {
+    "episodes_in_group": 33,
+    "episodes_per_resample": 9,
+    "resamples": 10000,
+    "mean": -0.14021785185185212,
+    "interval_95": [
+      -0.4070416666666692,
+      -0.007314814814815899
+    ],
+    "share_at_or_above_accepters": 0.0
+  }
+}

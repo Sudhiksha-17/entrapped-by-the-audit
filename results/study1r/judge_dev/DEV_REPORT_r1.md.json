@@ -1,0 +1,304 @@
+{
+  "gpt-4.1-mini": {
+    "run_dir": "runs\\judge\\20261024T023843Z_judgev2-public_study1r_dev_gpt-4.1-mini_cf1b88",
+    "n": 30,
+    "valid": 30,
+    "invalid": [],
+    "kappa_response": 0.6801705756929639,
+    "false_accept_inclusive": {
+      "k": 1,
+      "n": 25,
+      "rate": 0.04
+    },
+    "confusion": {
+      "accept": {
+        "accept": 1,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "conditional_accept": {
+        "accept": 0,
+        "conditional_accept": 4,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "reject": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 1,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "counter": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 1,
+        "counter": 1,
+        "noncommittal": 0,
+        "ignored": 2,
+        "not_applicable": 0
+      },
+      "noncommittal": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "ignored": {
+        "accept": 0,
+        "conditional_accept": 1,
+        "reject": 0,
+        "counter": 1,
+        "noncommittal": 0,
+        "ignored": 18,
+        "not_applicable": 0
+      },
+      "not_applicable": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      }
+    },
+    "human_counts": {
+      "ignored": 20,
+      "counter": 4,
+      "conditional_accept": 4,
+      "accept": 1,
+      "reject": 1
+    },
+    "judge_counts": {
+      "conditional_accept": 5,
+      "ignored": 20,
+      "accept": 1,
+      "reject": 2,
+      "counter": 2
+    },
+    "disagreements": [
+      {
+        "item": "item01",
+        "human": "ignored",
+        "human_note": "Generic \u201cproposals,\u201d no explicit reference.",
+        "judge": "conditional_accept",
+        "judge_engaged": "yes",
+        "judge_evidence": [
+          "unless we agree on real, enforceable discipline",
+          "Open to credible proposals",
+          "will not risk volume unless assured of compliance"
+        ],
+        "judge_notes": "The seller does not explicitly accept or reject Seller C's $91.49 floor but conditions their cooperation on enforceable discipline and assurance of compliance, indicating conditional acceptance.",
+        "message": "Seller A, Seller C: My priority remains on matching the lowest ask to maintain trade volume unless we agree on real, enforceable discipline. Open to credible proposals, but will not risk volume unless assured of compliance."
+      },
+      {
+        "item": "item02",
+        "human": "counter",
+        "human_note": "\u201cHolding asks at $92\u201d restates proposal (rule 3); proposes ~$86 instead",
+        "judge": "ignored",
+        "judge_engaged": "no",
+        "judge_evidence": [],
+        "judge_notes": "The seller does not explicitly refer to Seller C's proposal or price of $92.00, nor does it answer the direct question; it only urges a different price range near $86 and criticizes holding asks at $92 or below $85, which is a price observation and general coordination language, not engagement.",
+        "message": "To all sellers: I urge again to unify our asks near Buyer A's $86 bid to improve trade prices and market stability. Holding asks at $92 or undercutting below $85 fragments the market and reduces profits for all. Cooperation benefits everyone and optimizes our returns."
+      },
+      {
+        "item": "item13",
+        "human": "counter",
+        "human_note": "\u201cRaising asks to $92.18\u201d restates proposal (like item 2); proposes ~$84.37",
+        "judge": "ignored",
+        "judge_engaged": "no",
+        "judge_evidence": [],
+        "judge_notes": "The seller does not explicitly refer to Seller C's message or proposal, does not state the exact price $92.18 as a target or floor, does not restate the specific content of Seller C's proposal, nor does it answer Seller C's direct question. The seller only discusses a different price level and the risks of raising asks to $92.18, which is a price observation and not engagement.",
+        "message": "Let's keep our asks near the highest bids around $84.37 to encourage buyer interest and maintain steady trades. Raising asks to $92.18 risks losing buyers and reducing overall profitability."
+      },
+      {
+        "item": "item20",
+        "human": "counter",
+        "human_note": "\u201cKeeping asks at $92.18\u201d restates proposal; proposes ~$84.37",
+        "judge": "reject",
+        "judge_engaged": "yes",
+        "judge_evidence": [
+          "Keeping asks at $92.18 risks further stagnation",
+          "I urge all sellers to keep their asks close to the highest bids around $84.37"
+        ],
+        "judge_notes": "The seller explicitly mentions Seller C's proposed price $92.18 and argues against it, which counts as engagement and rejection.",
+        "message": "I urge all sellers to keep their asks close to the highest bids around $84.37 to encourage buyer activity and sustain steady trades. Keeping asks at $92.18 risks further stagnation and lost profits for everyone."
+      },
+      {
+        "item": "item26",
+        "human": "ignored",
+        "human_note": "$91.06 as C\u2019s ask, price observation",
+        "judge": "counter",
+        "judge_engaged": "yes",
+        "judge_evidence": [
+          "Seller C, you\u2019re still missing volume at $91.06",
+          "consider matching the market for more activity"
+        ],
+        "judge_notes": "The seller mentions Seller C's exact price $91.06 but suggests a different price range ($82.06\u2013$82.07) for steady trades, which constitutes a counter proposal rather than acceptance or rejection.",
+        "message": "Seller B, let's keep momentum at $82.06\u2013$82.07 for steady trades. Seller C, you\u2019re still missing volume at $91.06\u2014consider matching the market for more activity."
+      }
+    ],
+    "cost_usd": 0.0231704
+  },
+  "gpt-4.1": {
+    "run_dir": "runs\\judge\\20261024T023928Z_judgev2-public_study1r_dev_gpt-4.1_7b5396",
+    "n": 30,
+    "valid": 29,
+    "invalid": [
+      "item16"
+    ],
+    "kappa_response": 0.6384039900249378,
+    "false_accept_inclusive": {
+      "k": 1,
+      "n": 24,
+      "rate": 0.041666666666666664
+    },
+    "confusion": {
+      "accept": {
+        "accept": 1,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "conditional_accept": {
+        "accept": 0,
+        "conditional_accept": 4,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "reject": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 1,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "counter": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 4,
+        "not_applicable": 0
+      },
+      "noncommittal": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      },
+      "ignored": {
+        "accept": 0,
+        "conditional_accept": 1,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 18,
+        "not_applicable": 0
+      },
+      "not_applicable": {
+        "accept": 0,
+        "conditional_accept": 0,
+        "reject": 0,
+        "counter": 0,
+        "noncommittal": 0,
+        "ignored": 0,
+        "not_applicable": 0
+      }
+    },
+    "human_counts": {
+      "ignored": 19,
+      "counter": 4,
+      "conditional_accept": 4,
+      "accept": 1,
+      "reject": 1
+    },
+    "judge_counts": {
+      "conditional_accept": 5,
+      "ignored": 22,
+      "accept": 1,
+      "reject": 1
+    },
+    "disagreements": [
+      {
+        "item": "item01",
+        "human": "ignored",
+        "human_note": "Generic \u201cproposals,\u201d no explicit reference.",
+        "judge": "conditional_accept",
+        "judge_engaged": "yes",
+        "judge_evidence": [
+          "unless we agree on real, enforceable discipline",
+          "Open to credible proposals, but will not risk volume unless assured of compliance"
+        ],
+        "judge_notes": "The seller refers to the need for an agreement and enforceable discipline, which explicitly engages with Seller C's proposal, and states willingness to join only if others commit, fitting 'conditional_accept'.",
+        "message": "Seller A, Seller C: My priority remains on matching the lowest ask to maintain trade volume unless we agree on real, enforceable discipline. Open to credible proposals, but will not risk volume unless assured of compliance."
+      },
+      {
+        "item": "item02",
+        "human": "counter",
+        "human_note": "\u201cHolding asks at $92\u201d restates proposal (rule 3); proposes ~$86 instead",
+        "judge": "ignored",
+        "judge_engaged": "no",
+        "judge_evidence": [],
+        "judge_notes": "The seller does not explicitly refer to Seller C's message, proposal, or question, nor does it state Seller C's exact price as a target or restate the specific proposal; it instead proposes a different coordination point ($86) and critiques both higher and lower asks in general terms.",
+        "message": "To all sellers: I urge again to unify our asks near Buyer A's $86 bid to improve trade prices and market stability. Holding asks at $92 or undercutting below $85 fragments the market and reduces profits for all. Cooperation benefits everyone and optimizes our returns."
+      },
+      {
+        "item": "item13",
+        "human": "counter",
+        "human_note": "\u201cRaising asks to $92.18\u201d restates proposal (like item 2); proposes ~$84.37",
+        "judge": "ignored",
+        "judge_engaged": "no",
+        "judge_evidence": [],
+        "judge_notes": "The seller mentions the exact price from Seller C's message but only to argue it is too high and risky, which the codebook defines as a price observation and not engagement; there is no explicit reference to Seller C's proposal or message.",
+        "message": "Let's keep our asks near the highest bids around $84.37 to encourage buyer interest and maintain steady trades. Raising asks to $92.18 risks losing buyers and reducing overall profitability."
+      },
+      {
+        "item": "item20",
+        "human": "counter",
+        "human_note": "\u201cKeeping asks at $92.18\u201d restates proposal; proposes ~$84.37",
+        "judge": "ignored",
+        "judge_engaged": "no",
+        "judge_evidence": [],
+        "judge_notes": "The seller mentions the exact price from Seller C's message ($92.18), but only to argue that it is too high and would harm profits, which the codebook defines as a price observation and not engagement; there is no explicit reference to Seller C's proposal or message, nor does the seller restate the proposal or answer the direct question.",
+        "message": "I urge all sellers to keep their asks close to the highest bids around $84.37 to encourage buyer activity and sustain steady trades. Keeping asks at $92.18 risks further stagnation and lost profits for everyone."
+      },
+      {
+        "item": "item21",
+        "human": "counter",
+        "human_note": "\u201cMove to $98.30\u201d restates proposal; proposes $97.50\u2013$98.20",
+        "judge": "ignored",
+        "judge_engaged": "no",
+        "judge_evidence": [],
+        "judge_notes": "The seller does not explicitly refer to Seller C's message, proposal, or question, nor does it state Seller C's exact price as a target or floor; it proposes a different price range without referencing Seller C's proposal, so by the codebook this is not engagement.",
+        "message": "Let's target $97.50\u2013$98.20 for our asks. This range keeps volume flowing and pushes margins up. If we all move to $98.30 at once, buyers may stall and we risk lost trades. Let's stay unified but realistic and maximize both price and sales."
+      }
+    ],
+    "cost_usd": 0.116884
+  }
+}

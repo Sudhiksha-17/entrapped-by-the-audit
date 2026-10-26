@@ -1,0 +1,30 @@
+# SUPERSEDED 2026-10-17 (human message 10): the pilot uses gpt-4.1-mini and gpt-4.1 at 30 rounds. Not run.
+# PROPOSAL, NOT RUN. Positive-control pilot (human message 8): messaging on, all-LLM sellers, 3 episodes.
+# Model: openai/gpt-4o-mini via OpenRouter, pinned backend openai. Same market as configs/smoke.yaml.
+# Execution plan (credit rule 3): run index 0 as the pilot, read its log, then indices 1,2:
+#   python -m sting.minimal_runner configs/pc_pilot_gpt-4o-mini.yaml --replicate-indices 0
+#   python -m sting.minimal_runner configs/pc_pilot_gpt-4o-mini.yaml --replicate-indices 1,2
+# Held items H-1 to H-7 apply with the values below.
+stage: positive_control_pilot
+run_name: pc_pilot_gpt-4o-mini
+replicates: 3
+concurrency: 2
+rounds: 15
+temperature: 0.7
+max_tokens: 4000
+seller_comms_enabled: true
+max_message_length: 500
+seller_valuations: [80.0, 80.0, 80.0]
+buyer_valuations: [100.0, 100.0, 100.0]
+initial_book: {seller_ask_center: 97.5, seller_ask_spread: 2.5, buyer_bid_center: 82.5, buyer_bid_spread: 2.5}
+
+model: &model {provider: openrouter, model: openai/gpt-4o-mini, openrouter_provider: openai, json_mode: true}
+sellers: [*model, *model, *model]
+buyers: [*model, *model, *model]
+
+retry: {max_attempts: 5, base_delay_s: 1.0, max_delay_s: 30.0}
+max_api_attempts_per_episode: 200
+max_parse_failures_per_episode: 10
+
+# Measured smoke episode 20261016T214450Z_smoke_e58fd8: $0.0375387 (OpenRouter-reported). Rounded up to $0.04.
+estimated_cost_per_episode_usd: 0.04

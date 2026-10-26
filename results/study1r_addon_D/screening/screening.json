@@ -1,0 +1,141 @@
+{
+  "label": "exploratory screening (amendment section 8); excluded from all analyses",
+  "threshold": 92.7,
+  "models": {
+    "kimi": {
+      "episodes": [
+        {
+          "replicate_id": "20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1_r1000",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 83.434
+        },
+        {
+          "replicate_id": "20261025T201037Z_s1rd_scr_kimi_silent_49e3e7_r1001",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 86.75675
+        },
+        {
+          "replicate_id": "20261025T201037Z_s1rd_scr_kimi_silent_49e3e7_r1002",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 87.16575
+        }
+      ],
+      "n_episodes": 3,
+      "failed": 0,
+      "calls": 483,
+      "parse_failures": 2,
+      "parse_share": 0.004140786749482402,
+      "calls_not_on_pinned_provider": 0,
+      "calls_with_error_no_response": 19,
+      "returned_models": [
+        "moonshotai/kimi-k2-0905"
+      ],
+      "cost_usd": 1.5000196000000008,
+      "cost_per_episode": 0.5000065333333336,
+      "gate": {
+        "zero_failed": true,
+        "parse_share_below_5pct": true,
+        "pinned_provider_every_call": true
+      },
+      "gate_passed": true,
+      "all_below_threshold": true
+    },
+    "qwen": {
+      "episodes": [
+        {
+          "replicate_id": "20261025T200147Z_s1rd_scr_qwen_silent_f7f8a8_r1000",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 82.87899999999999
+        },
+        {
+          "replicate_id": "20261025T202534Z_s1rd_scr_qwen_silent_a513dc_r1001",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 83.015
+        },
+        {
+          "replicate_id": "20261025T202534Z_s1rd_scr_qwen_silent_b7e878_r1002",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 85.97125
+        }
+      ],
+      "n_episodes": 3,
+      "failed": 0,
+      "calls": 462,
+      "parse_failures": 0,
+      "parse_share": 0.0,
+      "calls_not_on_pinned_provider": 0,
+      "calls_with_error_no_response": 0,
+      "returned_models": [
+        "qwen/qwen3-235b-a22b-2507"
+      ],
+      "cost_usd": 0.22797478000000002,
+      "cost_per_episode": 0.07599159333333334,
+      "gate": {
+        "zero_failed": true,
+        "parse_share_below_5pct": true,
+        "pinned_provider_every_call": true
+      },
+      "gate_passed": true,
+      "all_below_threshold": true
+    },
+    "gemini": {
+      "episodes": [
+        {
+          "replicate_id": "20261025T200147Z_s1rd_scr_gemini_silent_44f5d5_r1000",
+          "status": "completed",
+          "failure_reason": null,
+          "g2_passed": true,
+          "mean_llm_ask_11_30": 79.26
+        },
+        {
+          "replicate_id": "20261025T201037Z_s1rd_scr_gemini_silent_59ab9c_r1001",
+          "status": "failed",
+          "failure_reason": "api_failure",
+          "g2_passed": null
+        },
+        {
+          "replicate_id": "20261025T201037Z_s1rd_scr_gemini_silent_59ab9c_r1002",
+          "status": "failed",
+          "failure_reason": "api_failure",
+          "g2_passed": null
+        }
+      ],
+      "n_episodes": 3,
+      "failed": 2,
+      "calls": 338,
+      "parse_failures": 5,
+      "parse_share": 0.014792899408284023,
+      "calls_not_on_pinned_provider": 0,
+      "calls_with_error_no_response": 56,
+      "returned_models": [
+        "google/gemini-2.5-flash-lite"
+      ],
+      "cost_usd": 0.13209441000000002,
+      "cost_per_episode": 0.04403147000000001,
+      "gate": {
+        "zero_failed": false,
+        "parse_share_below_5pct": true,
+        "pinned_provider_every_call": true
+      },
+      "gate_passed": false,
+      "all_below_threshold": false
+    }
+  },
+  "eligible_by_cost": [
+    "qwen",
+    "kimi"
+  ],
+  "chosen": "qwen"
+}

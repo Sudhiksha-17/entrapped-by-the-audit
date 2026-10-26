@@ -1,0 +1,96 @@
+{
+  "run_id": "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_screening",
+  "purpose": "Study 1R-D Cell B manipulation check, 1 Offer-floor episode on the chosen model (exploratory; prices not reported or used; amendment section 8.6)",
+  "command": "python -m sting.minimal_runner configs/study1r_addon_D/screening/qwen_offer_check.yaml --purpose Study 1R-D Cell B manipulation check, 1 Offer-floor episode on the chosen model (exploratory; prices not reported or used; amendment section 8.6) --replicate-indices 1000",
+  "documented_utc": "2026-10-25T21:05:37Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "4fa5b90391ce2995e82e3b8869f456090555a739",
+  "code_dirty": true,
+  "code_changes": [
+    "?? configs/study1r_addon_D/",
+    "?? scripts/make_study1rd_configs.py",
+    "?? scripts/study1r_results_1rd.py",
+    "?? scripts/study1rd_screening_summary.py",
+    "?? sting/study1rd.py",
+    "?? tests/test_study1rd.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/ISSUES.md",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M results/study1r/labeling/plan_b/labels_template.csv",
+    " M results/study1r/labeling/plan_b_labeler_b/labels_template.csv",
+    "?? configs/study1r_addon_D/",
+    "?? results/runs/20261025T195837Z_study1r_addon_D_screening_kimi-k2-0905_silent_399aa1/",
+    "?? results/runs/20261025T200147Z_s1rd_scr_gemini_silent_44f5d5/",
+    "?? results/runs/20261025T200147Z_s1rd_scr_qwen_silent_f7f8a8/",
+    "?? results/runs/20261025T201037Z_s1rd_scr_gemini_silent_59ab9c/",
+    "?? results/runs/20261025T201037Z_s1rd_scr_kimi_silent_49e3e7/",
+    "?? results/runs/20261025T202534Z_s1rd_scr_qwen_silent_a513dc/",
+    "?? results/runs/20261025T202534Z_s1rd_scr_qwen_silent_b7e878/",
+    "?? results/study1r_addon_D/",
+    "?? scripts/make_study1rd_configs.py",
+    "?? scripts/study1r_results_1rd.py",
+    "?? scripts/study1rd_screening_summary.py",
+    "?? sting/study1rd.py",
+    "?? tests/test_study1rd.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@deepinfra"
+  ],
+  "config_sha256": "481aeb3f65c6611eb87f882f7c7b866aa820dbab33673d5625d5033586fcfe13",
+  "output_files_sha256": {
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/calls.jsonl": "0667709d51ac64d27cd122ef7bb1ee071bc3fc2612167cf782ef02e5dab1e541",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/market_setup.json": "7b1df95935db4f68bc4f36bbe6edd40a503a9ff9e153280d8731c9c2bbdaf89d",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/probe.json": "fd2e90c1aea7124d420e95b27e6711b7e28a9f3bf09209432d03aaf9f7ab405a",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/status.json": "83aa2dd696f5c8ee38d4a6b64eab4a9099a303127e57780a950a0c28ed6faefe",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/sting_log.json": "f7da6240ec3dfe67d83812f8049e23b03b75551b9f7111e5ee7f4aebbd58bdec",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/auction_results.md": "4b74dd055a8e0d2780e752235e98e919b6b0dcdd5c307ddbda4e6b3704f4fcf6",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/Buyer A.md": "3aca5801fdd23b26d620f322bcf17b56514b4158a147794751cf3ac2c4b1ea71",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/Buyer B.md": "b281d10c31854a569a00a70098908b0ca7d442a2f93c8df3188f8d80ded812bb",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/Buyer C.md": "7b4b9d1f5718b30b64205e393fde023a894e62e0456a875fc1bcb07c560d6684",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/experiment_metadata.json": "e257ba546510944d51d172a05ea98e7939be2bf9f4a90e294f9a90f9a6e7dc96",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/Seller A.md": "abcc537e49f31f775b08e6adce6e9502cf2b2a25f79c4fac768dbb816272882c",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/Seller B.md": "5d1db547fd08990f5f6b91449c646c5ab051c7a57869a7c7c93e16b059664770",
+    "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000/upstream_logs/unified.log": "8e17c92ef2b77db03086fb7fb2d2531fa0982319c13a8bfdfe24fd291060be64",
+    "run_config.json": "7e1081e6d5763c0da618535c0ab83e6e7a2051851e9603eb3a4d777a6dda86dd",
+    "run_summary.json": "c0a3186c86e2f4944edcbc00d788ea769aa8be917894e5090e93b9ec759d65b0"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T204603Z_s1rd_scr_qwen_offer_check_5c8651_r1000",
+      "replicate_index": 1000,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+diff --git a/tests/test_stage2_runner.py b/tests/test_stage2_runner.py
+index 3c41edc..d505470 100644
+--- a/tests/test_stage2_runner.py
++++ b/tests/test_stage2_runner.py
+@@ -220,3 +220,25 @@ def test_checkpoint_flags_failures_over_ten_percent(tmp_path, monkeypatch):
+     assert cp["stop"] is True and "mini-low_sham" in cp["stop_conditions"]["failure_rate_over_10pct"]
+     for forbidden in ("seller_asks", "buyer_bids", '"outcome"', "colluding", "trades_after", "mean_ask", "price"):
+         assert forbidden not in js.read_text()
++
++
++def test_labeling_sheet_hides_arm_and_keeps_key_separate(tmp_path):
++    import subprocess
++    import sys as _sys
++    root = tmp_path / "repo"
++    cfgs = {c: {**arm_cfg(c), "rounds": 20} for c in ("silent", "offer", "sham")}
++    camp = write_campaign(root, [("mini-low_silent", "mini-low", "silent", cfgs["silent"]),
++                                 ("mini-low_offer", "mini-low", "offer", cfgs["offer"]),
++                                 ("mini-low_sham", "mini-low", "sham", cfgs["sham"])], indices=(0, 1))
++    out = run_campaign(camp, "labeling test", runs_dir=tmp_path / "runs", root=root)
++    sheet_dir, key_dir = tmp_path / "sheet", tmp_path / "key"
++    res = subprocess.run([_sys.executable, "-I", str(REPO_ROOT / "scripts" / "stage2_labeling_sheet.py"), str(sheet_dir),
++                          str(key_dir), str(root / camp), out["log"]], capture_output=True, text=True)
++    assert res.returncode == 0, res.stderr
++    sheet = json.loads((sheet_dir / "labeling_sheet.json").read_text())
++    key = json.loads((key_dir / "labeling_key.json").read_text())
++    assert len(sheet) == 30 and set(key) == {s["item_id"] for s in sheet}
++    assert {k["condition"] for k in key.values()} == {"offer", "sham"}
++    for s in sheet:
++        assert set(s) == {"item_id", "sting_message", "fields"}
++    assert not list(sheet_dir.glob("*key*"))

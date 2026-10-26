@@ -1,0 +1,61 @@
+{
+  "run_id": "20261023T180933Z_judge_20261021T164833Z_stage2_mini-low_sham_0aa979_538842",
+  "kind": "judge",
+  "stage": "judge:stage2",
+  "purpose": "Stage 2 judge, remaining 39 arm-runs after first-run check passed (human messages 31 and 33)",
+  "command": "python -m sting.judge <repo>\\runs\\stage2\\20261021T164833Z_stage2_mini-low_sham_0aa979 --approve-cost --purpose Stage 2 judge, remaining 39 arm-runs after first-run check passed (human messages 31 and 33)",
+  "documented_utc": "2026-10-23T18:18:53Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "76e2f4f3cb48db710f5cd7def24b1994c2673744",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/",
+    "?? results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_anchor_66273e_a28026/",
+    "?? results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_rapport_ee5b7b_4fd54a/",
+    "?? results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa/",
+    "?? results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_4.1-low_offer_88f7a2_eeae09/",
+    "?? results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_directive_29e56e_ff11ef/",
+    "?? results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_offer_de125e_084d39/",
+    "?? results/runs/20261023T180919Z_judge_20261021T162357Z_stage2_4.1-medium_offer_47eced_f5537f/",
+    "?? results/runs/20261023T180923Z_judge_20261021T162357Z_stage2_4.1-high_offer_80d017_92f2e1/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "feacd0c9cf798b3e372678e007c55ee0f1754feaf9ebd636b09b1c1d85d0030f",
+    "judge_run.json": "a79380a697362552cafdfa84f266d0eb40a411326685bc684ec9730c3ef72b8b",
+    "judge_summary.json": "6e0936ff83f00523da0975b2a97b38d158bbf11dcb376ba118b09c45dac42637",
+    "labels.jsonl": "34168ce55910cdc052420b74057fe1dc537de6594ce825beac16c78327039715"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  }
+}

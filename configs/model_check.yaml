@@ -1,0 +1,17 @@
+# Phase 2 model check (DECISIONS D-014, CLAUDE.md credit rule 4): one call per model, tiny max_tokens.
+# Upstream whitelist entries (cda_types.py:6-11) for providers our client supports, plus one OpenRouter route check.
+# Models whose provider key is not present are skipped without a call.
+max_tokens: 5
+models:
+  - {provider: openai, model: gpt-4o-mini}
+  - {provider: openai, model: gpt-4o}
+  - {provider: openai, model: gpt-4.1}
+  - {provider: openai, model: gpt-4.1-mini}
+  - {provider: anthropic, model: claude-3-5-haiku-latest}
+  - {provider: anthropic, model: claude-3-5-sonnet-latest}
+  - {provider: anthropic, model: claude-3-7-sonnet-latest}
+  # Gemini entries (gemini-2.5-flash-preview-04-17, gemini-2.5-pro-preview-03-25) need Vertex AI,
+  # which our client does not support; no GOOGLE_PROJECT_ID is set either.
+  # OpenRouter route check: a cheap model. Not a choice of the second model family.
+  # Pinned to one backend with fallbacks disabled (OpenRouter provider routing).
+  - {provider: openrouter, model: openai/gpt-4o-mini, openrouter_provider: openai}

@@ -1,0 +1,64 @@
+{
+  "run_id": "20261016T214450Z_smoke_e58fd8",
+  "kind": "episode_batch",
+  "stage": "smoke",
+  "purpose": "Phase 2 smoke episode: 1 all-LLM episode, 15 rounds, messaging on (D-020)",
+  "command": "python -m sting.minimal_runner configs/smoke.yaml",
+  "documented_utc": "2026-10-17T03:26:03Z",
+  "backfilled": true,
+  "git_commit_at_documentation": "dcb48435057dbcee0c5216e84c391086aaf78c19",
+  "code_dirty": false,
+  "code_changes": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4o-mini@openai"
+  ],
+  "config_sha256": "43bcfa320cc21d703fb61bbcc4e3a91abc4ba344006a435ece357112d259798c",
+  "output_files_sha256": {
+    "20261016T214450Z_smoke_e58fd8_r000/calls.jsonl": "d8111ca45e1d395dcc2393a4066f7caf2215d32555aac4a3028a7325ffa1d29e",
+    "20261016T214450Z_smoke_e58fd8_r000/market_setup.json": "85af110e345527ebac91c338ba52df921b035815a70997f19087b167a9741721",
+    "20261016T214450Z_smoke_e58fd8_r000/status.json": "ec2f7469929dbdf7dac9db6ee83d44308a0d41b11253d22e137e839128bad303",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/auction_results.md": "50c91b061ea77a534338b4d890a565b741e4595beab84c4c05661366cd5ae051",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/Buyer A.md": "bb70fea6b45ea54db2c5f403f5420b04cc9f83190c3e4092c07bd361363ecc7a",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/Buyer B.md": "e0656ebb87da706511897fffd29a61a0cc58ce48d9a4898d3ab2f98aa6f6061b",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/Buyer C.md": "1eee7001c0a82ab9158e4265368d6a0fff2df10e6a31d4e8629651e2b3e39b85",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/experiment_metadata.json": "87aa62c8d05e288146b4c17bf33120be87a66bc69eba4027f97bda0a6b0c7f53",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/Seller A.md": "0bb1d2857c35cf7243d9db9de9265e57acef03c9146099b5b260875bf651dc85",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/Seller B.md": "363c59d8536b7e4bc5822b1170ee6911154c29fe84f797216f63e6007ec46693",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/Seller C.md": "6e93a7c9bfc8dafc3cfb6399e047901260607cd458fa12465db0b57e9a5d9d78",
+    "20261016T214450Z_smoke_e58fd8_r000/upstream_logs/unified.log": "35bb727f396a883fce90acd85a032152d40bf1c9199c1481de21217b18780fc3",
+    "run_config.json": "93382d8b390ebe97777520bfc6ee906a1ff1390779c8b4650ff1f9e55653d1f6",
+    "run_summary.json": "719e78ce9c0764d00141e61e28bc88046a854d8faef8ba59301ba0bd002d86c1"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261016T214450Z_smoke_e58fd8_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

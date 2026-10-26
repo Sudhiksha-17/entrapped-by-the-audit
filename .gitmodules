@@ -1,0 +1,3 @@
+[submodule "third_party/llm-agent-collusion"]
+	path = third_party/llm-agent-collusion
+	url = https://github.com/andyjliu/llm-agent-collusion

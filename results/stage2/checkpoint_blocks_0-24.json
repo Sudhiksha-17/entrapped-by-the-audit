@@ -1,0 +1,199 @@
+{
+  "campaigns": [
+    "runs\\stage2\\_campaigns\\20261021T162355Z_stage2_70c4ae\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T164833Z_stage2_606400\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T175655Z_stage2_e59ebe\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T190105Z_stage2_dd7c4c\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "per_arm": {
+    "4.1-high_offer": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 24.317158000000003,
+      "reasons": {}
+    },
+    "4.1-high_silent": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 24.416984000000003,
+      "reasons": {}
+    },
+    "4.1-low_offer": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 1,
+      "cost": 27.099596,
+      "reasons": {}
+    },
+    "4.1-low_silent": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 27.089640000000003,
+      "reasons": {}
+    },
+    "4.1-medium_offer": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 24.514734,
+      "reasons": {}
+    },
+    "4.1-medium_silent": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 24.411816,
+      "reasons": {}
+    },
+    "mini-low_anchor": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 5.529424000000001,
+      "reasons": {}
+    },
+    "mini-low_directive": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 5.5068008,
+      "reasons": {}
+    },
+    "mini-low_offer": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 1,
+      "cost": 5.5423236000000005,
+      "reasons": {}
+    },
+    "mini-low_rapport": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 5.427610399999999,
+      "reasons": {}
+    },
+    "mini-low_sham": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 0,
+      "cost": 5.4177940000000016,
+      "reasons": {}
+    },
+    "mini-low_silent": {
+      "completed": 25,
+      "failed": 0,
+      "not_started": 0,
+      "parse_failures": 1,
+      "cost": 5.440921599999999,
+      "reasons": {}
+    }
+  },
+  "block_cost": {
+    "0": 7.2628536,
+    "1": 7.4376684,
+    "2": 7.4577228,
+    "3": 7.322068,
+    "4": 7.3075632,
+    "5": 7.4596672,
+    "6": 7.2959052,
+    "7": 7.3443364,
+    "8": 7.3922944,
+    "9": 7.2761636,
+    "10": 7.3887552,
+    "11": 7.4826304,
+    "12": 7.5282216,
+    "13": 7.3213696,
+    "14": 7.4478188,
+    "15": 7.6116908,
+    "16": 7.3595644,
+    "17": 7.3967188,
+    "18": 7.448484,
+    "19": 7.344798,
+    "20": 7.441938,
+    "21": 7.3921444,
+    "22": 7.458498,
+    "23": 7.3412312,
+    "24": 7.1946964
+  },
+  "block_episodes": {
+    "0": 12,
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 12,
+    "6": 12,
+    "7": 12,
+    "8": 12,
+    "9": 12,
+    "10": 12,
+    "11": 12,
+    "12": 12,
+    "13": 12,
+    "14": 12,
+    "15": 12,
+    "16": 12,
+    "17": 12,
+    "18": 12,
+    "19": 12,
+    "20": 12,
+    "21": 12,
+    "22": 12,
+    "23": 12,
+    "24": 12
+  },
+  "spent_usd": 184.7148024,
+  "mean_block_cost_usd": 7.3885921,
+  "projected_total_usd": 243.8235,
+  "cap_usd": 280.57,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

@@ -1,0 +1,180 @@
+{
+  "campaigns": [
+    "<local> Collusion\\s1rd\\runs\\study1r_addon_D\\_campaigns\\20261025T213357Z_study1r_addon_D_c130fc\\campaign.json",
+    "<local> Collusion\\s1rd\\runs\\study1r_addon_D\\_campaigns\\20261025T215401Z_study1r_addon_D_f4fe2b\\campaign.json",
+    "<local> Collusion\\s1rd\\runs\\study1r_addon_D\\_campaigns\\20261025T220842Z_study1r_addon_D_417fda\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "per_arm": {
+    "mini-low_offer_floor": {
+      "completed": 17,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 3.8822200000000007,
+      "reasons": {},
+      "target": 60
+    },
+    "mini-low_silent_floor": {
+      "completed": 17,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 3.8456903999999996,
+      "reasons": {},
+      "target": 60
+    },
+    "qwen_offer_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.0776056,
+      "reasons": {},
+      "target": 33
+    },
+    "qwen_silent": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.0766341,
+      "reasons": {},
+      "target": 33
+    },
+    "qwen_silent_floor": {
+      "completed": 1,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 0.0769776,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 0.6889949,
+      "block0_same_arms": 0.6889949,
+      "arms": 5
+    },
+    "1": {
+      "cost": 0.4482524,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "2": {
+      "cost": 0.4554196,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "3": {
+      "cost": 0.4550264,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "4": {
+      "cost": 0.4597084,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "5": {
+      "cost": 0.4613368,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "6": {
+      "cost": 0.4575364,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "7": {
+      "cost": 0.4452928,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "8": {
+      "cost": 0.4568872,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "9": {
+      "cost": 0.4532916,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "10": {
+      "cost": 0.4512396,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "11": {
+      "cost": 0.4423716,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "12": {
+      "cost": 0.4514632,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "13": {
+      "cost": 0.451448,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "14": {
+      "cost": 0.4572572,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "15": {
+      "cost": 0.4563164,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    },
+    "16": {
+      "cost": 0.4672852,
+      "block0_same_arms": 0.4577776,
+      "arms": 2
+    }
+  },
+  "spent_usd": 7.9591277,
+  "projected_total_usd": 34.9051,
+  "cap_usd": 43.87,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [
+      "qwen_silent 20261025T213358Z_s1rd_qwen_silent_200b48_r000: routed {'DeepInfra': 154}",
+      "qwen_silent_floor 20261025T213358Z_s1rd_qwen_silent_floor_5e25a6_r000: routed {'DeepInfra': 154}",
+      "qwen_offer_floor 20261025T213358Z_s1rd_qwen_offer_floor_76dcbc_r000: routed {'DeepInfra': 154}"
+    ],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": true
+}

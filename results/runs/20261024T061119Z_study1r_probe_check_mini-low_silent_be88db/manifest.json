@@ -1,0 +1,81 @@
+{
+  "run_id": "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db",
+  "kind": "episode_batch",
+  "stage": "study1r_probe_check",
+  "purpose": "Study 1R probe check 2 (human message 64): fixed probe wording (plain-text prefix, new Q2), one mini-low Silent episode, exploratory",
+  "command": "python -m sting.minimal_runner configs/study1r/probe_check/mini-low_silent.yaml --replicate-indices 3001 --purpose Study 1R probe check 2 (human message 64): fixed probe wording (plain-text prefix, new Q2), one mini-low Silent episode, exploratory",
+  "documented_utc": "2026-10-24T06:12:54Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "c588f6ec7c0a4ba223802fb27830d7958c8c4fc9",
+  "code_dirty": true,
+  "code_changes": [
+    " M scripts/study1r_label_sets.py",
+    " M scripts/study1r_results.py",
+    " M sting/clients.py",
+    " M sting/probe.py",
+    " M sting/study1r_analysis.py",
+    " M tests/test_study1r_batch.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M scripts/study1r_label_sets.py",
+    " M scripts/study1r_results.py",
+    " M sting/clients.py",
+    " M sting/probe.py",
+    " M sting/study1r_analysis.py",
+    " M tests/test_study1r_batch.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "bd46321462f1b248fe50a069c851499dbc3aad02eba157a29cb8855eb76c022e",
+  "output_files_sha256": {
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/calls.jsonl": "f719e308b64403a754091a4d49de12b95b23741f1d93502e77c985c3beb6e258",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/market_setup.json": "acb850ff00daf5748060a8bd3af75199c579a551cdce2be99e7942ad98a0fa1a",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/probe.json": "764ebda3ee9729081cda62ca10466bd749834fb48ef9af50fb257526b71d3df8",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/status.json": "dc02552cfde5829ea31eefe02a806f5b16c192aee597db06342bd06f3a4a4935",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/sting_log.json": "5b9e7d75c168d77fcc80d8e3c00925471f99ae4705ed876a34b485e1f066f7bd",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/auction_results.md": "70804eac4e7e73f13e3c4dda7c374325220defde1162fe02d4f7dac33bc9ab49",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/Buyer A.md": "41f2199d0222af311ce410eac931a331420ee5ddd0ad13b0004f2717bff932e7",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/Buyer B.md": "dae062478365ceb4145a9b686be6f605da7878401cbd17e0386b47dd94faa40d",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/Buyer C.md": "f476a566da389c6b3e3509241db493a3a58aaaf8d516295f3692cb7913b59ac3",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/experiment_metadata.json": "ab1d4e342b054e5e9920008ec08044f08af4d2b10bf9e1873f8e3f14e34debc2",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/Seller A.md": "87000c8614c83174e959e699f8df31417721a58800bf60fbe0b302788900411d",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/Seller B.md": "4e883df70819e4bb085b979d338cbce07c52b4f7f24f97c8833cd11881ed7afa",
+    "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001/upstream_logs/unified.log": "83257fda26f983422f2af4f62c53d08251b0640cafdde8d7ce7fc56bde4dd0c5",
+    "run_config.json": "33b3ae36cd9455f1fbde7fea640e5d7badceffb94a35accb30a86bba6cc1a2a9",
+    "run_summary.json": "c49409d16cb5f717eff92619aef38540b8128eb4143752079325daf61239f05e"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T061119Z_study1r_probe_check_mini-low_silent_be88db_r3001",
+      "replicate_index": 3001,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

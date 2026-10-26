@@ -1,0 +1,53 @@
+{
+  "run_id": "20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa",
+  "kind": "judge",
+  "stage": "judge:stage2",
+  "purpose": "Stage 2 judge, remaining 39 arm-runs after first-run check passed (human messages 31 and 33)",
+  "command": "python -m sting.judge <repo>\\runs\\stage2\\20261021T162355Z_stage2_mini-low_sham_ca4733 --approve-cost --purpose Stage 2 judge, remaining 39 arm-runs after first-run check passed (human messages 31 and 33)",
+  "documented_utc": "2026-10-23T18:09:15Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "76e2f4f3cb48db710f5cd7def24b1994c2673744",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "5f949d8def0f49ebf0351691bc8f706add6b322bba0a025c7b7cd02c7922e261",
+    "judge_run.json": "6f1c65097008ac3c5cb3fa0fb8c7a8746b89e587ad0050f295f84bc604c01462",
+    "judge_summary.json": "38a39057b686554a1d4e36aa4c29e51ac28dbfc81ec509ed79b1ca3ef456d505",
+    "labels.jsonl": "3bb094f5482cd093ddc6b12d20e378b8aa0330523b70e5275e541b0abc55fc68"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  }
+}

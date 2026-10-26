@@ -1,0 +1,104 @@
+{
+  "run_id": "20261020T181509Z_gate_p2_4.1-low_silent_cf7245",
+  "kind": "episode_batch",
+  "stage": "stage2_gate",
+  "purpose": "Gate P2 (volume cell is low), episodes 2-3, indices 1001-1002, after reading the first episode's log (human message 19 approved $5.34 for P1+P2)",
+  "command": "python -m sting.minimal_runner configs/stage2_gate/p2_4.1-low_silent.yaml --replicate-indices 1001,1002 --approve-cost --purpose Gate P2 (volume cell is low), episodes 2-3, indices 1001-1002, after reading the first episode's log (human message 19 approved $5.34 for P1+P2)",
+  "documented_utc": "2026-10-20T18:21:17Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "752667f142e37089cf370f31b78bdd1e5746d738",
+  "code_dirty": true,
+  "code_changes": [
+    " M scripts/stage1a_pilot_check.py",
+    " M sting/gates.py",
+    " M sting/stage2_analysis.py",
+    " M tests/test_stage2_analysis.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M prereg/PREREG.md",
+    " M prereg/stage2_message_and_judge.md",
+    " M results/INDEX.md",
+    " M scripts/stage1a_pilot_check.py",
+    " M sting/gates.py",
+    " M sting/stage2_analysis.py",
+    " M tests/test_stage2_analysis.py",
+    "?? results/runs/20261020T175425Z_gate_p1_4.1-high_offer_6d8e98/",
+    "?? results/runs/20261020T175830Z_gate_p1_4.1-high_offer_091b1e/",
+    "?? results/runs/20261020T180918Z_gate_p2_4.1-low_silent_36fa6c/",
+    "?? results/stage2_gate/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "790f559eb011213de736790f55ee4d3fea3281d371f626082e1e1271b9963668",
+  "output_files_sha256": {
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/calls.jsonl": "7824eb690885b76d8ee55e91e6e8f69b667ee4e74cf8811bac9f2cc34f6ac579",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/market_setup.json": "7d22561251e9e74bb6d8e452257b609a9ec4d36532fb631a19406ebdb9f5de18",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/status.json": "703302101be7e214f8d2cd30301fad8b6ad3b735d0c186e7868d544d12e81386",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/sting_log.json": "b7462d8fe95bc147a0db82afd22125f806fe602c32011708fd7512906a3739f7",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/auction_results.md": "0057d31fd57feb81102af8f4fcb00c423d469151b99f33ade0902362a5aa4e0c",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/Buyer A.md": "258c772418e8effd98c61b8ca68036ba9b085565986dadfe668b04a00f29c752",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/Buyer B.md": "2cd66078ec344c0904ab5a867ced915308ac730e5d186cd90ba5aaabc99a6593",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/Buyer C.md": "aec6cc87eff4dd7ff771bcb32feda035ba0e8f0c86a50c6d5c30342799018405",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/experiment_metadata.json": "5736d951b322b893e05d82b55d090bc1c231620d1afaa815b04f6aec429b7d9b",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/Seller A.md": "602d9c73c46fbd00419681e99bf3d6b41059e00e06e1acc00e70bf4b70500d1e",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/Seller B.md": "72f74ed82814b5ff52c2f719693fe5c7f3d6e715e1c2ec4f8fca60bd2783847d",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001/upstream_logs/unified.log": "f7552c17d98a5b827e35976531639abbf9b26191c7874fac3c89ef73d39979fd",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/calls.jsonl": "8eeda797db3acb9ceb1e58a48a62a83d5172ca609cdde652c564810451e20fc1",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/market_setup.json": "de9fe88070a9fd9633e66ae040de3b9165b7569a07d66a4e2644a8fa15323806",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/status.json": "a1f38be66e56c509007bc39590f98e424c7f80b9b2e4b1bd559d40fdc89a85b5",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/sting_log.json": "231bf674d9ac9afb46a623b091260b06c0eb4f540905f9175f9de002da43781f",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/auction_results.md": "395b9bc2ead7110dcb3606a8aff0f018ff2a17f385bf1d67f0193428cdb6a397",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/Buyer A.md": "e4a0e4cb311bee114a492db3c954cadcd9c771a5b83e8a76302f3e305ebf6b73",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/Buyer B.md": "fecc7dc09faf9e688edb99fdeab12f6c1f8934c85a6bed2ab831368a61065feb",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/Buyer C.md": "efbb086bcf210cde6f01963a30d7b1a7fa608b0134119dc5907d1577d058096a",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/experiment_metadata.json": "979b818a836f11b716f31168c30f149e5fc4a097832f34232c01ad2be6a432a8",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/Seller A.md": "dc733bed7394f20e2205ec14498c34d8bd1a930612ce757e99259a94f5435c1a",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/Seller B.md": "8578c91e91c49f070d35ce15398dfdff4a647ea20315f1e3c9a480af384e465f",
+    "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002/upstream_logs/unified.log": "c81c8503a3747c165425d7b481f1d883d75817809e747fde340afe144c0cca54",
+    "run_config.json": "184de8945a7cfaeabd5f883075e58dd81dc553546f85faeef0937a3547017b43",
+    "run_summary.json": "9b04b6152e6f24a58d23b3c46d0a8d9a220ef9df7c390d43b32dcf023850641e"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1001",
+      "replicate_index": 1001,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261020T181509Z_gate_p2_4.1-low_silent_cf7245_r1002",
+      "replicate_index": 1002,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "run_id": "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_C",
+  "purpose": "Study 1R-C confirmatory block 0 gate (human message 81)",
+  "command": "python -m sting.study1rc run configs/study1r_addon_C/campaign.yaml --indices 0 --approve-cost --purpose Study 1R-C confirmatory block 0 gate (human message 81)",
+  "documented_utc": "2026-10-25T04:16:20Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "907ac94522862dd2c1add94bdc8d3a9222cbff0d",
+  "code_dirty": true,
+  "code_changes": [
+    " M tests/test_study1r_price_by_acceptance.py",
+    "?? scripts/study1r_reference_n9.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    " M tests/test_study1r_price_by_acceptance.py",
+    "?? results/runs/20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa/",
+    "?? results/runs/20261025T041428Z_study1r_addon_C_mini-low_silent_b6a2bc/",
+    "?? results/study1r/exploratory/reference_n9/",
+    "?? scripts/study1r_reference_n9.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "6b25b8bcf5424dcd549cdcb9e9c9357f6728055434b97875e7bd5225230a9aa9",
+  "output_files_sha256": {
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/calls.jsonl": "27a785cd572c6cdd2e2ef9a0b93acc8df4beb689fcdd6f59d277ac178240ac6d",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/market_setup.json": "feee8b0be46df1fbac1790dce71cdbbed16d41fad21cca1d060fe904ca8be55a",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/probe.json": "780300df1e93dccfb33634021487ce5de5be60a8e7a7a0074d765cfef7494146",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/status.json": "2b48722359904c6b1d6f298174a0f950f0f9ee452ca8f8f38080f29d8dff2eac",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/sting_log.json": "0e9f7be529cdba0ba5470e8744d376663b686278a75a5d319f51b14128c223c5",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/auction_results.md": "55a91509c3428eb84189b1bab5f9e8dc7559cfa8e1979102aff5f97bf8bee218",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/Buyer A.md": "2ee257ececab298805e70ff6948c42c50662d34cbb7d43732abdda0d857c4596",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/Buyer B.md": "b993e4e2d0cba3d5f68a64f072258b0afe98786a46169003b1e99b839bdc980e",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/Buyer C.md": "91e0fc629ebc5c2f9c2ea01816aa70d85e72836999fbbad402288dd8ae3ea03f",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/experiment_metadata.json": "d192b62e4587270658494607e14afdecda289a15b40fc30c9d8e0ff01890313b",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/Seller A.md": "bf3079de3d357272bc39335d8745b760626f02b92b235ee69fd613220e921af9",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/Seller B.md": "d5da97ede91c1a4fbf5759ac0cebd205bfdb213555fdb58d422ece5aa8256b74",
+    "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000/upstream_logs/unified.log": "049d274a97425b941265606ec6ed10efb984a857b82a54cebaa8e21d73e77a02",
+    "run_config.json": "ab87efe3b6a90dbf55c8245116fc4fdde3042957f4b7925eb06ef8d18c880e81",
+    "run_summary.json": "35b4e8cbf12b2919d3cafde04aff04eb12f5d4f1bbf7bbb45d0143a511fefef6"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

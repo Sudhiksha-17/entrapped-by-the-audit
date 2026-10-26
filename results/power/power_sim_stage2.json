@@ -1,0 +1,133 @@
+{
+  "settings": {
+    "n_per_arm": 33,
+    "sims": 2000,
+    "boot": 2000,
+    "sim_seed": 20261020,
+    "anchor_mean": 84.981,
+    "induced_mean": 98.0,
+    "induced_sd": 0.5,
+    "flag_threshold": 92.7
+  },
+  "t1": [
+    {
+      "p_induced": 0.15,
+      "sd": 1.59,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.6815,
+      "power_fisher_flag": 0.375,
+      "true_mean_difference": 1.9528500000000006,
+      "sd_label": "point_1.590"
+    },
+    {
+      "p_induced": 0.2,
+      "sd": 1.59,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.8495,
+      "power_fisher_flag": 0.6615,
+      "true_mean_difference": 2.6038000000000014,
+      "sd_label": "point_1.590"
+    },
+    {
+      "p_induced": 0.25,
+      "sd": 1.59,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.946,
+      "power_fisher_flag": 0.8715,
+      "true_mean_difference": 3.2547500000000014,
+      "sd_label": "point_1.590"
+    },
+    {
+      "p_induced": 0.3,
+      "sd": 1.59,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.9805,
+      "power_fisher_flag": 0.9585,
+      "true_mean_difference": 3.9057000000000013,
+      "sd_label": "point_1.590"
+    },
+    {
+      "p_induced": 0.15,
+      "sd": 2.747,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.4955,
+      "power_fisher_flag": 0.3735,
+      "true_mean_difference": 1.9528500000000006,
+      "sd_label": "upper80_2.747"
+    },
+    {
+      "p_induced": 0.2,
+      "sd": 2.747,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.678,
+      "power_fisher_flag": 0.6395,
+      "true_mean_difference": 2.6038000000000014,
+      "sd_label": "upper80_2.747"
+    },
+    {
+      "p_induced": 0.25,
+      "sd": 2.747,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.848,
+      "power_fisher_flag": 0.8545,
+      "true_mean_difference": 3.2547500000000014,
+      "sd_label": "upper80_2.747"
+    },
+    {
+      "p_induced": 0.3,
+      "sd": 2.747,
+      "n_per_arm": 33,
+      "power_bootstrap_mean": 0.9365,
+      "power_fisher_flag": 0.958,
+      "true_mean_difference": 3.9057000000000013,
+      "sd_label": "upper80_2.747"
+    }
+  ],
+  "t2a": [
+    {
+      "difference": 0.2,
+      "scenario": "worst_case",
+      "p_low": 0.4,
+      "p_high": 0.6,
+      "power": 0.335
+    },
+    {
+      "difference": 0.2,
+      "scenario": "pilot_informed_low_0.05",
+      "p_low": 0.05,
+      "p_high": 0.25,
+      "power": 0.65
+    },
+    {
+      "difference": 0.35,
+      "scenario": "worst_case",
+      "p_low": 0.325,
+      "p_high": 0.675,
+      "power": 0.8285
+    },
+    {
+      "difference": 0.35,
+      "scenario": "pilot_informed_low_0.05",
+      "p_low": 0.05,
+      "p_high": 0.39999999999999997,
+      "power": 0.9605
+    },
+    {
+      "difference": 0.5,
+      "scenario": "worst_case",
+      "p_low": 0.25,
+      "p_high": 0.75,
+      "power": 0.9855
+    },
+    {
+      "difference": 0.5,
+      "scenario": "pilot_informed_low_0.05",
+      "p_low": 0.05,
+      "p_high": 0.55,
+      "power": 0.9975
+    }
+  ],
+  "t1_rule": "if bootstrap power at p = 0.25 is below 0.8, report and stop for a decision on N",
+  "t1_n_for_0.8_at_p0.25": {},
+  "runtime_s": 34.0
+}

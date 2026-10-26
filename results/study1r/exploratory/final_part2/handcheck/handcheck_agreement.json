@@ -1,0 +1,76 @@
+{
+  "label": "exploratory, post hoc (Part 2(c) hand-check; D-142)",
+  "n": 30,
+  "types": {
+    "price": {
+      "raw_agreement": 0.9666666666666667,
+      "kappa": {
+        "kappa": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 1.0,
+        "n": 30
+      },
+      "table": {
+        "keyword_yes_human_yes": 29,
+        "keyword_yes_human_no": 0,
+        "keyword_no_human_yes": 1,
+        "keyword_no_human_no": 0
+      },
+      "precision": {
+        "k": 29,
+        "n": 29,
+        "value": 1.0,
+        "ci": [
+          0.8830302015002593,
+          1.0
+        ]
+      },
+      "recall": {
+        "k": 29,
+        "n": 30,
+        "value": 0.9666666666666667,
+        "ci": [
+          0.8332960900859082,
+          0.9940914096183874
+        ]
+      },
+      "keyword_yes": 29,
+      "human_yes": 30
+    },
+    "message": {
+      "raw_agreement": 0.9,
+      "kappa": {
+        "kappa": 0.5161290322580646,
+        "ci_low": -0.0588235294117645,
+        "ci_high": 1.0,
+        "n": 30
+      },
+      "table": {
+        "keyword_yes_human_yes": 2,
+        "keyword_yes_human_no": 1,
+        "keyword_no_human_yes": 2,
+        "keyword_no_human_no": 25
+      },
+      "precision": {
+        "k": 2,
+        "n": 3,
+        "value": 0.6666666666666666,
+        "ci": [
+          0.2076596008020477,
+          0.9385080552796037
+        ]
+      },
+      "recall": {
+        "k": 2,
+        "n": 4,
+        "value": 0.5,
+        "ci": [
+          0.15003898915214947,
+          0.8499610108478506
+        ]
+      },
+      "keyword_yes": 3,
+      "human_yes": 4
+    }
+  }
+}

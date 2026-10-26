@@ -1,0 +1,66 @@
+{
+  "run_id": "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Stage 1a 1-episode pilot, arm a_gpt-4.1-mini_default, index 0 (human message 13)",
+  "command": "python -m sting.minimal_runner configs/stage1a_a_gpt-4.1-mini_default.yaml --replicate-indices 0 --purpose Stage 1a 1-episode pilot, arm a_gpt-4.1-mini_default, index 0 (human message 13)",
+  "documented_utc": "2026-10-18T02:12:07Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "e73b65da6013db77c136c605491c4fb27219b397",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "55c3101a542c48107331c10c9a7f442972d71f1b25032d35d95770c2c12d0319",
+  "output_files_sha256": {
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/calls.jsonl": "2f56ea6761f9bc5102beef54d42a2f155d7516bcf3b7f05a630ccc535dc2c785",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/market_setup.json": "34fc38a445b47da6151e2f8f2ea7ed5b46ca2b748e51d773c8c7534932eee674",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/status.json": "8ed115ef21f0f7a7b4ee92669343a8aa675d28558cab6203676b347ae97f718c",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/sting_log.json": "6190bc9327fb97a3009bb2acbac7fcc83adea543d99e20feaa3066a26a86c53d",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/auction_results.md": "9d8848346abf6eedf13db7f49b3b758dc91baf65dc7abb03e19ccac6910d476e",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/Buyer A.md": "94e99425a85110e50e9ea3dbe33f529cbab335ec9db4423614a429f9536e043d",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/Buyer B.md": "80cf32a452c5403349ca2a06990ecb48b527766c1fece06af6bb52b5ef3323b8",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/Buyer C.md": "8ff264aedc455a132c0cbb397e16deaab6d15b342e5f82a59d252e8c30a9b14c",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/experiment_metadata.json": "95b667fa346172de05e644dc804af9fa5cad34ab6fe8b8b4256284c59515a2f0",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/Seller A.md": "66bffa5aaa970cf981c838bb2c9e9ecf36dc388dc08564079d778f9d4c572c73",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/Seller B.md": "97d852f57a121f9552e2d678a7b727f8eab9dea2f48beeca40aca7d2de2fbb67",
+    "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000/upstream_logs/unified.log": "20901389ceaade73e4c955f064ba89898311204ff50eedeeb355a2e60d3ae619",
+    "run_config.json": "3c8cb7ab23dd9eb0666f2dc2f095c89bb18124a954b2c37555a8ebe0ca9b4b7b",
+    "run_summary.json": "05583b62a89cb7a6f1f0d2cf85d11b38c3f6c5b317b4be8a82cc13a825b30209"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T021040Z_stage1a_a_gpt-4.1-mini_default_bf593c_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

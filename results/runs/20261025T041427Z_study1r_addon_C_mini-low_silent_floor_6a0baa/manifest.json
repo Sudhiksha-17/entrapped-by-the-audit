@@ -1,0 +1,74 @@
+{
+  "run_id": "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_C",
+  "purpose": "Study 1R-C confirmatory block 0 gate (human message 81)",
+  "command": "python -m sting.study1rc run configs/study1r_addon_C/campaign.yaml --indices 0 --approve-cost --purpose Study 1R-C confirmatory block 0 gate (human message 81)",
+  "documented_utc": "2026-10-25T04:16:19Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "907ac94522862dd2c1add94bdc8d3a9222cbff0d",
+  "code_dirty": true,
+  "code_changes": [
+    " M tests/test_study1r_price_by_acceptance.py",
+    "?? scripts/study1r_reference_n9.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M tests/test_study1r_price_by_acceptance.py",
+    "?? results/study1r/exploratory/reference_n9/",
+    "?? scripts/study1r_reference_n9.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "06d603b5d2288053eaaa278ef1a7c6be1ce120bc18c5d7b889aaded04730b40d",
+  "output_files_sha256": {
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/calls.jsonl": "c3ec102bb5c8a17a143c764afce1299b9308ce32a6fe1db97ad20114fef04aed",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/market_setup.json": "67d8cef9ceee3a2905f2b4d83a02b15ad3e984f9c8b088933fa5535783bbaca3",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/probe.json": "72ee1132fa3f7d61f84de0ec90f121e315399704f91a94f2e222be7687b5a715",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/status.json": "8e2cb7008f4d82ef612bac1a2809a52feb97c74762d7f3e0e3c26ccaae08eeec",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/sting_log.json": "fb84e9484422488018b8677f449c53fca2afe4f6ad96c4a3bffc8718bbd5e947",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/auction_results.md": "b0397ad7c549ab1a0b1de5d48ddc2badbf1dd2838a0b8969570da02b27ab3e71",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/Buyer A.md": "4bcdc283c554c0cf258c83a92a49a6dd4cc4c7d3fdade29a48474f1457d836a4",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/Buyer B.md": "a90440f2ca60bcdbc5ab0fbd778c9326c1c4e9234cd9f395c99684e7374e78b7",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/Buyer C.md": "bc8e8f7cdd08a423f2387bd7fcf51a4d0ff2a6e26b97f47b67154d12b5989a24",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/experiment_metadata.json": "555d5676ef8f5d16e440048c0ec1e5936694a03c9adc324f75cafb7d93d6afaf",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/Seller A.md": "6e89030f489eac83c32aa4d6a4cfcb928e8fd44721fc372f71a344d112c08365",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/Seller B.md": "99838828b346fd8a665e833bed0e235e71b4f6d98d3fa26c5117950cbbaa4bd3",
+    "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000/upstream_logs/unified.log": "b3065dcee6d3a6beaf7cf002c333f1b5bc878d6bfab6a4417bd5324158a2705e",
+    "run_config.json": "b0b04775042cf3a60deffb3b08084a01098a37bf6b945bbc6b56d0a5bbb00e83",
+    "run_summary.json": "3e5f2f8ab77159ca939c4afaf6484792e11aaecf98a3e7b344c81b0ab18038b6"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

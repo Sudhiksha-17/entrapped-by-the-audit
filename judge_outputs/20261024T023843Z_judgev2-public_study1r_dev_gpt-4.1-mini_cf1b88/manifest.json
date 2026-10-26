@@ -1,0 +1,47 @@
+{
+  "run_id": "20261024T023843Z_judgev2-public_study1r_dev_gpt-4.1-mini_cf1b88",
+  "kind": "judge",
+  "stage": "judge:study1r_pilot",
+  "purpose": "Study 1R judge v2 development, gpt-4.1-mini (message 45)",
+  "command": "run_judge_v2()",
+  "documented_utc": "2026-10-24T02:39:23Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "af4a01da349fedfaf5025d6ae88fa434cccb2170",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "output_files_sha256": {
+    "calls.jsonl": "51fa67939696b3047bac36d6b0a6a66e5c738d05c399a622b2a5f98e20500a60",
+    "judge_run.json": "083f7d22f465536259276f27361c2e466822b75e7c62fe13a3404d8aee06fb5d",
+    "judge_summary.json": "0fa21b463aea40e68cc479bf0804b47841e10675c6a0f62361599d6855130878",
+    "labels.jsonl": "e0441438b9f15b4069d76d76141f308126c0e660efee3cdb2bcd159468596996"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  }
+}

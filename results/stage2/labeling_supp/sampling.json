@@ -1,0 +1,40 @@
+{
+  "n_items": 30,
+  "round": 11,
+  "seed": 20261025,
+  "order_seed": "20261025-order",
+  "excluded_from_original_sample": [
+    "sham|mini-low"
+  ],
+  "round11_pool_per_stratum": {
+    "anchor|mini-low": 66,
+    "directive|mini-low": 66,
+    "offer|4.1-high": 66,
+    "offer|4.1-low": 66,
+    "offer|4.1-medium": 66,
+    "offer|mini-low": 66,
+    "rapport|mini-low": 66,
+    "sham|mini-low": 66
+  },
+  "sample_per_stratum": {
+    "anchor|mini-low": 2,
+    "directive|mini-low": 2,
+    "offer|4.1-high": 6,
+    "offer|4.1-low": 6,
+    "offer|4.1-medium": 6,
+    "offer|mini-low": 6,
+    "rapport|mini-low": 1,
+    "sham|mini-low": 1
+  },
+  "sample_rounds": [
+    11
+  ],
+  "campaign_logs": [
+    "runs\\stage2\\_campaigns\\20261021T162355Z_stage2_70c4ae\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T164833Z_stage2_606400\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T175655Z_stage2_e59ebe\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T190105Z_stage2_dd7c4c\\campaign.json",
+    "runs\\stage2\\_campaigns\\20261021T201112Z_stage2_7a5139\\campaign.json"
+  ],
+  "deviation": "DEV-1 / D-088 (notes/PREREG_DEVIATIONS.md)"
+}

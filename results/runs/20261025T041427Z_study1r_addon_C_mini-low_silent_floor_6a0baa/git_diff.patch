@@ -1,0 +1,22 @@
+diff --git a/tests/test_study1r_price_by_acceptance.py b/tests/test_study1r_price_by_acceptance.py
+index 77882e0..43c6f14 100644
+--- a/tests/test_study1r_price_by_acceptance.py
++++ b/tests/test_study1r_price_by_acceptance.py
+@@ -40,3 +40,17 @@ def test_before_after_matches_accepter_rule():
+     assert M.before_after(asks, 29) == pytest.approx(30.0 - 27.0)   # after window clipped to round 30
+     assert M.before_after(asks, 30) is None                         # no after window
+     assert M.before_after(asks, 24) == pytest.approx((26 + 27) / 2 - 22.0)
++
++
++N9 = importlib.util.module_from_spec(importlib.util.spec_from_file_location("n9", REPO_ROOT / "scripts" / "study1r_reference_n9.py"))
++N9.__spec__.loader.exec_module(N9)
++
++
++def test_reference_n9_draws_nine_episodes_per_resample():
++    import numpy as np
++    table = np.zeros((21, 13))
++    table[0, :] = 9.0                                    # one extreme episode
++    out = N9.reference(table, np.random.default_rng(0), accepters=0.393)
++    assert out["episodes_per_resample"] == 9 and out["resamples"] == 10_000 and out["episodes_in_group"] == 21
++    # a resample mean reaches 1.0 (>= 0.393) exactly when the extreme episode is drawn at least once among 9
++    assert out["share_at_or_above_accepters"] == pytest.approx(1 - (20 / 21) ** 9, abs=0.015)

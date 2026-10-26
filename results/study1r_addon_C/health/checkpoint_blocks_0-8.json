@@ -1,0 +1,117 @@
+{
+  "campaigns": [
+    "<repo>\\runs\\study1r_addon_C\\_campaigns\\20261025T041427Z_study1r_addon_C_06da4c\\campaign.json",
+    "<repo>\\runs\\study1r_addon_C\\_campaigns\\20261025T041701Z_study1r_addon_C_6b5f5e\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "per_arm": {
+    "4.1-high_silent": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 8.96336,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent_floor": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 9.009044,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_silent": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 2.0020192,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_silent_floor": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 2.035226,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 2.4112992,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "1": {
+      "cost": 2.4906832,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "2": {
+      "cost": 2.4650296,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "3": {
+      "cost": 2.447426,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "4": {
+      "cost": 2.4193244,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "5": {
+      "cost": 2.4273332,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "6": {
+      "cost": 2.4129288,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "7": {
+      "cost": 2.4621076,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    },
+    "8": {
+      "cost": 2.4735172,
+      "block0_same_arms": 2.4112992,
+      "arms": 4
+    }
+  },
+  "spent_usd": 22.0096492,
+  "projected_total_usd": 80.702,
+  "cap_usd": 101.74,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

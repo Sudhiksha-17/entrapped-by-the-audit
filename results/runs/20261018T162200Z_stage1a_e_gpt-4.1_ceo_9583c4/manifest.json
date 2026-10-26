@@ -1,0 +1,72 @@
+{
+  "run_id": "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Step B 1-episode pilot, arm e_gpt-4.1_ceo, index 0 (human message 14)",
+  "command": "python -m sting.minimal_runner configs/stage1a_e_gpt-4.1_ceo.yaml --replicate-indices 0 --purpose Step B 1-episode pilot, arm e_gpt-4.1_ceo, index 0 (human message 14)",
+  "documented_utc": "2026-10-18T16:23:53Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "2852c35eece497497c2fd64eaaca00c639f6336a",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "80a45a76ad5078a8731e3c87eccdef64d5ff684cdd7f560c53ab1a1d95b0dadb",
+  "output_files_sha256": {
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/calls.jsonl": "37fc637ce86d4974d7b40b7407cced0b601d626089dd16eb864d0d65cd2c031c",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/market_setup.json": "b56f4dc96d716b5c38993775805216c719b91cf394b7c9d681edcc0bc150d5b9",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/status.json": "15bda17d6035950165ca2009064ac10970a2fd37d2df653faf663c20eb1e1220",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/sting_log.json": "3bd39c66a29163ce51971181d052333612189e8beb0befa8ce30baafc5d8963e",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/auction_results.md": "34d0d201c40c45ca3a3d7a101b9f39bd8dcfdf49dbae7f5e8359ee927ed591c8",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/Buyer A.md": "300e456959078746dfa874cfda1e0b2c35a5b20dfdc7174c52d97ee04ba3f200",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/Buyer B.md": "bca3be3565f7a902c0956daaf5a552c41ebf57cda64c807e35dde2bf12c682c3",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/Buyer C.md": "f114471d62559cd87a62a49adcdb8a8ed8bb5ef58421c0c0774e70920c1964ab",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/experiment_metadata.json": "b7698ac8832bff6fe0e5da3bf1408c0f684a03d85e7f5fe4bd2ee7ce66fb034c",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/Seller A.md": "7bec24c4c557bda0b96f655048ccc3b03ec19a7aa56fe4fbd27db5465ec94247",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/Seller B.md": "3f5adc52ed1ee8f84c07a46e0d612476d4b0cf9d45abe8fdde74803ac37a9ee2",
+    "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000/upstream_logs/unified.log": "1361dd23c34490f88605f02f66bc888e2cbc9a89cdbd409750babfb2925a72f1",
+    "run_config.json": "40f445cc43895d0b1d54aa0ca8012a362cc15fa3fb7e2032c7b274d6c0bbe51d",
+    "run_summary.json": "06cfcd6da1d63bacd134474f2c0f734335b581081bebe82f38d741554d8cd72b"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4_r000",
+      "replicate_index": 0,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

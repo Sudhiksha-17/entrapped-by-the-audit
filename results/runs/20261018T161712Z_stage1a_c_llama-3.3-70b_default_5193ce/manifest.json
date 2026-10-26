@@ -1,0 +1,95 @@
+{
+  "run_id": "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Step A: Llama remaining episodes, indices 1,2 (human message 14)",
+  "command": "python -m sting.minimal_runner configs/stage1a_c_llama-3.3-70b_default.yaml --replicate-indices 1,2 --purpose Step A: Llama remaining episodes, indices 1,2 (human message 14)",
+  "documented_utc": "2026-10-18T16:18:40Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "0fc7765449cec291c2fe0f4395c4605abddf1c56",
+  "code_dirty": true,
+  "code_changes": [
+    "?? configs/stepC_gpt-4.1_ceo_5x5.yaml",
+    "?? scripts/diagnostics_summary.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? configs/stepC_gpt-4.1_ceo_5x5.yaml",
+    "?? prereg/",
+    "?? results/runs/20261018T161229Z_stage1a_a_gpt-4.1-mini_default_7a4f39/",
+    "?? results/runs/20261018T161537Z_stage1a_b_gpt-4.1-mini_ceo_fbfcc3/",
+    "?? scripts/diagnostics_summary.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:meta-llama/llama-3.3-70b-instruct@novita/bf16"
+  ],
+  "config_sha256": "796dedf89f89e9a36df0247e02366ca7d2a4f83296133a9c084a6ae0e3119091",
+  "output_files_sha256": {
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/calls.jsonl": "09a3da77d9d926a9dba5bb63bd0bbbb770a47f969793eefc034f4881b5f21c6b",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/market_setup.json": "548c49a87b471450188eb1a61c33a0cf0f60e312566ddc1af667df8815cfebca",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/status.json": "d9f75b8ee229a2c96f2bd85b7735e1a5ac0de5334691e9eb0dd440a4b1a235eb",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/sting_log.json": "3ab671e76bab72395610bc056d43adb30196b07c3ef72dd51f075f02c451300d",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/auction_results.md": "468e8a11fe92d0a1342a399ca7556c4655ed27d009cbf3697692f4b5654ef7f8",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/Buyer A.md": "2df47c2203f770b5698f3d5a7e6195bb4c3d22794a37eb3260d2df087cb2fe1d",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/Buyer B.md": "079610e610fa7290dc368da2d1f517280b2d9193f40db8cdf06a08edce5e2bee",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/Buyer C.md": "703bdae61b6cce960ebd431070554b53f36a1abecee31e3bc83d5c88e26efba7",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/Seller A.md": "fdfaef2ea3c5e82be3fd259324e55a0b05779f68a7b2f3746a75cb523be1c0a6",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/Seller B.md": "ee615918f325d4f8c4c33cf6037f06364c33bc660729524403447339c38efcf3",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001/upstream_logs/unified.log": "36eb3c1f3aa21e979fe095ddd07219964d4ff7c8b791f9a47f7fe8d7cf3eefd9",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/calls.jsonl": "b05715f4e5b234d02f71c92741ccfb565202265a0c3985d8e89998a3ef632a59",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/market_setup.json": "b5404059960634c7926bd9c1bd7e55407b27ae81764688ee40712cd542ac411a",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/status.json": "063d2fa3f571a33f2de4ec3a0eca26512eb3cb887ffcf4cd906ddd23452c2e18",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/sting_log.json": "59529447e3af087c84527b2aa94f2cfea1de708572580639582214cce47dbeb1",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/auction_results.md": "b56321bfb0d31776ee1fe6916089c1f7590d91fa295e967844fbc1f4df9411a8",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/Buyer A.md": "0b428498878a7500681e89e3fd99f29fa073bf5d3a6cc09f2d3e80e5ba553b58",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/Buyer B.md": "09cb9bc76c4e0f05c1eb2b0fb72ea89ce2d296f96a12553ee1cd20d286951666",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/Buyer C.md": "983a863dc493a46efd5da2bc3c84b4a4e16f7aebd62d238e4dde5cb8f216e03c",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/Seller A.md": "487bb6d4d2e6002b0aeddb2d9dfe2602a7803e3176e6e3ba56c63f6f3fdd2f66",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/Seller B.md": "f2a1168d577fc4f45a7f41934ce71273cc1df8a5fd07ac458bd1c1a41ae2b0b9",
+    "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002/upstream_logs/unified.log": "36eb3c1f3aa21e979fe095ddd07219964d4ff7c8b791f9a47f7fe8d7cf3eefd9",
+    "run_config.json": "486cd4ce2ef90aa401b0e156727cdeffe09b1946713ce6ec6ba941ff08c63f3a",
+    "run_summary.json": "af05f981f8a4fd172c2757a08b4cc1fec1b6fd17514bc1a0c03c52d84cbdc2d1"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r001",
+      "replicate_index": 1,
+      "status": "failed",
+      "failure_reason": "api_failure"
+    },
+    {
+      "replicate_id": "20261018T161712Z_stage1a_c_llama-3.3-70b_default_5193ce_r002",
+      "replicate_index": 2,
+      "status": "failed",
+      "failure_reason": "api_failure"
+    }
+  ]
+}

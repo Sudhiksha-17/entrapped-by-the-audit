@@ -1,0 +1,210 @@
+{
+  "per_arm_change_score": {
+    "4.1-high_offer": {
+      "n": 33,
+      "mean": -0.09849242424242406,
+      "sd": 0.4735668490167872,
+      "sd_upper80": 0.5342031096599933
+    },
+    "4.1-high_silent": {
+      "n": 33,
+      "mean": -0.2731363636363643,
+      "sd": 0.5643626247636475,
+      "sd_upper80": 0.6366245224946675
+    },
+    "4.1-low_offer": {
+      "n": 33,
+      "mean": -0.4169924242424243,
+      "sd": 0.9656575995404336,
+      "sd_upper80": 1.089301950954379
+    },
+    "4.1-low_silent": {
+      "n": 33,
+      "mean": -1.05451515151515,
+      "sd": 2.0098894918115544,
+      "sd_upper80": 2.267238973394895
+    },
+    "4.1-medium_offer": {
+      "n": 33,
+      "mean": -1.871469696969696,
+      "sd": 2.0607313266448704,
+      "sd_upper80": 2.324590678492425
+    },
+    "4.1-medium_silent": {
+      "n": 33,
+      "mean": -1.2320227272727264,
+      "sd": 1.6799284761602808,
+      "sd_upper80": 1.8950292188619473
+    },
+    "mini-low_anchor": {
+      "n": 33,
+      "mean": 1.5802196969696964,
+      "sd": 2.4544593884760095,
+      "sd_upper80": 2.768732314308535
+    },
+    "mini-low_directive": {
+      "n": 33,
+      "mean": 0.5299090909090903,
+      "sd": 0.8318320185604022,
+      "sd_upper80": 0.9383411274507605
+    },
+    "mini-low_offer": {
+      "n": 33,
+      "mean": 1.0603712121212103,
+      "sd": 1.9533877074533212,
+      "sd_upper80": 2.2035026097364745
+    },
+    "mini-low_rapport": {
+      "n": 33,
+      "mean": 0.005795454545454011,
+      "sd": 0.3349356482883203,
+      "sd_upper80": 0.37782134712994647
+    },
+    "mini-low_sham": {
+      "n": 33,
+      "mean": 0.06847727272727393,
+      "sd": 0.4109584755275814,
+      "sd_upper80": 0.4635782593814587
+    },
+    "mini-low_silent": {
+      "n": 33,
+      "mean": 0.13881060606060547,
+      "sd": 0.5226985793034759,
+      "sd_upper80": 0.5896257456756211
+    }
+  },
+  "t1_analytic": {
+    "upper80 SDs (mini-low offer, anchor)": {
+      "33": 0.9009329749449705,
+      "45": 0.9664899981088769,
+      "60": 0.9921988387685619
+    },
+    "point SDs (mini-low offer, anchor)": {
+      "33": 0.9556801927851705,
+      "45": 0.9897484094315412,
+      "60": 0.9985524422685159
+    },
+    "largest upper80 SD of any arm (2.769)": {
+      "33": 0.8350324727551297,
+      "45": 0.9287376180984401,
+      "60": 0.9770614441036188
+    }
+  },
+  "m_induced": 7.284684343434343,
+  "anchor_mean_change": 1.5802196969696964,
+  "p_star_for_2usd": 0.3506025760435739,
+  "t1_simulation": [
+    {
+      "sd": "anchor point SD",
+      "sd_value": 2.4544593884760095,
+      "p_induced": 0.2,
+      "mean_difference": 1.1408929292929293,
+      "power": {
+        "33": 0.4085,
+        "45": 0.485,
+        "60": 0.5835
+      }
+    },
+    {
+      "sd": "anchor point SD",
+      "sd_value": 2.4544593884760095,
+      "p_induced": 0.3,
+      "mean_difference": 1.7113393939393937,
+      "power": {
+        "33": 0.6695,
+        "45": 0.7975,
+        "60": 0.887
+      }
+    },
+    {
+      "sd": "anchor point SD",
+      "sd_value": 2.4544593884760095,
+      "p_induced": 0.3506,
+      "mean_difference": 1.999985305050505,
+      "power": {
+        "33": 0.794,
+        "45": 0.905,
+        "60": 0.9555
+      }
+    },
+    {
+      "sd": "anchor upper80 SD",
+      "sd_value": 2.768732314308535,
+      "p_induced": 0.2,
+      "mean_difference": 1.1408929292929293,
+      "power": {
+        "33": 0.332,
+        "45": 0.411,
+        "60": 0.5515
+      }
+    },
+    {
+      "sd": "anchor upper80 SD",
+      "sd_value": 2.768732314308535,
+      "p_induced": 0.3,
+      "mean_difference": 1.7113393939393937,
+      "power": {
+        "33": 0.6065,
+        "45": 0.736,
+        "60": 0.8435
+      }
+    },
+    {
+      "sd": "anchor upper80 SD",
+      "sd_value": 2.768732314308535,
+      "p_induced": 0.3506,
+      "mean_difference": 1.999985305050505,
+      "power": {
+        "33": 0.7425,
+        "45": 0.8435,
+        "60": 0.9205
+      }
+    }
+  ],
+  "t2a_simulation": [
+    {
+      "d": 0.2,
+      "worst_case": 0.3395,
+      "low_rate_0.05": 0.6695
+    },
+    {
+      "d": 0.35,
+      "worst_case": 0.8025,
+      "low_rate_0.05": 0.9515
+    },
+    {
+      "d": 0.5,
+      "worst_case": 0.986,
+      "low_rate_0.05": 0.9995
+    }
+  ],
+  "costs": {
+    "human-coded verbal measure (no judge passed G3)": {
+      "episodes": 351,
+      "episodes_usd": 214.06,
+      "probe_usd": 5.06,
+      "judge_v2_exploratory_usd": 25.77,
+      "judge_v1_comparison_usd": 4.32,
+      "planned_usd": 249.21,
+      "cap_usd": 286.59,
+      "offer_episodes": 126
+    }
+  },
+  "pilot_and_validation": {
+    "pilot (10 episodes)": 7.75,
+    "judge development (30 items x 2 candidates x <= 3 prompt versions)": 0.6,
+    "G3 validation runs (40 items x 2 candidates)": 0.2
+  },
+  "settings": {
+    "delta": 2.0,
+    "sims": 2000,
+    "boot": 2000,
+    "seed": 20261023,
+    "t1_ns": [
+      33,
+      45,
+      60
+    ],
+    "t2a_n": 33
+  }
+}

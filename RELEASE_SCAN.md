@@ -1,0 +1,387 @@
+# Release scan report
+
+Built by `scripts/build_release.py` from commit `518f7dd`. Facts only. Matched secrets, paths and names are never printed here; only file names and counts.
+
+Files: 1794 (56.9 MB).
+
+## Human label files (note columns removed; keystroke labels only)
+
+- `results/stage2/labeling/labels_template.csv`: removed note
+- `results/stage2/labeling_supp/labels_template.csv`: removed note
+- `results/study1r/labeling/dev/labels_template.csv`: removed note
+- `results/study1r/labeling/main/verify/labels_template.csv`: removed note
+- `results/study1r/labeling/main/verify_B/labels_template.csv`: removed note
+- `results/study1r/labeling/plan_b/labels_template.csv`: removed note
+- `results/study1r/labeling/plan_b_labeler_b/labels_template.csv`: removed note
+- `results/study1r/labeling/suspicion_check/labels_template.csv`: removed note
+- `results/study1r/labeling/suspicion_check_q1/labels_template.csv`: removed note
+- `results/study1r/labeling/validation/adjudication.csv`: removed note_A, note_B, reason, unresolved
+- `results/study1r/labeling/validation/labels_template.csv`: removed note
+- `results/study1r/labeling/validation_pass2/labels_before_redo_from_22.csv`: removed note
+- `results/study1r/labeling/validation_pass2/labels_template.csv`: removed note
+
+## Files withheld because they contain labeler note text (verbatim match of any note of 25+ characters, or listed by hand)
+
+- `results/study1r/judge_dev/REVISIONS.md` (manual: quotes a fragment of development-set labeler notes)
+- `results/paper/APPENDIX_C_MATERIALS.md` (manual: embeds results/study1r/judge_dev/REVISIONS.md)
+- `results/stage2/judge_validation.json` (15 note matches)
+- `results/stage2/judge_validation.md` (35 note matches)
+- `results/study1r/judge_dev/DEV_REPORT_r0.md` (15 note matches)
+- `results/study1r/judge_dev/DEV_REPORT_r0.md.json` (6 note matches)
+- `results/study1r/judge_dev/DEV_REPORT_r1.md` (6 note matches)
+- `results/study1r/judge_dev/DEV_REPORT_r2.md` (11 note matches)
+- `results/study1r/judge_dev/DEV_REPORT_r2.md.json` (3 note matches)
+- `results/study1r/labeling/validation/DISAGREEMENTS.md` (25 note matches)
+
+## API keys and tokens
+
+- none found
+
+## Local absolute paths (redacted)
+
+Redacted in 319 files (repository root -> `<repo>`, other local paths -> `<local>`).
+
+- `judge_outputs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/judge_run.json`
+- `judge_outputs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/judge_summary.json`
+- `judge_outputs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/manifest.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_anchor_66273e_a28026/judge_run.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_anchor_66273e_a28026/judge_summary.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_anchor_66273e_a28026/manifest.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_rapport_ee5b7b_4fd54a/judge_run.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_rapport_ee5b7b_4fd54a/judge_summary.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_rapport_ee5b7b_4fd54a/manifest.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa/judge_run.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa/judge_summary.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa/manifest.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_4.1-low_offer_88f7a2_eeae09/judge_run.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_4.1-low_offer_88f7a2_eeae09/judge_summary.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_4.1-low_offer_88f7a2_eeae09/manifest.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_directive_29e56e_ff11ef/judge_run.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_directive_29e56e_ff11ef/judge_summary.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_directive_29e56e_ff11ef/manifest.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_offer_de125e_084d39/judge_run.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_offer_de125e_084d39/judge_summary.json`
+- `judge_outputs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_offer_de125e_084d39/manifest.json`
+- `judge_outputs/20261023T180919Z_judge_20261021T162357Z_stage2_4.1-medium_offer_47eced_f5537f/judge_run.json`
+- `judge_outputs/20261023T180919Z_judge_20261021T162357Z_stage2_4.1-medium_offer_47eced_f5537f/judge_summary.json`
+- `judge_outputs/20261023T180919Z_judge_20261021T162357Z_stage2_4.1-medium_offer_47eced_f5537f/manifest.json`
+- `judge_outputs/20261023T180923Z_judge_20261021T162357Z_stage2_4.1-high_offer_80d017_92f2e1/judge_run.json`
+- `judge_outputs/20261023T180923Z_judge_20261021T162357Z_stage2_4.1-high_offer_80d017_92f2e1/judge_summary.json`
+- `judge_outputs/20261023T180923Z_judge_20261021T162357Z_stage2_4.1-high_offer_80d017_92f2e1/manifest.json`
+- `judge_outputs/20261023T180933Z_judge_20261021T164833Z_stage2_mini-low_sham_0aa979_538842/judge_run.json`
+- `judge_outputs/20261023T180933Z_judge_20261021T164833Z_stage2_mini-low_sham_0aa979_538842/judge_summary.json`
+- `judge_outputs/20261023T180933Z_judge_20261021T164833Z_stage2_mini-low_sham_0aa979_538842/manifest.json`
+- `judge_outputs/20261023T180936Z_judge_20261021T164833Z_stage2_mini-low_anchor_44e1b9_779767/judge_run.json`
+- `judge_outputs/20261023T180936Z_judge_20261021T164833Z_stage2_mini-low_anchor_44e1b9_779767/judge_summary.json`
+- `judge_outputs/20261023T180936Z_judge_20261021T164833Z_stage2_mini-low_anchor_44e1b9_779767/manifest.json`
+- `judge_outputs/20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4/judge_run.json`
+- `judge_outputs/20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4/judge_summary.json`
+- `judge_outputs/20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4/manifest.json`
+- `judge_outputs/20261023T180944Z_judge_20261021T164834Z_stage2_mini-low_directive_333a46_65d14d/judge_run.json`
+- `judge_outputs/20261023T180944Z_judge_20261021T164834Z_stage2_mini-low_directive_333a46_65d14d/judge_summary.json`
+- `judge_outputs/20261023T180944Z_judge_20261021T164834Z_stage2_mini-low_directive_333a46_65d14d/manifest.json`
+- `judge_outputs/20261023T181045Z_judge_20261021T164835Z_stage2_4.1-low_offer_14a824_480385/judge_run.json`
+- `judge_outputs/20261023T181045Z_judge_20261021T164835Z_stage2_4.1-low_offer_14a824_480385/judge_summary.json`
+- `judge_outputs/20261023T181045Z_judge_20261021T164835Z_stage2_4.1-low_offer_14a824_480385/manifest.json`
+- `judge_outputs/20261023T181057Z_judge_20261021T164835Z_stage2_4.1-medium_offer_17ccdb_185ca0/judge_run.json`
+- `judge_outputs/20261023T181057Z_judge_20261021T164835Z_stage2_4.1-medium_offer_17ccdb_185ca0/judge_summary.json`
+- `judge_outputs/20261023T181057Z_judge_20261021T164835Z_stage2_4.1-medium_offer_17ccdb_185ca0/manifest.json`
+- `judge_outputs/20261023T181857Z_judge_20261021T164835Z_stage2_4.1-high_offer_aefd5d_a40a41/judge_run.json`
+- `judge_outputs/20261023T181857Z_judge_20261021T164835Z_stage2_4.1-high_offer_aefd5d_a40a41/judge_summary.json`
+- `judge_outputs/20261023T181857Z_judge_20261021T164835Z_stage2_4.1-high_offer_aefd5d_a40a41/manifest.json`
+- `judge_outputs/20261023T181911Z_judge_20261021T175656Z_stage2_mini-low_sham_9e6ad3_70327a/judge_run.json`
+- `judge_outputs/20261023T181911Z_judge_20261021T175656Z_stage2_mini-low_sham_9e6ad3_70327a/judge_summary.json`
+- `judge_outputs/20261023T181911Z_judge_20261021T175656Z_stage2_mini-low_sham_9e6ad3_70327a/manifest.json`
+- `judge_outputs/20261023T181954Z_judge_20261021T175656Z_stage2_mini-low_anchor_c17f8d_34608f/judge_run.json`
+- `judge_outputs/20261023T181954Z_judge_20261021T175656Z_stage2_mini-low_anchor_c17f8d_34608f/judge_summary.json`
+- `judge_outputs/20261023T181954Z_judge_20261021T175656Z_stage2_mini-low_anchor_c17f8d_34608f/manifest.json`
+- `judge_outputs/20261023T182011Z_judge_20261021T175656Z_stage2_mini-low_rapport_691757_62547f/judge_run.json`
+- `judge_outputs/20261023T182011Z_judge_20261021T175656Z_stage2_mini-low_rapport_691757_62547f/judge_summary.json`
+- `judge_outputs/20261023T182011Z_judge_20261021T175656Z_stage2_mini-low_rapport_691757_62547f/manifest.json`
+- `judge_outputs/20261023T182046Z_judge_20261021T175657Z_stage2_mini-low_directive_98682a_e39fe1/judge_run.json`
+- `judge_outputs/20261023T182046Z_judge_20261021T175657Z_stage2_mini-low_directive_98682a_e39fe1/judge_summary.json`
+- `judge_outputs/20261023T182046Z_judge_20261021T175657Z_stage2_mini-low_directive_98682a_e39fe1/manifest.json`
+- `judge_outputs/20261023T182124Z_judge_20261021T175657Z_stage2_mini-low_offer_5f508d_1106b4/judge_run.json`
+- `judge_outputs/20261023T182124Z_judge_20261021T175657Z_stage2_mini-low_offer_5f508d_1106b4/judge_summary.json`
+- `judge_outputs/20261023T182124Z_judge_20261021T175657Z_stage2_mini-low_offer_5f508d_1106b4/manifest.json`
+- `judge_outputs/20261023T182840Z_judge_20261021T175657Z_stage2_4.1-low_offer_4dce8d_3dc833/judge_run.json`
+- `judge_outputs/20261023T182840Z_judge_20261021T175657Z_stage2_4.1-low_offer_4dce8d_3dc833/judge_summary.json`
+- `judge_outputs/20261023T182840Z_judge_20261021T175657Z_stage2_4.1-low_offer_4dce8d_3dc833/manifest.json`
+- `judge_outputs/20261023T182841Z_judge_20261021T175658Z_stage2_4.1-medium_offer_d18e68_55141f/judge_run.json`
+- `judge_outputs/20261023T182841Z_judge_20261021T175658Z_stage2_4.1-medium_offer_d18e68_55141f/judge_summary.json`
+- `judge_outputs/20261023T182841Z_judge_20261021T175658Z_stage2_4.1-medium_offer_d18e68_55141f/manifest.json`
+- `judge_outputs/20261023T182929Z_judge_20261021T175658Z_stage2_4.1-high_offer_6c0414_39106d/judge_run.json`
+- `judge_outputs/20261023T182929Z_judge_20261021T175658Z_stage2_4.1-high_offer_6c0414_39106d/judge_summary.json`
+- `judge_outputs/20261023T182929Z_judge_20261021T175658Z_stage2_4.1-high_offer_6c0414_39106d/manifest.json`
+- `judge_outputs/20261023T183002Z_judge_20261021T190106Z_stage2_mini-low_sham_2a46fb_5be8a0/judge_run.json`
+- `judge_outputs/20261023T183002Z_judge_20261021T190106Z_stage2_mini-low_sham_2a46fb_5be8a0/judge_summary.json`
+- `judge_outputs/20261023T183002Z_judge_20261021T190106Z_stage2_mini-low_sham_2a46fb_5be8a0/manifest.json`
+- `judge_outputs/20261023T183032Z_judge_20261021T190106Z_stage2_mini-low_anchor_8920e9_619808/judge_run.json`
+- `judge_outputs/20261023T183032Z_judge_20261021T190106Z_stage2_mini-low_anchor_8920e9_619808/judge_summary.json`
+- `judge_outputs/20261023T183032Z_judge_20261021T190106Z_stage2_mini-low_anchor_8920e9_619808/manifest.json`
+- `judge_outputs/20261023T183138Z_judge_20261021T190106Z_stage2_mini-low_rapport_910d28_0a1a8e/judge_run.json`
+- `judge_outputs/20261023T183138Z_judge_20261021T190106Z_stage2_mini-low_rapport_910d28_0a1a8e/judge_summary.json`
+- `judge_outputs/20261023T183138Z_judge_20261021T190106Z_stage2_mini-low_rapport_910d28_0a1a8e/manifest.json`
+- `judge_outputs/20261023T183833Z_judge_20261021T190106Z_stage2_mini-low_directive_92a84f_2c8a96/judge_run.json`
+- `judge_outputs/20261023T183833Z_judge_20261021T190106Z_stage2_mini-low_directive_92a84f_2c8a96/judge_summary.json`
+- `judge_outputs/20261023T183833Z_judge_20261021T190106Z_stage2_mini-low_directive_92a84f_2c8a96/manifest.json`
+- `judge_outputs/20261023T183924Z_judge_20261021T190107Z_stage2_mini-low_offer_aae96d_cffc9e/judge_run.json`
+- `judge_outputs/20261023T183924Z_judge_20261021T190107Z_stage2_mini-low_offer_aae96d_cffc9e/judge_summary.json`
+- `judge_outputs/20261023T183924Z_judge_20261021T190107Z_stage2_mini-low_offer_aae96d_cffc9e/manifest.json`
+- `judge_outputs/20261023T183931Z_judge_20261021T190107Z_stage2_4.1-low_offer_592f9c_951440/judge_run.json`
+- `judge_outputs/20261023T183931Z_judge_20261021T190107Z_stage2_4.1-low_offer_592f9c_951440/judge_summary.json`
+- `judge_outputs/20261023T183931Z_judge_20261021T190107Z_stage2_4.1-low_offer_592f9c_951440/manifest.json`
+- `judge_outputs/20261023T184049Z_judge_20261021T190108Z_stage2_4.1-medium_offer_55d4d1_770cca/judge_run.json`
+- `judge_outputs/20261023T184049Z_judge_20261021T190108Z_stage2_4.1-medium_offer_55d4d1_770cca/judge_summary.json`
+- `judge_outputs/20261023T184049Z_judge_20261021T190108Z_stage2_4.1-medium_offer_55d4d1_770cca/manifest.json`
+- `judge_outputs/20261023T184058Z_judge_20261021T190108Z_stage2_4.1-high_offer_ef789c_185e4a/judge_run.json`
+- `judge_outputs/20261023T184058Z_judge_20261021T190108Z_stage2_4.1-high_offer_ef789c_185e4a/judge_summary.json`
+- `judge_outputs/20261023T184058Z_judge_20261021T190108Z_stage2_4.1-high_offer_ef789c_185e4a/manifest.json`
+- `judge_outputs/20261023T184133Z_judge_20261021T201113Z_stage2_mini-low_sham_d1b001_e228fb/judge_run.json`
+- `judge_outputs/20261023T184133Z_judge_20261021T201113Z_stage2_mini-low_sham_d1b001_e228fb/judge_summary.json`
+- `judge_outputs/20261023T184133Z_judge_20261021T201113Z_stage2_mini-low_sham_d1b001_e228fb/manifest.json`
+- `judge_outputs/20261023T184738Z_judge_20261021T201113Z_stage2_mini-low_anchor_4b25ae_8c8b19/judge_run.json`
+- `judge_outputs/20261023T184738Z_judge_20261021T201113Z_stage2_mini-low_anchor_4b25ae_8c8b19/judge_summary.json`
+- `judge_outputs/20261023T184738Z_judge_20261021T201113Z_stage2_mini-low_anchor_4b25ae_8c8b19/manifest.json`
+- `judge_outputs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_directive_509ef7_d08536/judge_run.json`
+- `judge_outputs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_directive_509ef7_d08536/judge_summary.json`
+- `judge_outputs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_directive_509ef7_d08536/manifest.json`
+- `judge_outputs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_rapport_d8f324_ae0032/judge_run.json`
+- `judge_outputs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_rapport_d8f324_ae0032/judge_summary.json`
+- `judge_outputs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_rapport_d8f324_ae0032/manifest.json`
+- `judge_outputs/20261023T185015Z_judge_20261021T201114Z_stage2_mini-low_offer_da8089_e0241b/judge_run.json`
+- `judge_outputs/20261023T185015Z_judge_20261021T201114Z_stage2_mini-low_offer_da8089_e0241b/judge_summary.json`
+- `judge_outputs/20261023T185015Z_judge_20261021T201114Z_stage2_mini-low_offer_da8089_e0241b/manifest.json`
+- `judge_outputs/20261023T185109Z_judge_20261021T201114Z_stage2_4.1-low_offer_067ebd_ebfbe0/judge_run.json`
+- `judge_outputs/20261023T185109Z_judge_20261021T201114Z_stage2_4.1-low_offer_067ebd_ebfbe0/judge_summary.json`
+- `judge_outputs/20261023T185109Z_judge_20261021T201114Z_stage2_4.1-low_offer_067ebd_ebfbe0/manifest.json`
+- `judge_outputs/20261023T185146Z_judge_20261021T201115Z_stage2_4.1-medium_offer_bb3151_206b23/judge_run.json`
+- `judge_outputs/20261023T185146Z_judge_20261021T201115Z_stage2_4.1-medium_offer_bb3151_206b23/judge_summary.json`
+- `judge_outputs/20261023T185146Z_judge_20261021T201115Z_stage2_4.1-medium_offer_bb3151_206b23/manifest.json`
+- `judge_outputs/20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897/judge_run.json`
+- `judge_outputs/20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897/judge_summary.json`
+- `judge_outputs/20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897/manifest.json`
+- `judge_outputs/20261024T015700Z_judgev2-public_study1r_dev_gpt-4.1-mini_6348b1/judge_summary.json`
+- `judge_outputs/20261024T015705Z_judgev2-public_study1r_dev_gpt-4.1_09b875/judge_summary.json`
+- `judge_outputs/20261024T021904Z_judgev2-public_study1r_dev_gpt-4.1-mini_b85f1c/judge_summary.json`
+- `judge_outputs/20261024T021910Z_judgev2-public_study1r_dev_gpt-4.1_b78d5f/judge_summary.json`
+- `judge_outputs/20261024T022128Z_judgev2-public_study1r_dev_gpt-4.1-mini_e9ee58/judge_summary.json`
+- `judge_outputs/20261024T022134Z_judgev2-public_study1r_dev_gpt-4.1_842c03/judge_summary.json`
+- `judge_outputs/20261024T022630Z_judgev2-public_study1r_dev_gpt-4.1-mini_4c601e/judge_summary.json`
+- `judge_outputs/20261024T022635Z_judgev2-public_study1r_dev_gpt-4.1_74cc4c/judge_summary.json`
+- `judge_outputs/20261024T022753Z_judgev2-public_study1r_dev_gpt-4.1-mini_ee2e88/judge_summary.json`
+- `judge_outputs/20261024T022836Z_judgev2-public_study1r_dev_gpt-4.1_1c7586/judge_summary.json`
+- `judge_outputs/20261024T023843Z_judgev2-public_study1r_dev_gpt-4.1-mini_cf1b88/judge_summary.json`
+- `judge_outputs/20261024T023928Z_judgev2-public_study1r_dev_gpt-4.1_7b5396/judge_summary.json`
+- `judge_outputs/20261024T024037Z_judgev2-public_study1r_dev_gpt-4.1-mini_a00a2d/judge_summary.json`
+- `judge_outputs/20261024T024117Z_judgev2-public_study1r_dev_gpt-4.1_4c92b4/judge_summary.json`
+- `judge_outputs/20261024T054045Z_judgev2-public_study1r_validation_gpt-4.1-mini_c86011/judge_summary.json`
+- `judge_outputs/20261024T054133Z_judgev2-public_study1r_validation_gpt-4.1_652a99/judge_summary.json`
+- `judge_outputs/20261024T054217Z_judge_study1r_v1_comparison_validation_f0fd9b/judge_summary.json`
+- `judge_outputs/20261024T061901Z_judgev2-public_20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_8fec3c/judge_run.json`
+- `judge_outputs/20261024T061901Z_judgev2-public_20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_8fec3c/judge_summary.json`
+- `judge_outputs/20261024T061942Z_judgev2-public_20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_7a175c/judge_run.json`
+- `judge_outputs/20261024T061942Z_judgev2-public_20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_7a175c/judge_summary.json`
+- `judge_outputs/20261024T062022Z_judgev2-public_20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_3e7330/judge_run.json`
+- `judge_outputs/20261024T062022Z_judgev2-public_20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_3e7330/judge_summary.json`
+- `judge_outputs/20261024T062226Z_judgev2-public_20261024T004804Z_study1r_pilot_4.1-high_offer_393985_f8554f/judge_run.json`
+- `judge_outputs/20261024T062226Z_judgev2-public_20261024T004804Z_study1r_pilot_4.1-high_offer_393985_f8554f/judge_summary.json`
+- `judge_outputs/20261024T104728Z_judgev2-public_20261024T065648Z_study1r_mini-low_offer_032fb8_c38822/judge_run.json`
+- `judge_outputs/20261024T104728Z_judgev2-public_20261024T065648Z_study1r_mini-low_offer_032fb8_c38822/judge_summary.json`
+- `judge_outputs/20261024T104807Z_judgev2-public_20261024T065648Z_study1r_4.1-low_offer_63ae6e_ce219a/judge_run.json`
+- `judge_outputs/20261024T104807Z_judgev2-public_20261024T065648Z_study1r_4.1-low_offer_63ae6e_ce219a/judge_summary.json`
+- `judge_outputs/20261024T104905Z_judgev2-public_20261024T065649Z_study1r_4.1-high_offer_f031ce_89bf69/judge_run.json`
+- `judge_outputs/20261024T104905Z_judgev2-public_20261024T065649Z_study1r_4.1-high_offer_f031ce_89bf69/judge_summary.json`
+- `judge_outputs/20261024T104946Z_judgev2-public_20261024T070257Z_study1r_mini-low_offer_f43861_9cba58/judge_run.json`
+- `judge_outputs/20261024T104946Z_judgev2-public_20261024T070257Z_study1r_mini-low_offer_f43861_9cba58/judge_summary.json`
+- `judge_outputs/20261024T105528Z_judgev2-public_20261024T070258Z_study1r_4.1-low_offer_786ec3_5514cb/judge_run.json`
+- `judge_outputs/20261024T105528Z_judgev2-public_20261024T070258Z_study1r_4.1-low_offer_786ec3_5514cb/judge_summary.json`
+- `judge_outputs/20261024T110049Z_judgev2-public_20261024T070258Z_study1r_4.1-high_offer_07853b_f2cdcb/judge_run.json`
+- `judge_outputs/20261024T110049Z_judgev2-public_20261024T070258Z_study1r_4.1-high_offer_07853b_f2cdcb/judge_summary.json`
+- `judge_outputs/20261024T110618Z_judgev2-public_20261024T074632Z_study1r_mini-low_offer_7dbc71_7e98e1/judge_run.json`
+- `judge_outputs/20261024T110618Z_judgev2-public_20261024T074632Z_study1r_mini-low_offer_7dbc71_7e98e1/judge_summary.json`
+- `judge_outputs/20261024T111129Z_judgev2-public_20261024T074632Z_study1r_4.1-low_offer_dfbd34_44913f/judge_run.json`
+- `judge_outputs/20261024T111129Z_judgev2-public_20261024T074632Z_study1r_4.1-low_offer_dfbd34_44913f/judge_summary.json`
+- `judge_outputs/20261024T111656Z_judgev2-public_20261024T074633Z_study1r_4.1-high_offer_d8a720_d8e713/judge_run.json`
+- `judge_outputs/20261024T111656Z_judgev2-public_20261024T074633Z_study1r_4.1-high_offer_d8a720_d8e713/judge_summary.json`
+- `judge_outputs/20261024T112225Z_judgev2-public_20261024T082903Z_study1r_mini-low_offer_490a0b_e69bd1/judge_run.json`
+- `judge_outputs/20261024T112225Z_judgev2-public_20261024T082903Z_study1r_mini-low_offer_490a0b_e69bd1/judge_summary.json`
+- `judge_outputs/20261024T112750Z_judgev2-public_20261024T082903Z_study1r_4.1-low_offer_0cfd88_23a161/judge_run.json`
+- `judge_outputs/20261024T112750Z_judgev2-public_20261024T082903Z_study1r_4.1-low_offer_0cfd88_23a161/judge_summary.json`
+- `judge_outputs/20261024T113324Z_judgev2-public_20261024T082904Z_study1r_4.1-high_offer_d3a13f_3f4122/judge_run.json`
+- `judge_outputs/20261024T113324Z_judgev2-public_20261024T082904Z_study1r_4.1-high_offer_d3a13f_3f4122/judge_summary.json`
+- `judge_outputs/20261024T113851Z_judgev2-public_20261024T091015Z_study1r_mini-low_offer_2129d6_357a79/judge_run.json`
+- `judge_outputs/20261024T113851Z_judgev2-public_20261024T091015Z_study1r_mini-low_offer_2129d6_357a79/judge_summary.json`
+- `judge_outputs/20261024T114359Z_judgev2-public_20261024T091015Z_study1r_4.1-low_offer_0c5c80_0b2fba/judge_run.json`
+- `judge_outputs/20261024T114359Z_judgev2-public_20261024T091015Z_study1r_4.1-low_offer_0c5c80_0b2fba/judge_summary.json`
+- `judge_outputs/20261024T114919Z_judgev2-public_20261024T091016Z_study1r_4.1-high_offer_c6e0fd_7ccfad/judge_run.json`
+- `judge_outputs/20261024T114919Z_judgev2-public_20261024T091016Z_study1r_4.1-high_offer_c6e0fd_7ccfad/judge_summary.json`
+- `judge_outputs/20261024T115436Z_judgev2-public_20261024T095252Z_study1r_mini-low_offer_aed54c_99523e/judge_run.json`
+- `judge_outputs/20261024T115436Z_judgev2-public_20261024T095252Z_study1r_mini-low_offer_aed54c_99523e/judge_summary.json`
+- `judge_outputs/20261024T115954Z_judgev2-public_20261024T095252Z_study1r_4.1-low_offer_c6d56d_6edfbc/judge_run.json`
+- `judge_outputs/20261024T115954Z_judgev2-public_20261024T095252Z_study1r_4.1-low_offer_c6d56d_6edfbc/judge_summary.json`
+- `judge_outputs/20261024T115955Z_judgev2-public_20261024T095253Z_study1r_4.1-high_offer_bfb067_b5c4b7/judge_run.json`
+- `judge_outputs/20261024T115955Z_judgev2-public_20261024T095253Z_study1r_4.1-high_offer_bfb067_b5c4b7/judge_summary.json`
+- `judge_outputs/20261024T115956Z_judgev2-public_20261024T100744Z_study1r_mini-low_offer_72e5a2_1e616f/judge_run.json`
+- `judge_outputs/20261024T115956Z_judgev2-public_20261024T100744Z_study1r_mini-low_offer_72e5a2_1e616f/judge_summary.json`
+- `judge_outputs/20261024T120522Z_judgev2-public_20261024T100745Z_study1r_4.1-high_offer_7cfafe_5150b9/judge_run.json`
+- `judge_outputs/20261024T120522Z_judgev2-public_20261024T100745Z_study1r_4.1-high_offer_7cfafe_5150b9/judge_summary.json`
+- `judge_outputs/20261024T120522Z_judgev2-public_20261024T100745Z_study1r_4.1-low_offer_9b3283_2b96c4/judge_run.json`
+- `judge_outputs/20261024T120522Z_judgev2-public_20261024T100745Z_study1r_4.1-low_offer_9b3283_2b96c4/judge_summary.json`
+- `judge_outputs/20261024T120523Z_judgev2-public_20261024T102352Z_study1r_mini-low_offer_c509ea_32df10/judge_run.json`
+- `judge_outputs/20261024T120523Z_judgev2-public_20261024T102352Z_study1r_mini-low_offer_c509ea_32df10/judge_summary.json`
+- `judge_outputs/20261024T121047Z_judgev2-public_20261024T102352Z_study1r_4.1-low_offer_dbb47d_97b92c/judge_run.json`
+- `judge_outputs/20261024T121047Z_judgev2-public_20261024T102352Z_study1r_4.1-low_offer_dbb47d_97b92c/judge_summary.json`
+- `judge_outputs/20261024T121048Z_judgev2-public_20261024T102353Z_study1r_4.1-high_offer_d98221_57b428/judge_run.json`
+- `judge_outputs/20261024T121048Z_judgev2-public_20261024T102353Z_study1r_4.1-high_offer_d98221_57b428/judge_summary.json`
+- `judge_outputs/20261024T121048Z_judgev2-public_20261024T103951Z_study1r_mini-low_offer_eb9457_25da03/judge_run.json`
+- `judge_outputs/20261024T121048Z_judgev2-public_20261024T103951Z_study1r_mini-low_offer_eb9457_25da03/judge_summary.json`
+- `judge_outputs/20261024T121250Z_judgev2-public_20261024T103952Z_study1r_4.1-low_offer_6b2ce0_05a06d/judge_run.json`
+- `judge_outputs/20261024T121250Z_judgev2-public_20261024T103952Z_study1r_4.1-low_offer_6b2ce0_05a06d/judge_summary.json`
+- `judge_outputs/20261024T121251Z_judgev2-public_20261024T103952Z_study1r_4.1-high_offer_c88c39_95bf36/judge_run.json`
+- `judge_outputs/20261024T121251Z_judgev2-public_20261024T103952Z_study1r_4.1-high_offer_c88c39_95bf36/judge_summary.json`
+- `judge_outputs/20261024T121318Z_judge_study1r_v1_comparison_offer_6250d4/judge_summary.json`
+- `judge_outputs/20261026T011748Z_judge_study1r_v1_public_validation_a4b0fa/judge_summary.json`
+- `judge_outputs/20261026T011908Z_judge_study1r_v1_public_offer_f86066/judge_summary.json`
+- `results/runs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/manifest.json`
+- `results/runs/20261023T175651Z_judge_20261021T164834Z_stage2_mini-low_offer_d8ca28_1d4d5a/report.md`
+- `results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_anchor_66273e_a28026/manifest.json`
+- `results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_anchor_66273e_a28026/report.md`
+- `results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_rapport_ee5b7b_4fd54a/manifest.json`
+- `results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_rapport_ee5b7b_4fd54a/report.md`
+- `results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa/manifest.json`
+- `results/runs/20261023T180805Z_judge_20261021T162355Z_stage2_mini-low_sham_ca4733_c733aa/report.md`
+- `results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_4.1-low_offer_88f7a2_eeae09/manifest.json`
+- `results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_4.1-low_offer_88f7a2_eeae09/report.md`
+- `results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_directive_29e56e_ff11ef/manifest.json`
+- `results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_directive_29e56e_ff11ef/report.md`
+- `results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_offer_de125e_084d39/manifest.json`
+- `results/runs/20261023T180805Z_judge_20261021T162356Z_stage2_mini-low_offer_de125e_084d39/report.md`
+- `results/runs/20261023T180919Z_judge_20261021T162357Z_stage2_4.1-medium_offer_47eced_f5537f/manifest.json`
+- `results/runs/20261023T180919Z_judge_20261021T162357Z_stage2_4.1-medium_offer_47eced_f5537f/report.md`
+- `results/runs/20261023T180923Z_judge_20261021T162357Z_stage2_4.1-high_offer_80d017_92f2e1/manifest.json`
+- `results/runs/20261023T180923Z_judge_20261021T162357Z_stage2_4.1-high_offer_80d017_92f2e1/report.md`
+- `results/runs/20261023T180933Z_judge_20261021T164833Z_stage2_mini-low_sham_0aa979_538842/manifest.json`
+- `results/runs/20261023T180933Z_judge_20261021T164833Z_stage2_mini-low_sham_0aa979_538842/report.md`
+- `results/runs/20261023T180936Z_judge_20261021T164833Z_stage2_mini-low_anchor_44e1b9_779767/manifest.json`
+- `results/runs/20261023T180936Z_judge_20261021T164833Z_stage2_mini-low_anchor_44e1b9_779767/report.md`
+- `results/runs/20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4/manifest.json`
+- `results/runs/20261023T180940Z_judge_20261021T164834Z_stage2_mini-low_rapport_e81328_1d9da4/report.md`
+- `results/runs/20261023T180944Z_judge_20261021T164834Z_stage2_mini-low_directive_333a46_65d14d/manifest.json`
+- `results/runs/20261023T180944Z_judge_20261021T164834Z_stage2_mini-low_directive_333a46_65d14d/report.md`
+- `results/runs/20261023T181045Z_judge_20261021T164835Z_stage2_4.1-low_offer_14a824_480385/manifest.json`
+- `results/runs/20261023T181045Z_judge_20261021T164835Z_stage2_4.1-low_offer_14a824_480385/report.md`
+- `results/runs/20261023T181057Z_judge_20261021T164835Z_stage2_4.1-medium_offer_17ccdb_185ca0/manifest.json`
+- `results/runs/20261023T181057Z_judge_20261021T164835Z_stage2_4.1-medium_offer_17ccdb_185ca0/report.md`
+- `results/runs/20261023T181857Z_judge_20261021T164835Z_stage2_4.1-high_offer_aefd5d_a40a41/manifest.json`
+- `results/runs/20261023T181857Z_judge_20261021T164835Z_stage2_4.1-high_offer_aefd5d_a40a41/report.md`
+- `results/runs/20261023T181911Z_judge_20261021T175656Z_stage2_mini-low_sham_9e6ad3_70327a/manifest.json`
+- `results/runs/20261023T181911Z_judge_20261021T175656Z_stage2_mini-low_sham_9e6ad3_70327a/report.md`
+- `results/runs/20261023T181954Z_judge_20261021T175656Z_stage2_mini-low_anchor_c17f8d_34608f/manifest.json`
+- `results/runs/20261023T181954Z_judge_20261021T175656Z_stage2_mini-low_anchor_c17f8d_34608f/report.md`
+- `results/runs/20261023T182011Z_judge_20261021T175656Z_stage2_mini-low_rapport_691757_62547f/manifest.json`
+- `results/runs/20261023T182011Z_judge_20261021T175656Z_stage2_mini-low_rapport_691757_62547f/report.md`
+- `results/runs/20261023T182046Z_judge_20261021T175657Z_stage2_mini-low_directive_98682a_e39fe1/manifest.json`
+- `results/runs/20261023T182046Z_judge_20261021T175657Z_stage2_mini-low_directive_98682a_e39fe1/report.md`
+- `results/runs/20261023T182124Z_judge_20261021T175657Z_stage2_mini-low_offer_5f508d_1106b4/manifest.json`
+- `results/runs/20261023T182124Z_judge_20261021T175657Z_stage2_mini-low_offer_5f508d_1106b4/report.md`
+- `results/runs/20261023T182840Z_judge_20261021T175657Z_stage2_4.1-low_offer_4dce8d_3dc833/manifest.json`
+- `results/runs/20261023T182840Z_judge_20261021T175657Z_stage2_4.1-low_offer_4dce8d_3dc833/report.md`
+- `results/runs/20261023T182841Z_judge_20261021T175658Z_stage2_4.1-medium_offer_d18e68_55141f/manifest.json`
+- `results/runs/20261023T182841Z_judge_20261021T175658Z_stage2_4.1-medium_offer_d18e68_55141f/report.md`
+- `results/runs/20261023T182929Z_judge_20261021T175658Z_stage2_4.1-high_offer_6c0414_39106d/manifest.json`
+- `results/runs/20261023T182929Z_judge_20261021T175658Z_stage2_4.1-high_offer_6c0414_39106d/report.md`
+- `results/runs/20261023T183002Z_judge_20261021T190106Z_stage2_mini-low_sham_2a46fb_5be8a0/manifest.json`
+- `results/runs/20261023T183002Z_judge_20261021T190106Z_stage2_mini-low_sham_2a46fb_5be8a0/report.md`
+- `results/runs/20261023T183032Z_judge_20261021T190106Z_stage2_mini-low_anchor_8920e9_619808/manifest.json`
+- `results/runs/20261023T183032Z_judge_20261021T190106Z_stage2_mini-low_anchor_8920e9_619808/report.md`
+- `results/runs/20261023T183138Z_judge_20261021T190106Z_stage2_mini-low_rapport_910d28_0a1a8e/manifest.json`
+- `results/runs/20261023T183138Z_judge_20261021T190106Z_stage2_mini-low_rapport_910d28_0a1a8e/report.md`
+- `results/runs/20261023T183833Z_judge_20261021T190106Z_stage2_mini-low_directive_92a84f_2c8a96/manifest.json`
+- `results/runs/20261023T183833Z_judge_20261021T190106Z_stage2_mini-low_directive_92a84f_2c8a96/report.md`
+- `results/runs/20261023T183924Z_judge_20261021T190107Z_stage2_mini-low_offer_aae96d_cffc9e/manifest.json`
+- `results/runs/20261023T183924Z_judge_20261021T190107Z_stage2_mini-low_offer_aae96d_cffc9e/report.md`
+- `results/runs/20261023T183931Z_judge_20261021T190107Z_stage2_4.1-low_offer_592f9c_951440/manifest.json`
+- `results/runs/20261023T183931Z_judge_20261021T190107Z_stage2_4.1-low_offer_592f9c_951440/report.md`
+- `results/runs/20261023T184049Z_judge_20261021T190108Z_stage2_4.1-medium_offer_55d4d1_770cca/manifest.json`
+- `results/runs/20261023T184049Z_judge_20261021T190108Z_stage2_4.1-medium_offer_55d4d1_770cca/report.md`
+- `results/runs/20261023T184058Z_judge_20261021T190108Z_stage2_4.1-high_offer_ef789c_185e4a/manifest.json`
+- `results/runs/20261023T184058Z_judge_20261021T190108Z_stage2_4.1-high_offer_ef789c_185e4a/report.md`
+- `results/runs/20261023T184133Z_judge_20261021T201113Z_stage2_mini-low_sham_d1b001_e228fb/manifest.json`
+- `results/runs/20261023T184133Z_judge_20261021T201113Z_stage2_mini-low_sham_d1b001_e228fb/report.md`
+- `results/runs/20261023T184738Z_judge_20261021T201113Z_stage2_mini-low_anchor_4b25ae_8c8b19/manifest.json`
+- `results/runs/20261023T184738Z_judge_20261021T201113Z_stage2_mini-low_anchor_4b25ae_8c8b19/report.md`
+- `results/runs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_directive_509ef7_d08536/manifest.json`
+- `results/runs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_directive_509ef7_d08536/report.md`
+- `results/runs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_rapport_d8f324_ae0032/manifest.json`
+- `results/runs/20261023T184954Z_judge_20261021T201113Z_stage2_mini-low_rapport_d8f324_ae0032/report.md`
+- `results/runs/20261023T185015Z_judge_20261021T201114Z_stage2_mini-low_offer_da8089_e0241b/manifest.json`
+- `results/runs/20261023T185015Z_judge_20261021T201114Z_stage2_mini-low_offer_da8089_e0241b/report.md`
+- `results/runs/20261023T185109Z_judge_20261021T201114Z_stage2_4.1-low_offer_067ebd_ebfbe0/manifest.json`
+- `results/runs/20261023T185109Z_judge_20261021T201114Z_stage2_4.1-low_offer_067ebd_ebfbe0/report.md`
+- `results/runs/20261023T185146Z_judge_20261021T201115Z_stage2_4.1-medium_offer_bb3151_206b23/manifest.json`
+- `results/runs/20261023T185146Z_judge_20261021T201115Z_stage2_4.1-medium_offer_bb3151_206b23/report.md`
+- `results/runs/20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897/manifest.json`
+- `results/runs/20261023T185717Z_judge_20261021T201115Z_stage2_4.1-high_offer_fed595_b4e897/report.md`
+- `results/study1r/health/checkpoint_blocks_0-16.json`
+- `results/study1r/health/checkpoint_blocks_0-24.json`
+- `results/study1r/health/checkpoint_blocks_0-32.json`
+- `results/study1r/health/checkpoint_blocks_0-40.json`
+- `results/study1r/health/checkpoint_blocks_0-48.json`
+- `results/study1r/health/checkpoint_blocks_0-56.json`
+- `results/study1r/health/checkpoint_blocks_0-59.json`
+- `results/study1r/health/checkpoint_blocks_0-8.json`
+- `results/study1r/pilot_gate/gate_report.json`
+- `results/study1r_addon_A/health/checkpoint_blocks_0-16.json`
+- `results/study1r_addon_A/health/checkpoint_blocks_0-24.json`
+- `results/study1r_addon_A/health/checkpoint_blocks_0-32.json`
+- `results/study1r_addon_A/health/checkpoint_blocks_0-8.json`
+- `results/study1r_addon_C/health/checkpoint_blocks_0-16.json`
+- `results/study1r_addon_C/health/checkpoint_blocks_0-24.json`
+- `results/study1r_addon_C/health/checkpoint_blocks_0-32.json`
+- `results/study1r_addon_C/health/checkpoint_blocks_0-8.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_1-8.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_17-24.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_25-32.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_33-40.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_41-48.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_49-56.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_57-59.json`
+- `results/study1r_addon_D/health/checkpoint_A_blocks_9-16.json`
+- `results/study1r_addon_D/health/checkpoint_A_final.json`
+- `results/study1r_addon_D/health/checkpoint_A_final2.json`
+- `results/study1r_addon_D/health/checkpoint_B1_blocks_1-7.json`
+- `results/study1r_addon_D/health/checkpoint_B2_blocks_8-13.json`
+- `results/study1r_addon_D/health/checkpoint_B3_blocks_14-20.json`
+- `results/study1r_addon_D/health/checkpoint_B4_blocks_21-26.json`
+- `results/study1r_addon_D/health/checkpoint_B5_blocks_27-32.json`
+- `results/study1r_addon_D/health/checkpoint_final.json`
+- `results/study1r_addon_D_b2/health/checkpoint_B1_blocks_1-11.json`
+- `results/study1r_addon_D_b2/health/checkpoint_B2_blocks_12-22.json`
+- `results/study1r_addon_D_b2/health/checkpoint_B3_blocks_23-32.json`
+- `results/study1r_addon_D_b2/health/checkpoint_B_final.json`
+
+## Residual checks after redaction
+
+- Local user name or e-mail still present: 0 files
+- Absolute local paths still present: 0 files
+- Frozen files whose release copy no longer matches its lock hash: 0
+
+## Sample transcripts
+
+- `sample_transcripts/study1r/20261024T065647Z_study1r_mini-low_silent_3bade9_r000`
+- `sample_transcripts/study1r/20261024T065647Z_study1r_mini-low_sham_a3e1b2_r000`
+- `sample_transcripts/study1r/20261024T065648Z_study1r_mini-low_anchor_27c1e1_r000`
+- `sample_transcripts/study1r/20261024T065648Z_study1r_mini-low_offer_032fb8_r000`
+- `sample_transcripts/study1r/20261024T065648Z_study1r_4.1-low_silent_056620_r000`
+- `sample_transcripts/study1r/20261024T065648Z_study1r_4.1-low_anchor_7bac3c_r000`
+- `sample_transcripts/study1r/20261024T065648Z_study1r_4.1-low_offer_63ae6e_r000`
+- `sample_transcripts/study1r/20261024T065649Z_study1r_4.1-high_silent_1f4d6c_r000`
+- `sample_transcripts/study1r/20261024T065649Z_study1r_4.1-high_offer_f031ce_r000`
+- `sample_transcripts/study1r_addon_A/20261024T184841Z_study1r_addon_A_4.1-high_competitive_40427d_r000`
+- `sample_transcripts/study1r_addon_A/20261024T184842Z_study1r_addon_A_4.1-high_silent_daa028_r000`
+- `sample_transcripts/study1r_addon_C/20261025T041427Z_study1r_addon_C_mini-low_silent_floor_6a0baa_r000`
+- `sample_transcripts/study1r_addon_C/20261025T041428Z_study1r_addon_C_mini-low_silent_b6a2bc_r000`
+- `sample_transcripts/study1r_addon_C/20261025T041428Z_study1r_addon_C_4.1-high_silent_floor_4fc185_r000`
+- `sample_transcripts/study1r_addon_C/20261025T041428Z_study1r_addon_C_4.1-high_silent_3f1b2d_r000`
+- `sample_transcripts/stage2/20261021T162356Z_stage2_mini-low_offer_de125e_r000`

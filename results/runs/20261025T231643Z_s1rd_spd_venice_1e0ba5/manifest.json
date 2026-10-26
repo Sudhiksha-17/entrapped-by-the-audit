@@ -1,0 +1,82 @@
+{
+  "run_id": "20261025T231643Z_s1rd_spd_venice_1e0ba5",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D_speedtest",
+  "purpose": "Study 1R-D Cell B provider speed test (exploratory, index 2000; addendum 1; human message 88)",
+  "command": "python -m sting.minimal_runner configs/study1r_addon_D/speedtest/venice_silent.yaml --purpose Study 1R-D Cell B provider speed test (exploratory, index 2000; addendum 1; human message 88) --replicate-indices 2000",
+  "documented_utc": "2026-10-25T23:28:44Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "5f6c6799454c8daf651ef2766c51da5422e0719b",
+  "code_dirty": true,
+  "code_changes": [
+    "?? scripts/make_study1rd_b2_configs.py",
+    "?? sting/study1rd_b2.py",
+    "?? tests/test_study1rd_b2.py"
+  ],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261025T231643Z_s1rd_spd_gmicloud_0af0d0/",
+    "?? results/runs/20261025T231643Z_s1rd_spd_parasail_3309e9/",
+    "?? results/runs/20261025T231643Z_s1rd_spd_vertex_670ea1/",
+    "?? scripts/make_study1rd_b2_configs.py",
+    "?? sting/study1rd_b2.py",
+    "?? tests/test_study1rd_b2.py"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:qwen/qwen3-235b-a22b-2507@venice"
+  ],
+  "config_sha256": "6ad878d1266d3f46df5a2235c4c2a4553fd4f29b5676a76aed5eed0c7910d550",
+  "output_files_sha256": {
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/calls.jsonl": "e13092c20d3c7673523fda01941c14eb809699456ea67f80fd17b0ce9ffa0404",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/market_setup.json": "75d4f41b193616b0ae532b2ca3210da0f348c137257df5dd47cdffeafa7055f7",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/probe.json": "b2a9d42a92423dec160cf339e3c42e0d25fe5d3f06098c86e5ecdcc06d6bac98",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/status.json": "08bafe78a7c9c9cf073d93e55cd0a4cf787e4bf24bfcb0ded589af26941fcdec",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/sting_log.json": "160244759e7f0ab283dbe9c6162ed3355c264f43c7799156ff1335436b00ec55",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/auction_results.md": "d580b364e6d94808e130d0a9d3e3919fa0749890e3cb776f43ddb9511f98920f",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/Buyer A.md": "47d19c44ada9c7464d9154e3dafd50dd3a0a5fa27ef85c8d4599798b11f43e3a",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/Buyer B.md": "479abf8e3b9d5ce96aafe9b1a8239e50824e6ab80140728dcbe3313320d9a5bc",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/Buyer C.md": "d84bca8fd0a7c332d4a0ab103d226c666d1f9008ecfaee4e93675a5391082311",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/experiment_metadata.json": "7f82374c9644313ce15c54c6219da98799810683de62f80c96bb4eb2bd6acd3f",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/Seller A.md": "fa26ad1c0b89a26bf81bccb56e6bdeddbf8d5af03ba7a6a74c8c683bc56d3abe",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/Seller B.md": "65b70dfaf03ebfd4e52b55505df1060088a45ca87b28b795a1fba84d007e412f",
+    "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000/upstream_logs/unified.log": "5b825d2c04e6062c7f49c37a92dd3a1e879755f0a469ddd971999a4a3130b305",
+    "run_config.json": "98e0bb98418793f3577089df7c7a65a68cda0efc76ca53e35d192230a9dd4670",
+    "run_summary.json": "6f012befaf794be06fd6d4e2aedc72d3f221a2667b64f2515080eef8b9767762"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261025T231643Z_s1rd_spd_venice_1e0ba5_r2000",
+      "replicate_index": 2000,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

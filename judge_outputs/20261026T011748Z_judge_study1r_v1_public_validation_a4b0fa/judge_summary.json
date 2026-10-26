@@ -1,0 +1,10 @@
+{
+  "run_id": "20261026T011748Z_judge_study1r_v1_public_validation_a4b0fa",
+  "source_run_id": "items:study1r_v1_public_validation",
+  "source_stage": "study1r_pilot",
+  "items": 40,
+  "ok": 40,
+  "invalid": 0,
+  "finished_utc": "20261026T011851Z",
+  "run_dir": "<repo>\\runs\\judge\\20261026T011748Z_judge_study1r_v1_public_validation_a4b0fa"
+}

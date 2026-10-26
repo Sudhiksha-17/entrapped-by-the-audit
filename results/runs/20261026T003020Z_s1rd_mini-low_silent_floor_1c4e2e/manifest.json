@@ -1,0 +1,111 @@
+{
+  "run_id": "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e",
+  "kind": "episode_batch",
+  "stage": "study1r_addon_D",
+  "purpose": "Study 1R-D confirmatory A_blocks_57-59 (human message 89)",
+  "command": "python -m sting.study1rd run configs/study1r_addon_D/campaign.yaml --arms mini-low_offer_floor,mini-low_silent_floor --indices 57,58,59 --approve-cost --purpose Study 1R-D confirmatory A_blocks_57-59 (human message 89)",
+  "documented_utc": "2026-10-26T00:35:57Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "c8ce5596ee957af84817f98f08ccea20e31435f3",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261026T003020Z_s1rd_mini-low_offer_floor_efa4cd/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "997a5234fb4f6574daf3f27d3e22f7179a5deaf5e15f0d07d214313e5b6523f6",
+  "output_files_sha256": {
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/calls.jsonl": "7d9fdf5ddf73a26b64d23209cc4bb67b19475b14608e24c4cb22e36d9fe55f68",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/market_setup.json": "09655d02b19a7444904a1e911679fddd7b46a9b4bd1bb44f5aa3473ea16aa0e9",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/probe.json": "e146735739a1c536daf4faadc88d3ef827d9c66e11ceee860cb35fe17f6e7ad4",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/status.json": "0ad4bf9ac3b3c46dc55b01c977f60b3c2c97507d282bb6c1b93afd0a697633ba",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/sting_log.json": "a3fa4a76d9a5999d868491363242d93dbabdf4367708be0d3cdbd4f242cd3ce7",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/auction_results.md": "ccd6fa554dcb9143749f1622cea65b005aff69c22fab8965966bbeb0613aaf81",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/Buyer A.md": "5e70f1255f9a8274f33768bdd845b6aadd1070c991c0a71df83f2a1c1b348a0f",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/Buyer B.md": "8d4117aca29722a4a68e6c5cf85efade1acd90325eabc50b5988e7cf38845a1b",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/Buyer C.md": "f784465621aa673497bb63805828d6a594c15bc21b1d455fccbf66e443868330",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/experiment_metadata.json": "89ac316fe5297d9a6ba4786106b0be3214808abdaedd83c30b680df24166cb99",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/Seller A.md": "96a1f4f36167902ac5aba0982cb6a35cb9e5f9e90098f7803e9a6f3cdfee229a",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/Seller B.md": "c8014e89ae918f2684ea049b4ba6815a09db412b1b4a99036b06cb88cc287034",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057/upstream_logs/unified.log": "b0665e4a330ae8ccd9a09c9194835c3d74362ae9a9505744fa7c921f7484d850",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/calls.jsonl": "5fba564388eb73bf667c116d02d456482d1cc8e47fcd72b80800dcc6158d720d",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/market_setup.json": "efca819eeaa0b61a27745306dfe959f7c03df4692fadd21529db2b795f2f53c3",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/probe.json": "0fddc45307579425adbfa4d2c60ce74129f3f7e2fc36f30f3eb99ac44306e917",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/status.json": "a5ae30633f034b179d94045e4a15a29a4188d57c9c3efe3604340bcc3d19c2ba",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/sting_log.json": "8e07ebaffd9e80ed9b2735073bb90b10e8b3a42fdf1e7a724f782cb991d438c7",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/auction_results.md": "72c8389a1ea4f02a70a1bfc6c120780f7fbf3a1ae6ad6b90529d0528f4c7c19c",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/Buyer A.md": "ab90c0d4605e89940589ecdcd0e95d5ef5656baa88f05ca9377c96805acf6e67",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/Buyer B.md": "f268d16d96696356bd4346c5a87719e2fb8a9dba4c595f1916b6dd1bd8bd3b87",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/Buyer C.md": "6bf26854d2a50ee71dafddfa7aa51f44e0aaaf735e390cd7a1a27228f6256755",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/experiment_metadata.json": "79ceead1b98d91a21710541b8bf009946537b053ea5073604876d055175bc8ff",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/Seller A.md": "3830e452dc1226683311981b852d6afc7ac9922270fd2eb88c99a488e039253d",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/Seller B.md": "6a501e1564f0cf0807a041610e774a9d51562cd8bbbe6d2f5b06cb2badf0e10a",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058/upstream_logs/unified.log": "de1c97ba7937e49f51a9a951e3cda3865d76be51808b642e6a614156dbefe1b9",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/calls.jsonl": "66185705b34e4952ea7480b3dc151deaa4ebdc2040ff1d4b1e9712c9bbc4e372",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/market_setup.json": "78838b963f7086fc7f8fc5f229625944b56781cd82c649d72fd66e74da270731",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/probe.json": "2b4bdd540ac9a38126ed5cf7097ab3e953c7b5b3b0186a8f725d13aed10fba2b",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/status.json": "0cec9c9e31f1f2136bf8f52b103d503dd10d5e2fff9c6c24f6f7e2f7f224989b",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/sting_log.json": "324601b162b08d8ea3cb2377b173a9cba48a5b604cd1f3377c84529b30555d6d",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/auction_results.md": "d72438506fcf3aa4f2505b3277906a6c7bc424417c71d61e53c10ce4cb39f2a1",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/Buyer A.md": "15a68c9de00d8c9e27829475755fc9634b3f79eb83325c83ed5fb1d38b517454",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/Buyer B.md": "2c53fef5d38e44763a8977672698c2612efd874b7dbf90d7155fc584b0264280",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/Buyer C.md": "673c0c4baf16a70d40640ef68052d02650d6df1976e6357b63e377e8b49b4d85",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/experiment_metadata.json": "c7dc309ee8277e16111d2e1d67b0a8e24b9edca057df52c1f07988e8fb822231",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/Seller A.md": "0ccc110f1c1e087164939a21e820bc3d4d612833a3e38d71a15e83f7a9a4a6b4",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/Seller B.md": "3b9d80f656eb0bff92d635ecd6d9ef9ab0384a5cccd8f7b98a2d2ae5e34aa929",
+    "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059/upstream_logs/unified.log": "77f0e6058b2038c156281859d793267b3d7d18fa9132c7f270a3c67d00fa9e93",
+    "run_config.json": "4c549230a762b402b03b6fb6ebf935e245c96951d613776e9aef98ea14a1a89b",
+    "run_summary.json": "3762bac900fa3fdf17bc1e3a5c630f2f2b01a2f7cf910cd11426216f02b78fe3"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r057",
+      "replicate_index": 57,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r058",
+      "replicate_index": 58,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261026T003020Z_s1rd_mini-low_silent_floor_1c4e2e_r059",
+      "replicate_index": 59,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

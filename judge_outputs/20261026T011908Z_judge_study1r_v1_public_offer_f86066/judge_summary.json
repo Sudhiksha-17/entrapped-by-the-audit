@@ -1,0 +1,10 @@
+{
+  "run_id": "20261026T011908Z_judge_study1r_v1_public_offer_f86066",
+  "source_run_id": "items:study1r_v1_public_offer",
+  "source_stage": "study1r",
+  "items": 5040,
+  "ok": 5029,
+  "invalid": 11,
+  "finished_utc": "20261026T033549Z",
+  "run_dir": "<repo>\\runs\\judge\\20261026T011908Z_judge_study1r_v1_public_offer_f86066"
+}

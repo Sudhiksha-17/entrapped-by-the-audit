@@ -1,0 +1,434 @@
+{
+  "label": "exploratory, post hoc, descriptive (not preregistered)",
+  "1_jump_per_offer_arm": {
+    "mini-low": {
+      "n": 60,
+      "mean": 7.279854166666668,
+      "ci": [
+        6.8807859375000024,
+        7.624583854166668
+      ]
+    },
+    "4.1-low": {
+      "n": 33,
+      "mean": 7.1758333333333315,
+      "ci": [
+        6.77582481060606,
+        7.561368371212119
+      ]
+    },
+    "4.1-high": {
+      "n": 33,
+      "mean": 1.6302272727272749,
+      "ci": [
+        1.5363598484848515,
+        1.7267812500000026
+      ]
+    }
+  },
+  "1_pre_and_headroom_per_cell": {
+    "mini-low": {
+      "arms": [
+        "anchor",
+        "offer",
+        "sham",
+        "silent"
+      ],
+      "pre": {
+        "n": 186,
+        "mean": 85.21834005376346,
+        "ci": [
+          84.83889784946237,
+          85.62639163306451
+        ]
+      },
+      "headroom": {
+        "n": 186,
+        "mean": 14.781659946236559,
+        "ci": [
+          14.382380880376344,
+          15.162064684139786
+        ]
+      }
+    },
+    "4.1-low": {
+      "arms": [
+        "anchor",
+        "offer",
+        "silent"
+      ],
+      "pre": {
+        "n": 99,
+        "mean": 85.55835858585857,
+        "ci": [
+          85.0519201388889,
+          86.09228977272726
+        ]
+      },
+      "headroom": {
+        "n": 99,
+        "mean": 14.44164141414141,
+        "ci": [
+          13.912222853535354,
+          14.941481060606062
+        ]
+      }
+    },
+    "4.1-high": {
+      "arms": [
+        "offer",
+        "silent"
+      ],
+      "pre": {
+        "n": 66,
+        "mean": 96.68933712121212,
+        "ci": [
+          96.56344602272728,
+          96.81721401515152
+        ]
+      },
+      "headroom": {
+        "n": 66,
+        "mean": 3.310662878787879,
+        "ci": [
+          3.1792381628787885,
+          3.436913352272728
+        ]
+      }
+    }
+  },
+  "2_propensity_silent_92.70": {
+    "mini-low": {
+      "k": 1,
+      "n": 33,
+      "rate": 0.030303030303030304,
+      "ci": [
+        0.00536941053687183,
+        0.1531872538211892
+      ]
+    },
+    "4.1-low": {
+      "k": 0,
+      "n": 33,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.10426999754245206
+      ]
+    },
+    "4.1-high": {
+      "k": 33,
+      "n": 33,
+      "rate": 1.0,
+      "ci": [
+        0.895730002457548,
+        1.0
+      ]
+    }
+  },
+  "3_acceptance_vs_jump_4.1-high_offer": {
+    "n": 33,
+    "accepting": 12,
+    "mean_jump_accepting": 1.5508333333333357,
+    "mean_jump_not": 1.6755952380952401,
+    "point_biserial_r": -0.21464685535290776,
+    "r_ci": [
+      -0.5028685496745979,
+      0.14940550114133397
+    ],
+    "r_valid_resamples": 10000,
+    "logit_slope": -1.7064699625270001,
+    "logit_slope_se": 1.4143799936611618,
+    "logit_slope_ci": [
+      -4.478603832423106,
+      1.0656639073691054
+    ],
+    "converged": true,
+    "separation_suspected": false
+  },
+  "4_t2a_logit": {
+    "n": 66,
+    "scale": "log-odds (logit link; IRLS maximum likelihood; Wald 95% CIs)",
+    "coding": "outcome inclusive acceptance (1/0); cell = 1 for 4.1-high, 0 for 4.1-low; jump = X - pre in dollars (slope = change in log-odds per $1)",
+    "corr_cell_jump": -0.9567598269370426,
+    "mean_jump_4.1-low": 7.1758333333333315,
+    "mean_jump_4.1-high": 1.6302272727272749
+  },
+  "5_before_after_reference": {
+    "accepters": {
+      "n": 9,
+      "mean_after_minus_before": 0.3933333333333356,
+      "rounds": [
+        17,
+        17,
+        18,
+        20,
+        24,
+        25,
+        26,
+        26,
+        29
+      ]
+    },
+    "offer_not_accepting__uniform_17_29": {
+      "episodes": 21,
+      "mean": 0.00019945634920685292,
+      "interval_95": [
+        -0.15318154761904434,
+        0.1553224206349181
+      ],
+      "share_at_or_above_accepters": 0.0,
+      "missing_cells": 0
+    },
+    "offer_not_accepting__accepters_rounds": {
+      "episodes": 21,
+      "mean": 0.015306063492063572,
+      "interval_95": [
+        -0.143581349206346,
+        0.16936904761904517
+      ],
+      "share_at_or_above_accepters": 0.0,
+      "missing_cells": 0
+    },
+    "silent__uniform_17_29": {
+      "episodes": 33,
+      "mean": -0.14242958838383862,
+      "interval_95": [
+        -0.2690946969696952,
+        -0.049847222222223396
+      ],
+      "share_at_or_above_accepters": 0.0,
+      "missing_cells": 0
+    },
+    "silent__accepters_rounds": {
+      "episodes": 33,
+      "mean": -0.14705891414141378,
+      "interval_95": [
+        -0.27757575757575625,
+        -0.051816919191916874
+      ],
+      "share_at_or_above_accepters": 0.0,
+      "missing_cells": 0
+    }
+  },
+  "6_validation_inclusive_agreement": {
+    "n": 40,
+    "check_response_kappa": 0.5583596214511041,
+    "table": {
+      "A yes / B yes": 3,
+      "A yes / B no": 2,
+      "A no / B yes": 0,
+      "A no / B no": 35
+    },
+    "base_rate_A": 0.125,
+    "base_rate_B": 0.075,
+    "raw_agreement": 0.95,
+    "kappa": {
+      "kappa": 0.7241379310344824,
+      "ci_low": 0.0,
+      "ci_high": 1.0,
+      "n": 40
+    }
+  },
+  "7_miss_audit": {
+    "per_cell": {
+      "4.1-low": {
+        "audit_flagged": {
+          "screener_negatives": 67,
+          "audited": 9,
+          "audited_accept": 0
+        },
+        "audit_unflagged": {
+          "screener_negatives": 1189,
+          "audited": 28,
+          "audited_accept": 0
+        },
+        "verification": 64
+      },
+      "4.1-high": {
+        "audit_flagged": {
+          "screener_negatives": 160,
+          "audited": 14,
+          "audited_accept": 0
+        },
+        "audit_unflagged": {
+          "screener_negatives": 1062,
+          "audited": 22,
+          "audited_accept": 0
+        },
+        "verification": 98
+      }
+    },
+    "pooled": {
+      "audit_flagged": {
+        "screener_negatives": 227,
+        "audited": 23,
+        "audited_accept": 0
+      },
+      "audit_unflagged": {
+        "screener_negatives": 2251,
+        "audited": 50,
+        "audited_accept": 0
+      }
+    },
+    "rule_of_three_upper": {
+      "audit_flagged": 0.13043478260869565,
+      "audit_unflagged": 0.06
+    },
+    "rule_of_three_pooled_73": 0.0410958904109589
+  },
+  "8_paired_sensitivity": {
+    "T1 primary: mini-low Offer minus Anchor": {
+      "pairs": 60,
+      "indices": [
+        0,
+        59
+      ],
+      "paired_mean": 0.23157083333333287,
+      "paired_ci": [
+        -0.21350687499999965,
+        0.6900947916666658
+      ],
+      "excludes_zero": false,
+      "unpaired_same_episodes": {
+        "estimate": 0.23157083333333284,
+        "ci": [
+          -0.18319437500000388,
+          0.6609523958333335
+        ]
+      },
+      "corr_within_pair": -0.10883590529145326
+    },
+    "mini-low Offer minus Sham": {
+      "pairs": 33,
+      "indices": [
+        0,
+        32
+      ],
+      "paired_mean": 0.894750000000001,
+      "paired_ci": [
+        0.3676928030303037,
+        1.4357083333333323
+      ],
+      "excludes_zero": true,
+      "unpaired_same_episodes": {
+        "estimate": 0.8947500000000012,
+        "ci": [
+          0.3061535984848495,
+          1.5013092803030323
+        ]
+      },
+      "corr_within_pair": 0.25777769739250217
+    },
+    "mini-low Anchor minus Sham": {
+      "pairs": 33,
+      "indices": [
+        0,
+        32
+      ],
+      "paired_mean": 0.556969696969699,
+      "paired_ci": [
+        0.08695549242424659,
+        1.0561422348484846
+      ],
+      "excludes_zero": true,
+      "unpaired_same_episodes": {
+        "estimate": 0.556969696969699,
+        "ci": [
+          0.0956666666666654,
+          1.0252746212121242
+        ]
+      },
+      "corr_within_pair": -0.08955893179925353
+    },
+    "mini-low Sham minus Silent": {
+      "pairs": 33,
+      "indices": [
+        0,
+        32
+      ],
+      "paired_mean": -0.11845454545454606,
+      "paired_ci": [
+        -0.5785956439393926,
+        0.333285037878787
+      ],
+      "excludes_zero": false,
+      "unpaired_same_episodes": {
+        "estimate": -0.11845454545454609,
+        "ci": [
+          -0.5212062500000023,
+          0.28533750000000024
+        ]
+      },
+      "corr_within_pair": -0.25504242698311624
+    },
+    "4.1-low Offer minus Anchor (secondary T1)": {
+      "pairs": 33,
+      "indices": [
+        0,
+        32
+      ],
+      "paired_mean": 0.07149999999999819,
+      "paired_ci": [
+        -0.4239034090909132,
+        0.5589748106060585
+      ],
+      "excludes_zero": false,
+      "unpaired_same_episodes": {
+        "estimate": 0.07149999999999823,
+        "ci": [
+          -0.4752481060606087,
+          0.6377933712121144
+        ]
+      },
+      "corr_within_pair": 0.20628054049650435
+    },
+    "4.1-high Offer minus Silent (disruption)": {
+      "pairs": 33,
+      "indices": [
+        0,
+        32
+      ],
+      "paired_mean": 0.2598939393939397,
+      "paired_ci": [
+        0.05926401515151506,
+        0.46783825757575515
+      ],
+      "excludes_zero": true,
+      "unpaired_same_episodes": {
+        "estimate": 0.25989393939393973,
+        "ci": [
+          0.024157575757576783,
+          0.496937310606062
+        ]
+      },
+      "corr_within_pair": 0.2573315387107692
+    }
+  },
+  "9_engagement_4.1-high_offer": {
+    "episodes": 33,
+    "episodes_screener": 33,
+    "episodes_detector": 32,
+    "episodes_both": 32,
+    "episodes_either": 33,
+    "check_engaged_any_screener": 33,
+    "check_engaged_any_detector": 32,
+    "seller_rounds": 1320,
+    "nonempty_messages": 1320,
+    "screener_labelled": 1310,
+    "messages_screener_engaged": 258,
+    "messages_detector_engaged": 250,
+    "messages_both": 185,
+    "screener_label_counts": {
+      "accept": 33,
+      "conditional_accept": 55,
+      "counter": 134,
+      "ignored": 1052,
+      "noncommittal": 10,
+      "reject": 26
+    }
+  },
+  "excluded_episodes": [
+    "20261024T091014Z_study1r_mini-low_anchor_a761c2_r028"
+  ]
+}

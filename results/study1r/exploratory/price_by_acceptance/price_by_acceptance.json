@@ -1,0 +1,443 @@
+{
+  "label": "exploratory, descriptive (no tests)",
+  "cell": "4.1-high",
+  "groups": {
+    "accept": {
+      "label": "Offer, human-confirmed acceptance",
+      "n": 12,
+      "pre_source_fallback": 0,
+      "pre": {
+        "n": 12,
+        "mean": 96.89916666666666,
+        "ci": [
+          96.58666666666666,
+          97.21105208333331
+        ]
+      },
+      "change_11_20": {
+        "n": 12,
+        "mean": 0.07529166666666498,
+        "ci": [
+          -0.06804166666666707,
+          0.3015031249999972
+        ]
+      },
+      "change_21_30": {
+        "n": 12,
+        "mean": 0.4237499999999983,
+        "ci": [
+          0.13153749999999798,
+          0.7748354166666644
+        ]
+      },
+      "x_minus_pre": {
+        "n": 12,
+        "mean": 1.5508333333333357,
+        "ci": [
+          1.3870781250000022,
+          1.7112500000000022
+        ]
+      }
+    },
+    "no_accept": {
+      "label": "Offer, no confirmed acceptance",
+      "n": 21,
+      "pre_source_fallback": 0,
+      "pre": {
+        "n": 21,
+        "mean": 96.65011904761903,
+        "ci": [
+          96.4137455357143,
+          96.87071875000001
+        ]
+      },
+      "change_11_20": {
+        "n": 21,
+        "mean": -0.17952380952380662,
+        "ci": [
+          -0.3248431547619008,
+          -0.0753208333333326
+        ]
+      },
+      "change_21_30": {
+        "n": 21,
+        "mean": -0.2875714285714293,
+        "ci": [
+          -0.6623613095238079,
+          0.009568452380951567
+        ]
+      },
+      "x_minus_pre": {
+        "n": 21,
+        "mean": 1.6755952380952401,
+        "ci": [
+          1.566488095238099,
+          1.7947038690476191
+        ]
+      }
+    },
+    "silent": {
+      "label": "Silent",
+      "n": 33,
+      "pre_source_fallback": 0,
+      "pre": {
+        "n": 33,
+        "mean": 96.63799242424241,
+        "ci": [
+          96.46700757575758,
+          96.80962405303029
+        ]
+      },
+      "change_11_20": {
+        "n": 33,
+        "mean": -0.1640530303030318,
+        "ci": [
+          -0.2615024621212153,
+          -0.08579488636363966
+        ]
+      },
+      "change_21_30": {
+        "n": 33,
+        "mean": -0.47150757575757557,
+        "ci": [
+          -0.7135971590909091,
+          -0.2642032196969684
+        ]
+      },
+      "x_minus_pre": {
+        "n": 33,
+        "mean": 1.681401515151516,
+        "ci": [
+          1.5937859848484852,
+          1.7642803030303056
+        ]
+      }
+    }
+  },
+  "first_acceptance": {
+    "rounds": [
+      17,
+      17,
+      18,
+      20,
+      24,
+      25,
+      26,
+      26,
+      29,
+      30,
+      30,
+      30
+    ],
+    "ask_before": {
+      "n": 9,
+      "mean": 97.15037037037035,
+      "ci": [
+        96.74906944444443,
+        97.56259722222222
+      ]
+    },
+    "ask_after": {
+      "n": 9,
+      "mean": 97.5437037037037,
+      "ci": [
+        97.00555555555556,
+        98.09316203703703
+      ]
+    },
+    "after_minus_before": {
+      "n": 9,
+      "mean": 0.3933333333333356,
+      "ci": [
+        0.0383287037037099,
+        0.8029675925925949
+      ]
+    },
+    "episodes_without_after_window": 3,
+    "episodes_with_short_after_window": 1,
+    "episodes_with_dropped_earlier_verification": 7,
+    "per_episode": [
+      {
+        "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r002",
+        "pre": 96.2975,
+        "pre_source": "pre_rounds",
+        "x": 98.15,
+        "x_minus_pre": 1.8525000000000063,
+        "change_11_20": -0.025000000000005684,
+        "change_21_30": 0.02599999999999625,
+        "first_confirmed_round": 30,
+        "earliest_verification_round": 30,
+        "dropped_verification_rounds_before_first": [],
+        "before_rounds": [
+          27,
+          29
+        ],
+        "after_rounds": [],
+        "ask_before": 96.10000000000001,
+        "ask_after": null
+      },
+      {
+        "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r003",
+        "pre": 96.3425,
+        "pre_source": "pre_rounds",
+        "x": 98.17,
+        "x_minus_pre": 1.8275000000000006,
+        "change_11_20": 0.006500000000002615,
+        "change_21_30": 0.9685000000000059,
+        "first_confirmed_round": 25,
+        "earliest_verification_round": 19,
+        "dropped_verification_rounds_before_first": [
+          19,
+          24
+        ],
+        "before_rounds": [
+          22,
+          24
+        ],
+        "after_rounds": [
+          26,
+          28
+        ],
+        "ask_before": 96.45333333333333,
+        "ask_after": 98.17
+      },
+      {
+        "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r006",
+        "pre": 96.82499999999999,
+        "pre_source": "pre_rounds",
+        "x": 98.41,
+        "x_minus_pre": 1.585000000000008,
+        "change_11_20": 0.0,
+        "change_21_30": 0.7524999999999977,
+        "first_confirmed_round": 30,
+        "earliest_verification_round": 26,
+        "dropped_verification_rounds_before_first": [
+          26,
+          27,
+          28,
+          29
+        ],
+        "before_rounds": [
+          27,
+          29
+        ],
+        "after_rounds": [],
+        "ask_before": 98.41000000000001,
+        "ask_after": null
+      },
+      {
+        "replicate_id": "20261024T070258Z_study1r_4.1-high_offer_07853b_r008",
+        "pre": 97.3575,
+        "pre_source": "pre_rounds",
+        "x": 98.68,
+        "x_minus_pre": 1.3225000000000051,
+        "change_11_20": -0.03999999999999204,
+        "change_21_30": 0.10599999999999454,
+        "first_confirmed_round": 30,
+        "earliest_verification_round": 13,
+        "dropped_verification_rounds_before_first": [
+          14
+        ],
+        "before_rounds": [
+          27,
+          29
+        ],
+        "after_rounds": [],
+        "ask_before": 97.43166666666666,
+        "ask_after": null
+      },
+      {
+        "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r009",
+        "pre": 96.29,
+        "pre_source": "pre_rounds",
+        "x": 98.15,
+        "x_minus_pre": 1.8599999999999994,
+        "change_11_20": -0.0350000000000108,
+        "change_21_30": -0.0350000000000108,
+        "first_confirmed_round": 17,
+        "earliest_verification_round": 13,
+        "dropped_verification_rounds_before_first": [
+          14,
+          15,
+          16
+        ],
+        "before_rounds": [
+          14,
+          16
+        ],
+        "after_rounds": [
+          18,
+          20
+        ],
+        "ask_before": 96.255,
+        "ask_after": 96.255
+      },
+      {
+        "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r013",
+        "pre": 97.08000000000001,
+        "pre_source": "pre_rounds",
+        "x": 98.54,
+        "x_minus_pre": 1.4599999999999937,
+        "change_11_20": 0.0,
+        "change_21_30": 0.2774999999999892,
+        "first_confirmed_round": 24,
+        "earliest_verification_round": 12,
+        "dropped_verification_rounds_before_first": [],
+        "before_rounds": [
+          21,
+          23
+        ],
+        "after_rounds": [
+          25,
+          27
+        ],
+        "ask_before": 97.08,
+        "ask_after": 97.08
+      },
+      {
+        "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r014",
+        "pre": 97.905,
+        "pre_source": "pre_rounds",
+        "x": 98.95,
+        "x_minus_pre": 1.0450000000000017,
+        "change_11_20": 0.07049999999999557,
+        "change_21_30": 0.51400000000001,
+        "first_confirmed_round": 26,
+        "earliest_verification_round": 26,
+        "dropped_verification_rounds_before_first": [],
+        "before_rounds": [
+          23,
+          25
+        ],
+        "after_rounds": [
+          27,
+          29
+        ],
+        "ask_before": 97.985,
+        "ask_after": 98.95
+      },
+      {
+        "replicate_id": "20261024T074633Z_study1r_4.1-high_offer_d8a720_r016",
+        "pre": 96.235,
+        "pre_source": "pre_rounds",
+        "x": 98.12,
+        "x_minus_pre": 1.8850000000000051,
+        "change_11_20": 1.1949999999999932,
+        "change_21_30": 1.8780000000000001,
+        "first_confirmed_round": 29,
+        "earliest_verification_round": 29,
+        "dropped_verification_rounds_before_first": [],
+        "before_rounds": [
+          26,
+          28
+        ],
+        "after_rounds": [
+          30,
+          30
+        ],
+        "ask_before": 98.12,
+        "ask_after": 98.11500000000001
+      },
+      {
+        "replicate_id": "20261024T082904Z_study1r_4.1-high_offer_d3a13f_r017",
+        "pre": 96.475,
+        "pre_source": "pre_rounds",
+        "x": 98.24,
+        "x_minus_pre": 1.7650000000000006,
+        "change_11_20": 0.0,
+        "change_21_30": -0.0049999999999954525,
+        "first_confirmed_round": 18,
+        "earliest_verification_round": 12,
+        "dropped_verification_rounds_before_first": [
+          12
+        ],
+        "before_rounds": [
+          15,
+          17
+        ],
+        "after_rounds": [
+          19,
+          21
+        ],
+        "ask_before": 96.47499999999998,
+        "ask_after": 96.47333333333331
+      },
+      {
+        "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r025",
+        "pre": 96.975,
+        "pre_source": "pre_rounds",
+        "x": 98.49,
+        "x_minus_pre": 1.5150000000000006,
+        "change_11_20": 0.0,
+        "change_21_30": 0.734499999999997,
+        "first_confirmed_round": 26,
+        "earliest_verification_round": 26,
+        "dropped_verification_rounds_before_first": [],
+        "before_rounds": [
+          23,
+          25
+        ],
+        "after_rounds": [
+          27,
+          29
+        ],
+        "ask_before": 97.35166666666667,
+        "ask_after": 98.23166666666667
+      },
+      {
+        "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r027",
+        "pre": 97.74,
+        "pre_source": "pre_rounds",
+        "x": 98.87,
+        "x_minus_pre": 1.1300000000000097,
+        "change_11_20": -0.29749999999999943,
+        "change_21_30": -0.2745000000000033,
+        "first_confirmed_round": 20,
+        "earliest_verification_round": 16,
+        "dropped_verification_rounds_before_first": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "before_rounds": [
+          17,
+          19
+        ],
+        "after_rounds": [
+          21,
+          23
+        ],
+        "ask_before": 97.39333333333333,
+        "ask_after": 97.22333333333334
+      },
+      {
+        "replicate_id": "20261024T091016Z_study1r_4.1-high_offer_c6e0fd_r031",
+        "pre": 97.2675,
+        "pre_source": "pre_rounds",
+        "x": 98.63,
+        "x_minus_pre": 1.3624999999999972,
+        "change_11_20": 0.028999999999996362,
+        "change_21_30": 0.1424999999999983,
+        "first_confirmed_round": 17,
+        "earliest_verification_round": 16,
+        "dropped_verification_rounds_before_first": [
+          16
+        ],
+        "before_rounds": [
+          14,
+          16
+        ],
+        "after_rounds": [
+          18,
+          20
+        ],
+        "ask_before": 97.24,
+        "ask_after": 97.395
+      }
+    ]
+  },
+  "excluded_episodes": [
+    "20261024T091014Z_study1r_mini-low_anchor_a761c2_r028"
+  ]
+}

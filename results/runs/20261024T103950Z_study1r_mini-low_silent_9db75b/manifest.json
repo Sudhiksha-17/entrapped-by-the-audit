@@ -1,0 +1,47 @@
+{
+  "run_id": "20261024T103950Z_study1r_mini-low_silent_9db75b",
+  "kind": "episode_batch",
+  "stage": "study1r",
+  "purpose": "Study 1R confirmatory blocks 57-59 (human message 67, step 2)",
+  "command": "python -m sting.stage2_runner configs/study1r/campaign.yaml --indices 57,58,59 --approve-cost --purpose Study 1R confirmatory blocks 57-59 (human message 67, step 2)",
+  "documented_utc": "2026-10-24T10:45:24Z",
+  "backfilled": false,
+  "run_type": "confirmatory",
+  "git_commit_at_documentation": "bc314269c60583415225e08ee4c50ab2256b18f6",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1-mini@openai"
+  ],
+  "config_sha256": "e9877443b89139782d796c347a7403dc717bef7a468e8573aa70654bcd1b9347",
+  "output_files_sha256": {
+    "run_config.json": "a745d3609484f53ac51a1d407c734d6e62a0dcf31a561c935386a2e605a18c44",
+    "run_summary.json": "935239611b950e40f2957d3f6662738187fec30b1f5c7d143cec3815b315840d"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": []
+}

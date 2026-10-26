@@ -1,0 +1,242 @@
+{
+  "item01": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000",
+    "seller": "Seller B",
+    "round": 27
+  },
+  "item02": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+    "seller": "Seller A",
+    "round": 26
+  },
+  "item03": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+    "seller": "Seller B",
+    "round": 21
+  },
+  "item04": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+    "seller": "Seller B",
+    "round": 26
+  },
+  "item05": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+    "seller": "Seller A",
+    "round": 21
+  },
+  "item06": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+    "seller": "Seller A",
+    "round": 29
+  },
+  "item07": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2001",
+    "seller": "Seller B",
+    "round": 17
+  },
+  "item08": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+    "seller": "Seller B",
+    "round": 15
+  },
+  "item09": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+    "seller": "Seller A",
+    "round": 18
+  },
+  "item10": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+    "seller": "Seller B",
+    "round": 23
+  },
+  "item11": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+    "seller": "Seller B",
+    "round": 11
+  },
+  "item12": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+    "seller": "Seller B",
+    "round": 22
+  },
+  "item13": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+    "seller": "Seller A",
+    "round": 25
+  },
+  "item14": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2002",
+    "seller": "Seller B",
+    "round": 15
+  },
+  "item15": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+    "seller": "Seller B",
+    "round": 13
+  },
+  "item16": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+    "seller": "Seller B",
+    "round": 19
+  },
+  "item17": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd_r2001",
+    "seller": "Seller B",
+    "round": 21
+  },
+  "item18": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2001",
+    "seller": "Seller A",
+    "round": 25
+  },
+  "item19": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+    "seller": "Seller B",
+    "round": 30
+  },
+  "item20": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+    "seller": "Seller A",
+    "round": 28
+  },
+  "item21": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2001",
+    "seller": "Seller B",
+    "round": 25
+  },
+  "item22": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+    "seller": "Seller B",
+    "round": 13
+  },
+  "item23": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+    "seller": "Seller B",
+    "round": 28
+  },
+  "item24": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000",
+    "seller": "Seller B",
+    "round": 11
+  },
+  "item25": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+    "seller": "Seller B",
+    "round": 17
+  },
+  "item26": {
+    "condition": "offer",
+    "cell": "4.1-low",
+    "arm": "4.1-low_offer",
+    "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+    "seller": "Seller A",
+    "round": 22
+  },
+  "item27": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+    "seller": "Seller B",
+    "round": 29
+  },
+  "item28": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+    "seller": "Seller B",
+    "round": 30
+  },
+  "item29": {
+    "condition": "offer",
+    "cell": "mini-low",
+    "arm": "mini-low_offer",
+    "replicate_id": "20261024T004404Z_study1r_pilot_mini-low_offer_e34d21_r2000",
+    "seller": "Seller A",
+    "round": 29
+  },
+  "item30": {
+    "condition": "offer",
+    "cell": "4.1-high",
+    "arm": "4.1-high_offer",
+    "replicate_id": "20261024T004804Z_study1r_pilot_4.1-high_offer_393985_r2000",
+    "seller": "Seller A",
+    "round": 18
+  }
+}

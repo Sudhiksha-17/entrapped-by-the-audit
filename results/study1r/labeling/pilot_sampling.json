@@ -1,0 +1,60 @@
+{
+  "validation": {
+    "offer|4.1-high": 10,
+    "offer|4.1-low": 10,
+    "offer|mini-low": 10,
+    "sham|mini-low": 10
+  },
+  "dev": {
+    "offer|4.1-high": 10,
+    "offer|4.1-low": 10,
+    "offer|mini-low": 10
+  },
+  "draw_notes": {
+    "validation": {
+      "4.1-high": {
+        "pool": 120,
+        "flagged_pool": 50,
+        "flagged_drawn": 5,
+        "drawn": 10
+      },
+      "4.1-low": {
+        "pool": 120,
+        "flagged_pool": 9,
+        "flagged_drawn": 5,
+        "drawn": 10
+      },
+      "mini-low": {
+        "pool": 80,
+        "flagged_pool": 10,
+        "flagged_drawn": 5,
+        "drawn": 10
+      },
+      "sham": {
+        "pool": 80,
+        "drawn": 10
+      }
+    },
+    "dev": {
+      "4.1-high": {
+        "pool": 110,
+        "flagged_pool": 42,
+        "flagged_drawn": 5,
+        "drawn": 10
+      },
+      "4.1-low": {
+        "pool": 110,
+        "flagged_pool": 4,
+        "flagged_drawn": 4,
+        "drawn": 10
+      },
+      "mini-low": {
+        "pool": 70,
+        "flagged_pool": 5,
+        "flagged_drawn": 5,
+        "drawn": 10
+      }
+    }
+  },
+  "overlap": 0
+}

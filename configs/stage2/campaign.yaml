@@ -1,0 +1,94 @@
+# Stage 2 confirmatory campaign (prereg/stage2_spec.md section 10). NOT RUN.
+name: stage2
+stage: stage2
+run_type: confirmatory
+n_per_arm: 33
+indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+concurrency: 4
+order_seed: 20261025
+max_replacement_passes: 3
+budget:
+  group: stage2_confirmatory
+  cap_usd: 280.57
+arms:
+- name: mini-low_silent
+  cell: mini-low
+  arm: silent
+  config: configs/stage2/mini-low_silent.yaml
+- name: mini-low_sham
+  cell: mini-low
+  arm: sham
+  config: configs/stage2/mini-low_sham.yaml
+- name: mini-low_anchor
+  cell: mini-low
+  arm: anchor
+  config: configs/stage2/mini-low_anchor.yaml
+- name: mini-low_rapport
+  cell: mini-low
+  arm: rapport
+  config: configs/stage2/mini-low_rapport.yaml
+- name: mini-low_directive
+  cell: mini-low
+  arm: directive
+  config: configs/stage2/mini-low_directive.yaml
+- name: mini-low_offer
+  cell: mini-low
+  arm: offer
+  config: configs/stage2/mini-low_offer.yaml
+- name: 4.1-low_silent
+  cell: 4.1-low
+  arm: silent
+  config: configs/stage2/4.1-low_silent.yaml
+- name: 4.1-low_offer
+  cell: 4.1-low
+  arm: offer
+  config: configs/stage2/4.1-low_offer.yaml
+- name: 4.1-medium_silent
+  cell: 4.1-medium
+  arm: silent
+  config: configs/stage2/4.1-medium_silent.yaml
+- name: 4.1-medium_offer
+  cell: 4.1-medium
+  arm: offer
+  config: configs/stage2/4.1-medium_offer.yaml
+- name: 4.1-high_silent
+  cell: 4.1-high
+  arm: silent
+  config: configs/stage2/4.1-high_silent.yaml
+- name: 4.1-high_offer
+  cell: 4.1-high
+  arm: offer
+  config: configs/stage2/4.1-high_offer.yaml

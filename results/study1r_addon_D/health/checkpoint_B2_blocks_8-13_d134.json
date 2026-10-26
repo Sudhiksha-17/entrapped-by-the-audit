@@ -1,0 +1,6 @@
+{
+  "reading": "D-134: Qwen arms routed to the pinned provider DeepInfra are not identity issues",
+  "identity_issues_after_reading": [],
+  "stop_after_reading": false,
+  "frozen_checkpoint_stop": true
+}

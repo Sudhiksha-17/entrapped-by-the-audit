@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-10-25T23:30:13Z",
+  "git_commit": "e4198115bbf2f599e5c869879f7b88e507985bdf",
+  "campaign": "configs/study1r_addon_D_b2/campaign.yaml",
+  "campaigns": [
+    "configs/study1r_addon_D_b2/campaign.yaml"
+  ],
+  "study1r_lock_sha256": "155b577490adcc206afbebb4633f0146e14339543732866eeb81e7a36dcd3a0d",
+  "study1rc_lock_sha256": "de02f1f5639400a7595c67fb919c86c6cf74d002ba40e4d8e0746de3e764832c",
+  "study1rd_lock_sha256": "2cc24b8a29a34ca412b6bf1ac05247ae6f4c180d1a041aca998760a8aa4302f2",
+  "files_sha256": {
+    "configs/study1r_addon_D_b2/campaign.yaml": "7692d564421854c4603df138a6f42bc9e812f170c29c4b70c20aa354bcd897b5",
+    "configs/study1r_addon_D_b2/qwenp_silent.yaml": "fe7af133cca0e3bd01bed6f0e8232f79411d483a2d976a3c9afb27b4eb991e30",
+    "configs/study1r_addon_D_b2/qwenp_silent_floor.yaml": "6e9474c53ae5a8a4fb361de89b59293bf0552f62b13125af1be1375d5653721c",
+    "configs/study1r_addon_D_b2/qwenp_offer_floor.yaml": "f65ad3e72a688667fbecdcd1c19f0af777a8087288891fc026a13b32713188aa",
+    "prereg_study1r/AMENDMENT_1RD.md": "cd9f198149b4b3e7519cbe3d9511e3dc08cff6d867b2075d0eefb994b7000999",
+    "prereg_study1r/AMENDMENT_1RD_ADDENDUM_1.md": "dd58a301dbae3bad69193bf6de137626d9be3b1127a81768fe608be9b1f7ed5c",
+    "sting/study1rd_b2.py": "30c7f52bd75faf16ce39c5ec9bff3728485bac2983617440c857bbd8adc92a9c",
+    "scripts/make_study1rd_b2_configs.py": "3cef7d6cfba9f595390da829e77496686db8654c46b988512cb76b959d5a9db3"
+  }
+}

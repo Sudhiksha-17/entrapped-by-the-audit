@@ -1,0 +1,11 @@
+{
+  "run_id": "20261024T062022Z_judgev2-public_20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_3e7330",
+  "source_run_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17",
+  "source_stage": "study1r_pilot",
+  "items": 120,
+  "ok": 119,
+  "invalid": 1,
+  "view": "public",
+  "finished_utc": "20261024T062225Z",
+  "run_dir": "<repo>\\runs\\judge\\20261024T062022Z_judgev2-public_20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_3e7330"
+}

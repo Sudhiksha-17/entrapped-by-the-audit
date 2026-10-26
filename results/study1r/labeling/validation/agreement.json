@@ -1,0 +1,33 @@
+{
+  "n": 40,
+  "response": {
+    "kappa": 0.5583596214511041,
+    "ci_low": 0.38176197836166925,
+    "ci_high": 0.7224631396357329,
+    "n": 40,
+    "raw_agreement": 0.65
+  },
+  "awareness": {
+    "kappa": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "n": 40,
+    "raw_agreement": 1.0
+  },
+  "disagreements": [
+    "item01",
+    "item02",
+    "item04",
+    "item09",
+    "item11",
+    "item14",
+    "item16",
+    "item23",
+    "item26",
+    "item27",
+    "item28",
+    "item34",
+    "item37",
+    "item38"
+  ]
+}

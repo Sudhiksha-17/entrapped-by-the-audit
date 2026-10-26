@@ -1,0 +1,97 @@
+{
+  "campaigns": [
+    "<repo>\\runs\\study1r_addon_A\\_campaigns\\20261024T184841Z_study1r_addon_A_9b61e6\\campaign.json",
+    "<repo>\\runs\\study1r_addon_A\\_campaigns\\20261024T185208Z_study1r_addon_A_a5e459\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "per_arm": {
+    "4.1-high_competitive": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 9.162046000000002,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 8.843028,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 2.085918,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "1": {
+      "cost": 1.953644,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "2": {
+      "cost": 1.96103,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "3": {
+      "cost": 1.992328,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "4": {
+      "cost": 1.955858,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "5": {
+      "cost": 1.996508,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "6": {
+      "cost": 2.013086,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "7": {
+      "cost": 2.024158,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    },
+    "8": {
+      "cost": 2.022544,
+      "block0_same_arms": 2.085918,
+      "arms": 2
+    }
+  },
+  "spent_usd": 18.005074,
+  "projected_total_usd": 66.0186,
+  "cap_usd": 76.49,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

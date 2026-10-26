@@ -1,0 +1,167 @@
+{
+  "campaigns": [
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T065647Z_study1r_c95eb2\\campaign.json",
+    "<repo>\\runs\\study1r\\_campaigns\\20261024T070256Z_study1r_d06cfe\\campaign.json"
+  ],
+  "blocks_done": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "per_arm": {
+    "4.1-high_offer": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 9.046754,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-high_silent": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 8.93762,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-low_anchor": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 10.031678000000001,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-low_offer": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 9.97449,
+      "reasons": {},
+      "target": 33
+    },
+    "4.1-low_silent": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 10.043806,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_anchor": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 2.0283132,
+      "reasons": {},
+      "target": 60
+    },
+    "mini-low_offer": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 2.050104,
+      "reasons": {},
+      "target": 60
+    },
+    "mini-low_sham": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 0,
+      "cost": 2.0075908,
+      "reasons": {},
+      "target": 33
+    },
+    "mini-low_silent": {
+      "completed": 9,
+      "failed": 0,
+      "not_started": 0,
+      "replacements": 0,
+      "parse_failures": 1,
+      "cost": 2.0018552,
+      "reasons": {},
+      "target": 33
+    }
+  },
+  "block_cost": {
+    "0": {
+      "cost": 6.2462796,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "1": {
+      "cost": 6.2195984,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "2": {
+      "cost": 6.3104412,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "3": {
+      "cost": 6.2220128,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "4": {
+      "cost": 6.1435616,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "5": {
+      "cost": 6.41504,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "6": {
+      "cost": 6.2433796,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "7": {
+      "cost": 6.1644868,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    },
+    "8": {
+      "cost": 6.1574112,
+      "block0_same_arms": 6.2462796,
+      "arms": 9
+    }
+  },
+  "spent_usd": 56.1222112,
+  "projected_total_usd": 248.1067,
+  "cap_usd": 287.56,
+  "stop_conditions": {
+    "failure_rate_over_10pct": {},
+    "manipulation_check_failures": [],
+    "provider_or_model_id_mismatch": [],
+    "block_cost_deviation_over_25pct": {},
+    "projected_spend_over_cap": false
+  },
+  "stop": false
+}

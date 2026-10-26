@@ -1,0 +1,110 @@
+{
+  "run_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17",
+  "kind": "episode_batch",
+  "stage": "study1r_pilot",
+  "purpose": "Study 1R pilot, remaining episodes part 2 (4.1-low offer x3, 4.1-high offer x3, mini-low sham x2), approved in human message 40",
+  "command": "python -m sting.stage2_runner configs/study1r/pilot/campaign.yaml --arms 4.1-low_offer,4.1-high_offer,mini-low_sham --approve-cost --purpose Study 1R pilot, remaining episodes part 2 (4.1-low offer x3, 4.1-high offer x3, mini-low sham x2), approved in human message 40",
+  "documented_utc": "2026-10-24T00:53:45Z",
+  "backfilled": false,
+  "run_type": "pilot",
+  "git_commit_at_documentation": "1a4a84f5b5e54465abd811a0cfaef417545ee8d9",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261024T004404Z_study1r_pilot_mini-low_offer_e34d21/",
+    "?? results/runs/20261024T004624Z_study1r_pilot_mini-low_offer_5d10fd/",
+    "?? results/study1r/"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "b98187a43225312f238d08c75c22f1cd0736a9003984fa35e1f4e566d0c54ad6",
+  "output_files_sha256": {
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/calls.jsonl": "4b18db9870504f20150125d57be64fe7ad72be5bffa70cbaaf757b6abfc94073",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/market_setup.json": "afb1d496ab4ab8c0d706da6a05beaf08ffcf858ab5950cb33cae48b7b7ebf369",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/status.json": "247d6ede763bb344bc6b6cabef0c5e173f63d346acfc69c41e1910db3d035a40",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/sting_log.json": "3b2e70f7c710d324968d8909fcaee71cd389625f8518e8511aff289eacfd0bb3",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/auction_results.md": "f1af6893a0641c9322a01e2376e481acb8f19060b5c6e17768b42874a67c67c4",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/Buyer A.md": "0580c7533519d47ee9ebdd61e561910cedccc89dedc241e517e61755118e8e9f",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/Buyer B.md": "fc684c81a0c754df3d8828eef3d9f09ee4627dbab0ba2b507dcef6a612d035ab",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/Buyer C.md": "f0bcaeff82bdc4630c9fa90cf4086081b33f237baa26ea8403cbe6801b33ab0b",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/experiment_metadata.json": "34487d50e9bffc622504acaf41c5e736137d5201cc5eda9f669b1cc0a77861ed",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/Seller A.md": "be013f459bc7da6a0e4e619eeb6bfa6a5dace7aa8c75744a443d024dcd94d935",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/Seller B.md": "0d401151b593f6bc1829c34126b1a216b86b0fef811e4c5874126e33f49ebf8d",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000/upstream_logs/unified.log": "16c62281ae8065b17b702979b5e31c30a385d93aff11d6d87cf65962d4383cf8",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/calls.jsonl": "8123e2ddc9279d6eb55b4a8920f6d3a29df16a6cb25af83c1b86cb2a36b2d7a6",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/market_setup.json": "f5ede854ecd16ad07c453d1eb9c9e6e2bd47a9c54ac41e288d2353d4d0f2b51c",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/status.json": "9d6a75e6e311ff0a09d3db0130cb2009c326bd0a9031a5e161bcdbc902d9701e",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/sting_log.json": "1c39699035d0ad4ad0a2fa0637d82fd4528fe28f52cb397006965aa05fc7f8c9",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/auction_results.md": "766d225633a7179da57e7a6f908ebe41d90acc4d4eb2c25aea5acb25929864da",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/Buyer A.md": "abdf626095bfa106c09808b449f8fa33c0f00da172e11d20a5cb026440f1e788",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/Buyer B.md": "e8b09d036228bb80981b424bfe2408d1604d1dff22c1b32a77bac15295b4b4e3",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/Buyer C.md": "129879c2df0af2b9c1a3f4cea68d302d9f710e7b9f9733718b07e9d6379117d3",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/experiment_metadata.json": "c39949be7059e365cee3615f1c8bffb0bb65939808bd27e6c051f2f64ac56cd8",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/Seller A.md": "e3fc27b9bab4cfd5bb228683fe65d74dc9b33c8e2d370da4638d24ec01ace222",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/Seller B.md": "8e07b75ab23960756cb1f71f5e80847ea3cf2eb5794afb81cbf372ccfc242c30",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001/upstream_logs/unified.log": "eabd2c5aaa7a77188fceea053d671d19c93f1349595ede8e601c28db2ccc6e11",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/calls.jsonl": "45777c7df77c432743621288eebb6e0fe7c9ca30700ba65cd263c3791ad9df5f",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/market_setup.json": "ae0ad209e46cf5d38fdc0fd3d273046e633db9a6426880f6fbaf0a2d5660ffe5",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/status.json": "dfdf8e46a7b2f38268489aafa0229a1dd3d4da25eb8446c86b05305280ce0294",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/sting_log.json": "a6f4c5251ca21d232d5094748f8f58b806fa919a5203e299b481979b54388bf0",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/auction_results.md": "14c3a7e767e2866098762685de310a4be0f2786a81807a673f93ea8f0d02ed0b",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/Buyer A.md": "f1b8c21b83685b61b2ae87c2590d63a5f41687073e4bfa5e71453bb3389fc37d",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/Buyer B.md": "1ef4d4b166c02eb7ffbecc665cc453b731be63cc9e18514d303f772534db42f9",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/Buyer C.md": "89124f144ca8dbb3b1e207fd0bd8eb462e50e9d83acff817a2829d259ee70437",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/experiment_metadata.json": "46eaf8b6c7e01933176599540f758e8e28fe3cba6fa4ecfb341a9a7ae446a782",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/Seller A.md": "c21b5393eaa0d113476701baeaef9c65ee8471929b8f89f52308b828f80b98e9",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/Seller B.md": "afba202c422b96d87b91c9d8401fbf71a1c13ef72e016cee1fda6d49ba60aa8e",
+    "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002/upstream_logs/unified.log": "37a9935e6902cf43ebdb852203f4b1e8a258883dc92bb27c515433991d7b5d55",
+    "run_config.json": "a4f9c5f7f28822dca69d1392f6af2fde4eed680eca6f0c8ac6efd10bb255d60d",
+    "run_summary.json": "716dcb13f19c6ea78c54dec106170440051ee835fcd56a3fbf49cec764186ba3"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2000",
+      "replicate_index": 2000,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2001",
+      "replicate_index": 2001,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261024T004803Z_study1r_pilot_4.1-low_offer_5c0a17_r2002",
+      "replicate_index": 2002,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

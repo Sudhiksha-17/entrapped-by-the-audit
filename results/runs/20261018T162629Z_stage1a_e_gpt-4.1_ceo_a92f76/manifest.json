@@ -1,0 +1,93 @@
+{
+  "run_id": "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76",
+  "kind": "episode_batch",
+  "stage": "stage1a",
+  "purpose": "Step B remaining episodes, arm e_gpt-4.1_ceo, indices 1,2, after reading the index-0 pilot (human message 14 approved about $7)",
+  "command": "python -m sting.minimal_runner configs/stage1a_e_gpt-4.1_ceo.yaml --replicate-indices 1,2 --approve-cost --purpose Step B remaining episodes, arm e_gpt-4.1_ceo, indices 1,2, after reading the index-0 pilot (human message 14 approved about $7)",
+  "documented_utc": "2026-10-18T16:28:54Z",
+  "backfilled": false,
+  "run_type": "exploratory",
+  "git_commit_at_documentation": "2852c35eece497497c2fd64eaaca00c639f6336a",
+  "code_dirty": false,
+  "code_changes": [],
+  "all_uncommitted_at_documentation": [
+    " M ledger/budget.md",
+    " M ledger/runs.csv",
+    " M notes/LAB_NOTEBOOK.md",
+    " M results/INDEX.md",
+    "?? results/runs/20261018T161955Z_stage1a_d_gpt-4.1_default_ab728d/",
+    "?? results/runs/20261018T162200Z_stage1a_e_gpt-4.1_ceo_9583c4/",
+    "?? results/runs/20261018T162408Z_stage1a_d_gpt-4.1_default_bab9ec/",
+    "?? results/stage1a/stepB_pilot_check.json"
+  ],
+  "upstream_commit": "2bb2a7e22860160d1fddb5d2e5cb460cc6ec6aff",
+  "packages": {
+    "python": "3.12.10",
+    "openai": "1.62.0",
+    "anthropic": "0.45.2",
+    "pydantic": "2.10.6",
+    "numpy": "2.2.2",
+    "jinja2": "3.1.5",
+    "backoff": "2.2.1",
+    "PyYAML": "6.0.3"
+  },
+  "prompt_templates_sha256": {
+    "buyer_prompt_base.jinja2": "b56634872b22aefff993a77beca1b4b9fe243ff35866f7572855fcf8337c7e77",
+    "message_overseer_prompt.jinja2": "83938b82c604ce39f2d4f28a01c8b06b84a90e8827c82a7c943dc9832728b0ce",
+    "seller_individual_eval.jinja2": "4439ce247d7e1ba42e88a696f2a5e81dd8bd7fd899a5c6db45e97a3347b220df",
+    "seller_prompt_base.jinja2": "95079ef2226c5a74e051b089343ee69eadaa95a89a772e51c75a32a0bc1f6eb8"
+  },
+  "requirements_lock_sha256": "b526b4b5e39ebfc71fb1067c3b47ee790fb3d8494baee14878e59f480353e5e0",
+  "models": [
+    "openrouter:openai/gpt-4.1@openai"
+  ],
+  "config_sha256": "80a45a76ad5078a8731e3c87eccdef64d5ff684cdd7f560c53ab1a1d95b0dadb",
+  "output_files_sha256": {
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/calls.jsonl": "0ee6d715b9a30962b6367d0c01a99d6c1b59a4e4c0d50ca0d030010651c80de8",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/market_setup.json": "a66bb0672482bf75c0595a20c6608316353b5081c66ce5e2082bd2413e86da68",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/status.json": "71832974ad0f61d6ebcd38cfe0c82f34b4d305cae00060150d1d0d342777dd0f",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/sting_log.json": "db09ad5cbb07bb2fb850b78bf2c32c6b0cfc40cfb2cb3af51e8471795d23b1ca",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/auction_results.md": "b78a9697de038ac91790e7f2db943a12d1a7433b75c1e8b7fe20a43597fd34b1",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/Buyer A.md": "704f359696d9a70dd3ace9f0d7e885acfb7a2e6046b871445ec3f4bd145e3db9",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/Buyer B.md": "c27774c66802434e7a71a4d1d658c965e2439b5ca20ca09b8e344778b6efdc93",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/Buyer C.md": "cc6347e70f691f632f1cf98f1cd5d6e3654f3fdb0bd78452c13b3fb561f1420a",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/experiment_metadata.json": "541449fcf81f32e68219e5e23a888e9b0f32913e5c66d3210618489800750d98",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/Seller A.md": "79b242f1824206fa19b8c0dfcb49149c4c6aaeed7acee7164e9062a382e3a3df",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/Seller B.md": "b8b537f988e86f591e14f31d8ab35062451ab7cabe828e0fff1c7522a61f5244",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001/upstream_logs/unified.log": "decc1e0783590ce3195e959054f57097d7e003e2d3d1a22a36eb8831e40461d8",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/calls.jsonl": "78da1ea06af00456304dc1970a210d44bfc8b9de64e79235f9477d7a76fd26ab",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/market_setup.json": "e8672cc51df464a7e343e65f085dd1050865bae0a28d18adda73dae05a2771a6",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/status.json": "a86e41a3bc08652a492d94e86f0cc9d460c3ec297499c8870bd6f966c152210d",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/sting_log.json": "8c60986d090bac143ae3aa08e537f3ec4e9013afae9c502d57a2bcafdd61df6a",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/auction_results.md": "00a88c665887fbd893de868341e8c9b088d3bb86468bfa587189fb9ee413c305",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/Buyer A.md": "b8bd2d41d994f444e2c144d0add00c96e39975a2f566263a4b05df43a0b75179",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/Buyer B.md": "6581da3e35554b90d205c8de3502ab77188f87a216533ad5e196bc3272af4744",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/Buyer C.md": "7951dcef229cc80cae0459d7846dad9fbb523b9607abb33f8895e816ebfed766",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/experiment_metadata.json": "27792218ee4f9fc965fd212d5539ac46aaa41f4838467874f8564145c3eea59a",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/Seller A.md": "2a0ffef49fc43bab7a229fc49496a267550de9879e57abe6ebf36507ce06dff2",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/Seller B.md": "8d6e3d2cbd9cdc5e01db522ead518c8c45066eca56ee533497b74bc8714408c5",
+    "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002/upstream_logs/unified.log": "decc1e0783590ce3195e959054f57097d7e003e2d3d1a22a36eb8831e40461d8",
+    "run_config.json": "d6368d6c63bf6013d8adf2c7a71b84bcd645d96a140778b7aa064b2a21e4b9ea",
+    "run_summary.json": "a474379630c830aafc530b1e16327c9f7693bb13ecc75f81ad1f3a36aa11f955"
+  },
+  "key_sources": {
+    "OPENAI_API_KEY": null,
+    "ANTHROPIC_API_KEY": null,
+    "OPENROUTER_API_KEY": ".env",
+    "GOOGLE_PROJECT_ID": null
+  },
+  "replicates": [
+    {
+      "replicate_id": "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r001",
+      "replicate_index": 1,
+      "status": "completed",
+      "failure_reason": null
+    },
+    {
+      "replicate_id": "20261018T162629Z_stage1a_e_gpt-4.1_ceo_a92f76_r002",
+      "replicate_index": 2,
+      "status": "completed",
+      "failure_reason": null
+    }
+  ]
+}

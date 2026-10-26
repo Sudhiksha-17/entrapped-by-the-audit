@@ -1,0 +1,44 @@
+# Study 1R pilot campaign (spec v2 section 10). NOT RUN.
+name: study1r_pilot
+stage: study1r_pilot
+run_type: pilot
+n_per_arm: 3
+indices:
+- 2000
+- 2001
+- 2002
+concurrency: 4
+order_seed: 20261025
+max_replacement_passes: 0
+gate_report: study1r_pilot
+arms:
+- name: mini-low_offer
+  cell: mini-low
+  arm: offer
+  config: configs/study1r/pilot/mini-low_offer.yaml
+  indices:
+  - 2000
+  - 2001
+- name: 4.1-low_offer
+  cell: 4.1-low
+  arm: offer
+  config: configs/study1r/pilot/4.1-low_offer.yaml
+  indices:
+  - 2000
+  - 2001
+  - 2002
+- name: 4.1-high_offer
+  cell: 4.1-high
+  arm: offer
+  config: configs/study1r/pilot/4.1-high_offer.yaml
+  indices:
+  - 2000
+  - 2001
+  - 2002
+- name: mini-low_sham
+  cell: mini-low
+  arm: sham
+  config: configs/study1r/pilot/mini-low_sham.yaml
+  indices:
+  - 2000
+  - 2001

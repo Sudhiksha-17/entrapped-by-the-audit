@@ -1,0 +1,24 @@
+diff --git a/tests/test_study1r_batch.py b/tests/test_study1r_batch.py
+index fbf89b4..5b9ac35 100644
+--- a/tests/test_study1r_batch.py
++++ b/tests/test_study1r_batch.py
+@@ -203,6 +203,19 @@ def test_results_script_end_to_end_on_fake_campaign(tmp_path):
+             "concurrency": 4, "order_seed": 7, "max_replacement_passes": 0, "arms": entries}
+     (root / "configs" / "camp.yaml").write_text(yaml.safe_dump(camp), encoding="utf-8")
+     out = run_campaign(Path("configs/camp.yaml"), "e2e", runs_dir=tmp_path / "runs", root=root)
++    health = load("study1r_health.py", "health")
++    import sys as _sys
++    argv = _sys.argv
++    _sys.argv = ["study1r_health.py", out["log"], str(tmp_path / "health.json")]
++    try:
++        health.main()
++    finally:
++        _sys.argv = argv
++    hj = json.loads((tmp_path / "health.json").read_text(encoding="utf-8"))
++    eps_h = [e for a in hj["arms"].values() for e in a["episodes"]]
++    assert len(eps_h) == 20 and all(e["g2_passed"] and e["probe"]["complete"] for e in eps_h)
++    text = json.dumps(hj)
++    assert '"YES"' not in text and '"NO"' not in text and '"x"' not in text and "ask" not in text.lower().replace("task", "")
+     spec = importlib.util.spec_from_file_location("res", REPO_ROOT / "scripts" / "study1r_results.py")
+     res = importlib.util.module_from_spec(spec)
+     spec.loader.exec_module(res)
